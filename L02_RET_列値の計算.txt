@@ -1,0 +1,50 @@
+1.
+
+ENAME             SAL      SAL*3
+---------- ---------- ----------
+SMITH             800       2400
+ALLEN            1600       4800
+WARD             1250       3750
+JONES            2975       8925
+MARTIN           1250       3750
+BLAKE            2850       8550
+CLARK            2450       7350
+SCOTT            3000       9000
+KING             5000      15000
+TURNER           1500       4500
+ADAMS            1100       3300
+
+ENAME             SAL      SAL*3
+---------- ---------- ----------
+JAMES             950       2850
+FORD             3000       9000
+MILLER           1300       3900
+
+14行が選択されました。 
+
+2.
+
+ENAME             SAL       COMM   SAL+COMM
+---------- ---------- ---------- ----------
+SMITH             800                      
+ALLEN            1600        300       1900
+WARD             1250        500       1750
+JONES            2975                      
+MARTIN           1250       1400       2650
+BLAKE            2850                      
+CLARK            2450                      
+SCOTT            3000                      
+KING             5000                      
+TURNER           1500          0       1500
+ADAMS            1100                      
+
+ENAME             SAL       COMM   SAL+COMM
+---------- ---------- ---------- ----------
+JAMES             950                      
+FORD             3000                      
+MILLER           1300                      
+
+14行が選択されました。 
+
+3.
+commの値はnullですだから　sal + commの値はもちろんnull

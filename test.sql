@@ -1,0 +1,5 @@
+SET PAGES 100
+
+SELECT * FROM emp;
+
+SELECT * FROM dept;
