@@ -1,0 +1,212 @@
+1.
+
+FIRST_NAME               SALARY COMMISSION_PCT       RATE      BONUS
+-------------------- ---------- -------------- ---------- ----------
+Donald                     2600                                     
+Douglas                    2600                                     
+Jennifer                   4400                                     
+Michael                   13000                                     
+Pat                        6000                                     
+Susan                      6500                                     
+Hermann                   10000                                     
+Shelley                   12008                                     
+William                    8300                                     
+Steven                    24000                                     
+Neena                     17000                                     
+
+FIRST_NAME               SALARY COMMISSION_PCT       RATE      BONUS
+-------------------- ---------- -------------- ---------- ----------
+Lex                       17000                                     
+Alexander                  9000                                     
+Bruce                      6000                                     
+David                      4800                                     
+Valli                      4800                                     
+Diana                      4200                                     
+Nancy                     12008                                     
+Daniel                     9000                                     
+John                       8200                                     
+Ismael                     7700                                     
+Jose Manuel                7800                                     
+
+FIRST_NAME               SALARY COMMISSION_PCT       RATE      BONUS
+-------------------- ---------- -------------- ---------- ----------
+Luis                       6900                                     
+Den                       11000                                     
+Alexander                  3100                                     
+Shelli                     2900                                     
+Sigal                      2800                                     
+Guy                        2600                                     
+Karen                      2500                                     
+Matthew                    8000                                     
+Adam                       8200                                     
+Payam                      7900                                     
+Shanta                     6500                                     
+
+FIRST_NAME               SALARY COMMISSION_PCT       RATE      BONUS
+-------------------- ---------- -------------- ---------- ----------
+Kevin                      5800                                     
+Julia                      3200                                     
+Irene                      2700                                     
+James                      2400                                     
+Steven                     2200                                     
+Laura                      3300                                     
+Mozhe                      2800                                     
+James                      2500                                     
+TJ                         2100                                     
+Jason                      3300                                     
+Michael                    2900                                     
+
+FIRST_NAME               SALARY COMMISSION_PCT       RATE      BONUS
+-------------------- ---------- -------------- ---------- ----------
+Ki                         2400                                     
+Hazel                      2200                                     
+Renske                     3600                                     
+Stephen                    3200                                     
+John                       2700                                     
+Joshua                     2500                                     
+Trenna                     3500                                     
+Curtis                     3100                                     
+Randall                    2600                                     
+Peter                      2500                                     
+John                      14000             .4       5600      35000
+
+FIRST_NAME               SALARY COMMISSION_PCT       RATE      BONUS
+-------------------- ---------- -------------- ---------- ----------
+Karen                     13500             .3       4050      45000
+Alberto                   12000             .3       3600      40000
+Gerald                    11000             .3       3300 36666.6667
+Eleni                     10500             .2       2100      52500
+Peter                     10000             .3       3000 33333.3333
+David                      9500            .25       2375      38000
+Peter                      9000            .25       2250      36000
+Christopher                8000             .2       1600      40000
+Nanette                    7500             .2       1500      37500
+Oliver                     7000            .15       1050 46666.6667
+Janette                   10000            .35       3500 28571.4286
+
+FIRST_NAME               SALARY COMMISSION_PCT       RATE      BONUS
+-------------------- ---------- -------------- ---------- ----------
+Patrick                    9500            .35       3325 27142.8571
+Allan                      9000            .35       3150 25714.2857
+Lindsey                    8000             .3       2400 26666.6667
+Louise                     7500             .3       2250      25000
+Sarath                     7000            .25       1750      28000
+Clara                     10500            .25       2625      42000
+Danielle                   9500            .15       1425 63333.3333
+Mattea                     7200             .1        720      72000
+David                      6800             .1        680      68000
+Sundar                     6400             .1        640      64000
+Amit                       6200             .1        620      62000
+
+FIRST_NAME               SALARY COMMISSION_PCT       RATE      BONUS
+-------------------- ---------- -------------- ---------- ----------
+Lisa                      11500            .25       2875      46000
+Harrison                  10000             .2       2000      50000
+Tayler                     9600             .2       1920      48000
+William                    7400            .15       1110 49333.3333
+Elizabeth                  7300            .15       1095 48666.6667
+Sundita                    6100             .1        610      61000
+Ellen                     11000             .3       3300 36666.6667
+Alyssa                     8800            .25       2200      35200
+Jonathon                   8600             .2       1720      43000
+Jack                       8400             .2       1680      42000
+Kimberely                  7000            .15       1050 46666.6667
+
+FIRST_NAME               SALARY COMMISSION_PCT       RATE      BONUS
+-------------------- ---------- -------------- ---------- ----------
+Charles                    6200             .1        620      62000
+Winston                    3200                                     
+Jean                       3100                                     
+Martha                     2500                                     
+Girard                     2800                                     
+Nandita                    4200                                     
+Alexis                     4100                                     
+Julia                      3400                                     
+Anthony                    3000                                     
+Kelly                      3800                                     
+Jennifer                   3600                                     
+
+FIRST_NAME               SALARY COMMISSION_PCT       RATE      BONUS
+-------------------- ---------- -------------- ---------- ----------
+Timothy                    2900                                     
+Randall                    2500                                     
+Sarah                      4000                                     
+Britney                    3900                                     
+Samuel                     3200                                     
+Vance                      2800                                     
+Alana                      3100                                     
+Kevin                      3000                                     
+
+107行が選択されました。 
+
+2. NULL との積、NULL で割ったときの商はNULL
+3.
+
+FIRST_NAME               SALARY COMMISSION_PCT
+-------------------- ---------- --------------
+John                      14000             .4
+Karen                     13500             .3
+Alberto                   12000             .3
+Gerald                    11000             .3
+Eleni                     10500             .2
+Peter                     10000             .3
+David                      9500            .25
+Peter                      9000            .25
+Christopher                8000             .2
+Nanette                    7500             .2
+Oliver                     7000            .15
+
+FIRST_NAME               SALARY COMMISSION_PCT
+-------------------- ---------- --------------
+Janette                   10000            .35
+Patrick                    9500            .35
+Allan                      9000            .35
+Lindsey                    8000             .3
+Louise                     7500             .3
+Sarath                     7000            .25
+Clara                     10500            .25
+Danielle                   9500            .15
+Mattea                     7200             .1
+David                      6800             .1
+Sundar                     6400             .1
+
+FIRST_NAME               SALARY COMMISSION_PCT
+-------------------- ---------- --------------
+Amit                       6200             .1
+Lisa                      11500            .25
+Harrison                  10000             .2
+Tayler                     9600             .2
+William                    7400            .15
+Elizabeth                  7300            .15
+Sundita                    6100             .1
+Ellen                     11000             .3
+Alyssa                     8800            .25
+Jonathon                   8600             .2
+Jack                       8400             .2
+
+FIRST_NAME               SALARY COMMISSION_PCT
+-------------------- ---------- --------------
+Kimberely                  7000            .15
+Charles                    6200             .1
+
+35行が選択されました。 
+
+4.
+
+ENAME             SAL       COMM JOB       
+---------- ---------- ---------- ----------
+SMITH             800            CLERK     
+JONES            2975            MANAGER   
+BLAKE            2850            MANAGER   
+CLARK            2450            MANAGER   
+SCOTT            3000            ANALYST   
+KING             5000            PRESIDENT 
+ADAMS            1100            CLERK     
+JAMES             950            CLERK     
+FORD             3000            ANALYST   
+MILLER           1300            CLERK     
+
+10行が選択されました。 
+
+5. 4の条件を＝NULLで書き換えて結果は行が選択されていません
+6. 4の条件を<>NULLで書き換えて結果は行が選択されていません
