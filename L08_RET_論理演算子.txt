@@ -1,0 +1,35 @@
+1.
+
+ENAME      JOB       
+---------- ----------
+SMITH      CLERK     
+JONES      MANAGER   
+BLAKE      MANAGER   
+CLARK      MANAGER   
+SCOTT      ANALYST   
+KING       PRESIDENT 
+ADAMS      CLERK     
+JAMES      CLERK     
+FORD       ANALYST   
+MILLER     CLERK     
+
+10çsÇ™ëIëÇ≥ÇÍÇ‹ÇµÇΩÅB 
+
+2.
+
+ENAME      JOB        HIREDATE
+---------- ---------- --------
+ADAMS      CLERK      87-05-23
+JAMES      CLERK      81-12-03
+MILLER     CLERK      82-01-23
+
+3.
+
+ENAME      JOB       
+---------- ----------
+JONES      MANAGER   
+BLAKE      MANAGER   
+CLARK      MANAGER   
+SCOTT      ANALYST   
+FORD       ANALYST   
+
