@@ -1,0 +1,50 @@
+1.
+
+ENAME      JOB               SAL     DEPTNO
+---------- ---------- ---------- ----------
+CLARK      MANAGER          2450         10
+KING       PRESIDENT        5000         10
+ADAMS      CLERK            1100         20
+MILLER     CLERK            1300         10
+
+2.
+
+ENAME             SAL     DEPTNO
+---------- ---------- ----------
+JONES            2975         20
+BLAKE            2850         30
+
+3.
+
+ENAME      JOB               SAL
+---------- ---------- ----------
+SMITH      CLERK             800
+SCOTT      ANALYST          3000
+KING       PRESIDENT        5000
+ADAMS      CLERK            1100
+JAMES      CLERK             950
+FORD       ANALYST          3000
+MILLER     CLERK            1300
+
+7行が選択されました。 
+
+4.
+
+ENAME      JOB               SAL
+---------- ---------- ----------
+SMITH      CLERK             800
+SCOTT      ANALYST          3000
+KING       PRESIDENT        5000
+ADAMS      CLERK            1100
+JAMES      CLERK             950
+FORD       ANALYST          3000
+MILLER     CLERK            1300
+
+7行が選択されました。 
+
+5.
+
+ENAME      JOB        HIREDATE
+---------- ---------- --------
+SCOTT      ANALYST    87-04-19
+

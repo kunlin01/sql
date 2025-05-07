@@ -1,0 +1,204 @@
+1.
+
+FIRST_NAME               SALARY
+-------------------- ----------
+William                    8300
+Alexander                  9000
+Daniel                     9000
+John                       8200
+Matthew                    8000
+Adam                       8200
+David                      9500
+Peter                      9000
+Christopher                8000
+Patrick                    9500
+Allan                      9000
+
+FIRST_NAME               SALARY
+-------------------- ----------
+Lindsey                    8000
+Danielle                   9500
+Tayler                     9600
+Alyssa                     8800
+Jonathon                   8600
+Jack                       8400
+
+17行が選択されました。 
+
+2.
+
+FIRST_NAME           LAST_NAME                 JOB_ID    
+-------------------- ------------------------- ----------
+William              Gietz                     AC_ACCOUNT
+Daniel               Faviet                    FI_ACCOUNT
+John                 Chen                      FI_ACCOUNT
+Ismael               Sciarra                   FI_ACCOUNT
+Jose Manuel          Urman                     FI_ACCOUNT
+Luis                 Popp                      FI_ACCOUNT
+
+6行が選択されました。 
+
+3.
+
+POKEMON_NAME             HEIGHT
+-------------------- ----------
+カビゴン                    2.1
+ファイヤー                    2
+カイリュー                  2.2
+ミュウツー                    2
+フシギバナ                    2
+アーボ                        2
+ナッシー                      2
+ガルーラ                    2.2
+ラプラス                    2.5
+
+9行が選択されました。 
+
+4.
+
+POKEMON_NAME             WEIGHT
+-------------------- ----------
+カビゴン                    460
+ミニリュウ                  3.3
+カイリュー                  210
+ミュウツー                  122
+ミュウ                        4
+フシギバナ                  100
+キャタピー                  2.9
+ビードル                    3.2
+ポッポ                      1.8
+コラッタ                    3.5
+オニスズメ                    2
+
+POKEMON_NAME             WEIGHT
+-------------------- ----------
+ディグダ                     .8
+ニャース                    4.2
+ウインディ                  155
+カイリキー                  130
+マダツボミ                    4
+ゴローン                    105
+ゴローニャ                  300
+ジュゴン                    120
+シェルダー                    4
+パルシェン                132.5
+ゴース                       .1
+
+POKEMON_NAME             WEIGHT
+-------------------- ----------
+ゴースト                     .1
+イワーク                    210
+タマタマ                    2.5
+ナッシー                    120
+ドガース                      1
+サイホーン                  115
+サイドン                    120
+ギャラドス                  235
+ラプラス                    220
+メタモン                      4
+
+32行が選択されました。 
+
+5.
+
+POKEMON_NAME         EVOLUTION_SEQ     WEIGHT
+-------------------- ------------- ----------
+ミュウツー                       0        122
+サイホーン                       0        115
+
+6.
+
+POKEMON_NAME         EVOLUTION_SEQ     HEIGHT
+-------------------- ------------- ----------
+トランセル                       1         .7
+コクーン                         1         .6
+ラッタ                           1         .7
+ライチュウ                       1         .8
+ニドリーナ                       1         .8
+ニドリーノ                       1         .9
+クサイハナ                       1         .8
+ダグトリオ                       1         .7
+サンダース                       2         .8
+
+9行が選択されました。 
+
+7.
+
+  PERSONID FIRST_NAME           LAST_NAME                 JOB_ID         SALARY
+---------- -------------------- ------------------------- ---------- ----------
+       202 Pat                  Fay                       MK_REP           6000
+       165 David                Lee                       SA_REP           6800
+       166 Sundar               Ande                      SA_REP           6400
+       167 Amit                 Banda                     SA_REP           6200
+       173 Sundita              Kumar                     SA_REP           6100
+       179 Charles              Johnson                   SA_REP           6200
+
+6行が選択されました。 
+
+8.
+
+FIRST_NAME           LAST_NAME                 JOB_ID         SALARY HIRE_DAT
+-------------------- ------------------------- ---------- ---------- --------
+Guy                  Himuro                    PU_CLERK         2600 06-11-15
+Irene                Mikkilineni               ST_CLERK         2700 06-09-28
+Michael              Rogers                    ST_CLERK         2900 06-08-26
+John                 Seo                       ST_CLERK         2700 06-02-12
+Joshua               Patel                     ST_CLERK         2500 06-04-06
+Randall              Matos                     ST_CLERK         2600 06-03-15
+Peter                Vargas                    ST_CLERK         2500 06-07-09
+Harrison             Bloom                     SA_REP          10000 06-03-23
+Timothy              Gates                     SH_CLERK         2900 06-07-11
+
+9行が選択されました。 
+
+9.
+
+FIRST_NAME               SALARY
+-------------------- ----------
+Donald                     2600
+Douglas                    2600
+Steven                    24000
+Neena                     17000
+Lex                       17000
+Shelli                     2900
+Sigal                      2800
+Guy                        2600
+Karen                      2500
+Irene                      2700
+James                      2400
+
+FIRST_NAME               SALARY
+-------------------- ----------
+Steven                     2200
+Mozhe                      2800
+James                      2500
+TJ                         2100
+Michael                    2900
+Ki                         2400
+Hazel                      2200
+John                       2700
+Joshua                     2500
+Randall                    2600
+Peter                      2500
+
+FIRST_NAME               SALARY
+-------------------- ----------
+Martha                     2500
+Girard                     2800
+Timothy                    2900
+Randall                    2500
+Vance                      2800
+
+27行が選択されました。 
+
+10.
+
+FIRST_NAME               SALARY
+-------------------- ----------
+Steven                    24000
+Neena                     17000
+Lex                       17000
+John                      14000
+Karen                     13500
+
+11. 含まれない
