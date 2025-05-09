@@ -1,0 +1,203 @@
+1.
+
+FIRST_NAME           LAST_NAME                 JOB_ID    
+-------------------- ------------------------- ----------
+Jennifer             Whalen                    AD_ASST   
+Shelley              Higgins                   AC_MGR    
+William              Gietz                     AC_ACCOUNT
+Steven               King                      AD_PRES   
+Neena                Kochhar                   AD_VP     
+Lex                  De Haan                   AD_VP     
+
+6行が選択されました。 
+
+2.
+
+FIRST_NAME           LAST_NAME                 JOB_ID    
+-------------------- ------------------------- ----------
+Donald               OConnell                  SH_CLERK  
+Douglas              Grant                     SH_CLERK  
+Alexander            Khoo                      PU_CLERK  
+Shelli               Baida                     PU_CLERK  
+Sigal                Tobias                    PU_CLERK  
+Guy                  Himuro                    PU_CLERK  
+Karen                Colmenares                PU_CLERK  
+Julia                Nayer                     ST_CLERK  
+Irene                Mikkilineni               ST_CLERK  
+James                Landry                    ST_CLERK  
+Steven               Markle                    ST_CLERK  
+
+FIRST_NAME           LAST_NAME                 JOB_ID    
+-------------------- ------------------------- ----------
+Laura                Bissot                    ST_CLERK  
+Mozhe                Atkinson                  ST_CLERK  
+James                Marlow                    ST_CLERK  
+TJ                   Olson                     ST_CLERK  
+Jason                Mallin                    ST_CLERK  
+Michael              Rogers                    ST_CLERK  
+Ki                   Gee                       ST_CLERK  
+Hazel                Philtanker                ST_CLERK  
+Renske               Ladwig                    ST_CLERK  
+Stephen              Stiles                    ST_CLERK  
+John                 Seo                       ST_CLERK  
+
+FIRST_NAME           LAST_NAME                 JOB_ID    
+-------------------- ------------------------- ----------
+Joshua               Patel                     ST_CLERK  
+Trenna               Rajs                      ST_CLERK  
+Curtis               Davies                    ST_CLERK  
+Randall              Matos                     ST_CLERK  
+Peter                Vargas                    ST_CLERK  
+Winston              Taylor                    SH_CLERK  
+Jean                 Fleaur                    SH_CLERK  
+Martha               Sullivan                  SH_CLERK  
+Girard               Geoni                     SH_CLERK  
+Nandita              Sarchand                  SH_CLERK  
+Alexis               Bull                      SH_CLERK  
+
+FIRST_NAME           LAST_NAME                 JOB_ID    
+-------------------- ------------------------- ----------
+Julia                Dellinger                 SH_CLERK  
+Anthony              Cabrio                    SH_CLERK  
+Kelly                Chung                     SH_CLERK  
+Jennifer             Dilly                     SH_CLERK  
+Timothy              Gates                     SH_CLERK  
+Randall              Perkins                   SH_CLERK  
+Sarah                Bell                      SH_CLERK  
+Britney              Everett                   SH_CLERK  
+Samuel               McCain                    SH_CLERK  
+Vance                Jones                     SH_CLERK  
+Alana                Walsh                     SH_CLERK  
+
+FIRST_NAME           LAST_NAME                 JOB_ID    
+-------------------- ------------------------- ----------
+Kevin                Feeney                    SH_CLERK  
+
+45行が選択されました。 
+
+3.
+
+FIRST_NAME           LAST_NAME                 JOB_ID    
+-------------------- ------------------------- ----------
+Neena                Kochhar                   AD_VP     
+Lex                  De Haan                   AD_VP     
+
+4.
+
+FIRST_NAME           LAST_NAME                 JOB_ID    
+-------------------- ------------------------- ----------
+Matthew              Weiss                     ST_MAN    
+Adam                 Fripp                     ST_MAN    
+Payam                Kaufling                  ST_MAN    
+Shanta               Vollman                   ST_MAN    
+Kevin                Mourgos                   ST_MAN    
+John                 Russell                   SA_MAN    
+Karen                Partners                  SA_MAN    
+Alberto              Errazuriz                 SA_MAN    
+Gerald               Cambrault                 SA_MAN    
+Eleni                Zlotkey                   SA_MAN    
+
+10行が選択されました。 
+
+5.
+
+FIRST_NAME           LAST_NAME                 JOB_ID    
+-------------------- ------------------------- ----------
+Pat                  Fay                       MK_REP    
+Susan                Mavris                    HR_REP    
+Hermann              Baer                      PR_REP    
+Peter                Tucker                    SA_REP    
+David                Bernstein                 SA_REP    
+Peter                Hall                      SA_REP    
+Christopher          Olsen                     SA_REP    
+Nanette              Cambrault                 SA_REP    
+Oliver               Tuvault                   SA_REP    
+Janette              King                      SA_REP    
+Patrick              Sully                     SA_REP    
+
+FIRST_NAME           LAST_NAME                 JOB_ID    
+-------------------- ------------------------- ----------
+Allan                McEwen                    SA_REP    
+Lindsey              Smith                     SA_REP    
+Louise               Doran                     SA_REP    
+Sarath               Sewall                    SA_REP    
+Clara                Vishney                   SA_REP    
+Danielle             Greene                    SA_REP    
+Mattea               Marvins                   SA_REP    
+David                Lee                       SA_REP    
+Sundar               Ande                      SA_REP    
+Amit                 Banda                     SA_REP    
+Lisa                 Ozer                      SA_REP    
+
+FIRST_NAME           LAST_NAME                 JOB_ID    
+-------------------- ------------------------- ----------
+Harrison             Bloom                     SA_REP    
+Tayler               Fox                       SA_REP    
+William              Smith                     SA_REP    
+Elizabeth            Bates                     SA_REP    
+Sundita              Kumar                     SA_REP    
+Ellen                Abel                      SA_REP    
+Alyssa               Hutton                    SA_REP    
+Jonathon             Taylor                    SA_REP    
+Jack                 Livingston                SA_REP    
+Kimberely            Grant                     SA_REP    
+Charles              Johnson                   SA_REP    
+
+33行が選択されました。 
+
+6.
+
+PERSONNAME                                         SALARY
+---------------------------------------------- ----------
+Donald OConnell                                      2600
+Douglas Grant                                        2600
+Steven King                                         24000
+Shelli Baida                                         2900
+Sigal Tobias                                         2800
+Guy Himuro                                           2600
+Karen Colmenares                                     2500
+Irene Mikkilineni                                    2700
+James Landry                                         2400
+Steven Markle                                        2200
+Mozhe Atkinson                                       2800
+
+PERSONNAME                                         SALARY
+---------------------------------------------- ----------
+James Marlow                                         2500
+TJ Olson                                             2100
+Michael Rogers                                       2900
+Ki Gee                                               2400
+Hazel Philtanker                                     2200
+John Seo                                             2700
+Joshua Patel                                         2500
+Randall Matos                                        2600
+Peter Vargas                                         2500
+Martha Sullivan                                      2500
+Girard Geoni                                         2800
+
+PERSONNAME                                         SALARY
+---------------------------------------------- ----------
+Timothy Gates                                        2900
+Randall Perkins                                      2500
+Vance Jones                                          2800
+
+25行が選択されました。 
+
+7.
+
+FIRST_NAME           LAST_NAME                 HIRE_DAT
+-------------------- ------------------------- --------
+Douglas              Grant                     08-01-13
+Steven               Markle                    08-03-08
+Hazel                Philtanker                08-02-06
+Eleni                Zlotkey                   08-01-29
+Mattea               Marvins                   08-01-24
+David                Lee                       08-02-23
+Sundar               Ande                      08-03-24
+Amit                 Banda                     08-04-21
+Sundita              Kumar                     08-04-21
+Charles              Johnson                   08-01-04
+Girard               Geoni                     08-02-03
+
+11行が選択されました。 
+

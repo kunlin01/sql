@@ -1,0 +1,69 @@
+1.
+
+ENAME      JOB       
+---------- ----------
+SMITH      CLERK     
+ALLEN      SALESMAN  
+WARD       SALESMAN  
+MARTIN     SALESMAN  
+TURNER     SALESMAN  
+ADAMS      CLERK     
+JAMES      CLERK     
+MILLER     CLERK     
+
+8行が選択されました。 
+
+2.
+
+ENAME      JOB       
+---------- ----------
+SMITH      CLERK     
+ALLEN      SALESMAN  
+WARD       SALESMAN  
+MARTIN     SALESMAN  
+TURNER     SALESMAN  
+ADAMS      CLERK     
+JAMES      CLERK     
+MILLER     CLERK     
+
+8行が選択されました。 
+
+3.
+
+ENAME          DEPTNO
+---------- ----------
+ALLEN              30
+WARD               30
+MARTIN             30
+BLAKE              30
+TURNER             30
+JAMES              30
+
+6行が選択されました。 
+
+4.
+
+ENAME          DEPTNO
+---------- ----------
+ALLEN              30
+WARD               30
+MARTIN             30
+BLAKE              30
+TURNER             30
+JAMES              30
+
+6行が選択されました。 
+
+5.
+
+ENAME          DEPTNO
+---------- ----------
+ALLEN              30
+WARD               30
+MARTIN             30
+BLAKE              30
+TURNER             30
+JAMES              30
+
+6行が選択されました。 
+

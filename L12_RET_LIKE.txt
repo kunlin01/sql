@@ -1,0 +1,480 @@
+1.
+
+ENAME     
+----------
+SMITH
+SCOTT
+
+2.
+
+ENAME     
+----------
+ALLEN
+JONES
+BLAKE
+TURNER
+JAMES
+MILLER
+
+6行が選択されました。 
+
+3.
+
+ENAME     
+----------
+JONES
+ADAMS
+JAMES
+
+4.
+
+FIRST_NAME               SALARY
+-------------------- ----------
+Donald                     2600
+Douglas                    2600
+Steven                    24000
+Shelli                     2900
+Sigal                      2800
+Guy                        2600
+Karen                      2500
+Irene                      2700
+James                      2400
+Steven                     2200
+Mozhe                      2800
+
+FIRST_NAME               SALARY
+-------------------- ----------
+James                      2500
+TJ                         2100
+Michael                    2900
+Ki                         2400
+Hazel                      2200
+John                       2700
+Joshua                     2500
+Randall                    2600
+Peter                      2500
+Martha                     2500
+Girard                     2800
+
+FIRST_NAME               SALARY
+-------------------- ----------
+Timothy                    2900
+Randall                    2500
+Vance                      2800
+
+25行が選択されました。 
+
+5.
+
+FIRST_NAME               SALARY
+-------------------- ----------
+Donald                     2600
+Douglas                    2600
+Shelli                     2900
+Sigal                      2800
+Guy                        2600
+Karen                      2500
+Irene                      2700
+James                      2400
+Steven                     2200
+Mozhe                      2800
+James                      2500
+
+FIRST_NAME               SALARY
+-------------------- ----------
+TJ                         2100
+Michael                    2900
+Ki                         2400
+Hazel                      2200
+John                       2700
+Joshua                     2500
+Randall                    2600
+Peter                      2500
+Martha                     2500
+Girard                     2800
+Timothy                    2900
+
+FIRST_NAME               SALARY
+-------------------- ----------
+Randall                    2500
+Vance                      2800
+
+24行が選択されました。 
+
+6.
+
+ENAME      HIREDATE
+---------- --------
+ALLEN      81-02-20
+WARD       81-02-22
+JONES      81-04-02
+MARTIN     81-09-28
+BLAKE      81-05-01
+CLARK      81-06-09
+KING       81-11-17
+TURNER     81-09-08
+JAMES      81-12-03
+FORD       81-12-03
+
+10行が選択されました。 
+
+7.
+
+  PERSONID FIRST_NAME           JOB_ID    
+---------- -------------------- ----------
+       100 Steven               AD_PRES   
+       101 Neena                AD_VP     
+       102 Lex                  AD_VP     
+       103 Alexander            IT_PROG   
+       104 Bruce                IT_PROG   
+       105 David                IT_PROG   
+       106 Valli                IT_PROG   
+       107 Diana                IT_PROG   
+       108 Nancy                FI_MGR    
+       109 Daniel               FI_ACCOUNT
+       110 John                 FI_ACCOUNT
+
+  PERSONID FIRST_NAME           JOB_ID    
+---------- -------------------- ----------
+       111 Ismael               FI_ACCOUNT
+       112 Jose Manuel          FI_ACCOUNT
+       113 Luis                 FI_ACCOUNT
+       114 Den                  PU_MAN    
+       115 Alexander            PU_CLERK  
+       116 Shelli               PU_CLERK  
+       117 Sigal                PU_CLERK  
+       118 Guy                  PU_CLERK  
+       119 Karen                PU_CLERK  
+       200 Jennifer             AD_ASST   
+       201 Michael              MK_MAN    
+
+  PERSONID FIRST_NAME           JOB_ID    
+---------- -------------------- ----------
+       202 Pat                  MK_REP    
+       203 Susan                HR_REP    
+       204 Hermann              PR_REP    
+       205 Shelley              AC_MGR    
+       206 William              AC_ACCOUNT
+
+27行が選択されました。 
+
+1.
+
+ENAME     
+----------
+SMITH
+SCOTT
+
+2.
+
+ENAME     
+----------
+ALLEN
+JONES
+BLAKE
+TURNER
+JAMES
+MILLER
+
+6行が選択されました。 
+
+3.
+
+ENAME     
+----------
+JONES
+ADAMS
+JAMES
+
+4.
+
+FIRST_NAME               SALARY
+-------------------- ----------
+Donald                     2600
+Douglas                    2600
+Steven                    24000
+Shelli                     2900
+Sigal                      2800
+Guy                        2600
+Karen                      2500
+Irene                      2700
+James                      2400
+Steven                     2200
+Mozhe                      2800
+
+FIRST_NAME               SALARY
+-------------------- ----------
+James                      2500
+TJ                         2100
+Michael                    2900
+Ki                         2400
+Hazel                      2200
+John                       2700
+Joshua                     2500
+Randall                    2600
+Peter                      2500
+Martha                     2500
+Girard                     2800
+
+FIRST_NAME               SALARY
+-------------------- ----------
+Timothy                    2900
+Randall                    2500
+Vance                      2800
+
+25行が選択されました。 
+
+5.
+
+FIRST_NAME               SALARY
+-------------------- ----------
+Donald                     2600
+Douglas                    2600
+Shelli                     2900
+Sigal                      2800
+Guy                        2600
+Karen                      2500
+Irene                      2700
+James                      2400
+Steven                     2200
+Mozhe                      2800
+James                      2500
+
+FIRST_NAME               SALARY
+-------------------- ----------
+TJ                         2100
+Michael                    2900
+Ki                         2400
+Hazel                      2200
+John                       2700
+Joshua                     2500
+Randall                    2600
+Peter                      2500
+Martha                     2500
+Girard                     2800
+Timothy                    2900
+
+FIRST_NAME               SALARY
+-------------------- ----------
+Randall                    2500
+Vance                      2800
+
+24行が選択されました。 
+
+6.
+
+ENAME      HIREDATE
+---------- --------
+ALLEN      81-02-20
+WARD       81-02-22
+JONES      81-04-02
+MARTIN     81-09-28
+BLAKE      81-05-01
+CLARK      81-06-09
+KING       81-11-17
+TURNER     81-09-08
+JAMES      81-12-03
+FORD       81-12-03
+
+10行が選択されました。 
+
+7.
+
+  PERSONID FIRST_NAME           JOB_ID    
+---------- -------------------- ----------
+       200 Jennifer             AD_ASST   
+       201 Michael              MK_MAN    
+       202 Pat                  MK_REP    
+       203 Susan                HR_REP    
+       204 Hermann              PR_REP    
+       205 Shelley              AC_MGR    
+       206 William              AC_ACCOUNT
+       100 Steven               AD_PRES   
+       101 Neena                AD_VP     
+       102 Lex                  AD_VP     
+       103 Alexander            IT_PROG   
+
+  PERSONID FIRST_NAME           JOB_ID    
+---------- -------------------- ----------
+       104 Bruce                IT_PROG   
+       105 David                IT_PROG   
+       106 Valli                IT_PROG   
+       107 Diana                IT_PROG   
+       108 Nancy                FI_MGR    
+       109 Daniel               FI_ACCOUNT
+       110 John                 FI_ACCOUNT
+       111 Ismael               FI_ACCOUNT
+       112 Jose Manuel          FI_ACCOUNT
+       113 Luis                 FI_ACCOUNT
+       114 Den                  PU_MAN    
+
+  PERSONID FIRST_NAME           JOB_ID    
+---------- -------------------- ----------
+       115 Alexander            PU_CLERK  
+       116 Shelli               PU_CLERK  
+       117 Sigal                PU_CLERK  
+       118 Guy                  PU_CLERK  
+       119 Karen                PU_CLERK  
+
+27行が選択されました。 
+
+1.
+
+ENAME     
+----------
+SMITH
+SCOTT
+
+2.
+
+ENAME     
+----------
+ALLEN
+JONES
+BLAKE
+TURNER
+JAMES
+MILLER
+
+6行が選択されました。 
+
+3.
+
+ENAME     
+----------
+JONES
+ADAMS
+JAMES
+
+4.
+
+FIRST_NAME               SALARY
+-------------------- ----------
+Donald                     2600
+Douglas                    2600
+Steven                    24000
+Shelli                     2900
+Sigal                      2800
+Guy                        2600
+Karen                      2500
+Irene                      2700
+James                      2400
+Steven                     2200
+Mozhe                      2800
+
+FIRST_NAME               SALARY
+-------------------- ----------
+James                      2500
+TJ                         2100
+Michael                    2900
+Ki                         2400
+Hazel                      2200
+John                       2700
+Joshua                     2500
+Randall                    2600
+Peter                      2500
+Martha                     2500
+Girard                     2800
+
+FIRST_NAME               SALARY
+-------------------- ----------
+Timothy                    2900
+Randall                    2500
+Vance                      2800
+
+25行が選択されました。 
+
+5.
+
+FIRST_NAME               SALARY
+-------------------- ----------
+Donald                     2600
+Douglas                    2600
+Shelli                     2900
+Sigal                      2800
+Guy                        2600
+Karen                      2500
+Irene                      2700
+James                      2400
+Steven                     2200
+Mozhe                      2800
+James                      2500
+
+FIRST_NAME               SALARY
+-------------------- ----------
+TJ                         2100
+Michael                    2900
+Ki                         2400
+Hazel                      2200
+John                       2700
+Joshua                     2500
+Randall                    2600
+Peter                      2500
+Martha                     2500
+Girard                     2800
+Timothy                    2900
+
+FIRST_NAME               SALARY
+-------------------- ----------
+Randall                    2500
+Vance                      2800
+
+24行が選択されました。 
+
+6.
+
+ENAME      HIREDATE
+---------- --------
+ALLEN      81-02-20
+WARD       81-02-22
+JONES      81-04-02
+MARTIN     81-09-28
+BLAKE      81-05-01
+CLARK      81-06-09
+KING       81-11-17
+TURNER     81-09-08
+JAMES      81-12-03
+FORD       81-12-03
+
+10行が選択されました。 
+
+7.
+
+  PERSONID FIRST_NAME           JOB_ID    
+---------- -------------------- ----------
+       100 Steven               AD_PRES   
+       101 Neena                AD_VP     
+       102 Lex                  AD_VP     
+       103 Alexander            IT_PROG   
+       104 Bruce                IT_PROG   
+       105 David                IT_PROG   
+       106 Valli                IT_PROG   
+       107 Diana                IT_PROG   
+       108 Nancy                FI_MGR    
+       109 Daniel               FI_ACCOUNT
+       110 John                 FI_ACCOUNT
+
+  PERSONID FIRST_NAME           JOB_ID    
+---------- -------------------- ----------
+       111 Ismael               FI_ACCOUNT
+       112 Jose Manuel          FI_ACCOUNT
+       113 Luis                 FI_ACCOUNT
+       114 Den                  PU_MAN    
+       115 Alexander            PU_CLERK  
+       116 Shelli               PU_CLERK  
+       117 Sigal                PU_CLERK  
+       118 Guy                  PU_CLERK  
+       119 Karen                PU_CLERK  
+       200 Jennifer             AD_ASST   
+       201 Michael              MK_MAN    
+
+  PERSONID FIRST_NAME           JOB_ID    
+---------- -------------------- ----------
+       202 Pat                  MK_REP    
+       203 Susan                HR_REP    
+       204 Hermann              PR_REP    
+       205 Shelley              AC_MGR    
+       206 William              AC_ACCOUNT
+
+27行が選択されました。 
+

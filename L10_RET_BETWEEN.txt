@@ -1,0 +1,80 @@
+1.
+
+ENAME             SAL
+---------- ----------
+SCOTT            3000
+FORD             3000
+
+2.
+
+ENAME             SAL
+---------- ----------
+SCOTT            3000
+FORD             3000
+
+3.
+
+ENAME             SAL
+---------- ----------
+SMITH             800
+ALLEN            1600
+WARD             1250
+JONES            2975
+MARTIN           1250
+BLAKE            2850
+CLARK            2450
+KING             5000
+TURNER           1500
+ADAMS            1100
+JAMES             950
+
+ENAME             SAL
+---------- ----------
+MILLER           1300
+
+12行が選択されました。 
+
+4.
+
+ENAME             SAL
+---------- ----------
+SMITH             800
+ALLEN            1600
+WARD             1250
+JONES            2975
+MARTIN           1250
+BLAKE            2850
+CLARK            2450
+KING             5000
+TURNER           1500
+ADAMS            1100
+JAMES             950
+
+ENAME             SAL
+---------- ----------
+MILLER           1300
+
+12行が選択されました。 
+
+5.
+
+ENAME             SAL
+---------- ----------
+SMITH             800
+ALLEN            1600
+WARD             1250
+JONES            2975
+MARTIN           1250
+BLAKE            2850
+CLARK            2450
+KING             5000
+TURNER           1500
+ADAMS            1100
+JAMES             950
+
+ENAME             SAL
+---------- ----------
+MILLER           1300
+
+12行が選択されました。 
+
