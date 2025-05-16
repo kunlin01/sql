@@ -22,3 +22,28 @@ pro 5.
 select studentno,term,score,subjectname from record
 where term like '%末'
 order by score desc NULLS LAST,subjectname asc NULLS FIRST;
+
+pro 6.
+select studentno,subjectname,score from record
+where term in ('学年末')
+order by score desc NULLS LAST FETCH FIRST 7 ROWS only;
+
+pro 7.
+select studentno,subjectname,score from record
+where term in ('学年末')
+order by score desc NULLS FIRST FETCH FIRST 7 ROWS WITH TIES;
+
+pro 8.
+select studentno,term,score from record
+where subjectname in ('数学')
+order by score asc OFFSET 4 ROWS FETCH first 10 PERCENT ROWS only;
+
+pro 9.
+select studentno,term,score from record
+where subjectname in ('国語')
+order by score asc OFFSET 11 ROWS FETCH first 10 ROWS with TIES;
+
+pro 10.
+select studentno,term,score from record
+where subjectname in ('国語')
+order by score asc , studentno asc,score asc OFFSET 11 ROWS FETCH first 10 ROWS with TIES;
