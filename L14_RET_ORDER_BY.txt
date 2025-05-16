@@ -1,0 +1,76 @@
+1.
+
+ENAME             MGR
+---------- ----------
+FORD             7566
+SCOTT            7566
+JAMES            7698
+ALLEN            7698
+WARD             7698
+TURNER           7698
+MARTIN           7698
+MILLER           7782
+ADAMS            7788
+BLAKE            7839
+JONES            7839
+
+ENAME             MGR
+---------- ----------
+CLARK            7839
+SMITH            7902
+KING                 
+
+14行が選択されました。 
+
+2.
+
+ENAME             SAL JOB       
+---------- ---------- ----------
+KING             5000 PRESIDENT 
+FORD             3000 ANALYST   
+SCOTT            3000 ANALYST   
+JONES            2975 MANAGER   
+BLAKE            2850 MANAGER   
+CLARK            2450 MANAGER   
+ALLEN            1600 SALESMAN  
+TURNER           1500 SALESMAN  
+MILLER           1300 CLERK     
+WARD             1250 SALESMAN  
+MARTIN           1250 SALESMAN  
+
+ENAME             SAL JOB       
+---------- ---------- ----------
+ADAMS            1100 CLERK     
+JAMES             950 CLERK     
+SMITH             800 CLERK     
+
+14行が選択されました。 
+
+3.
+
+ENAME             SAL JOB       
+---------- ---------- ----------
+KING             5000 PRESIDENT 
+JONES            2975 MANAGER   
+BLAKE            2850 MANAGER   
+CLARK            2450 MANAGER   
+ALLEN            1600 SALESMAN  
+TURNER           1500 SALESMAN  
+WARD             1250 SALESMAN  
+MARTIN           1250 SALESMAN  
+
+8行が選択されました。 
+
+4.
+
+    DEPTNO        MGR ENAME     
+---------- ---------- ----------
+        30       7839 BLAKE     
+        20       7566 FORD      
+        20       7566 SCOTT     
+        20       7839 JONES     
+        10       7839 CLARK     
+        10            KING      
+
+6行が選択されました。 
+

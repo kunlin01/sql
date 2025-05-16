@@ -3,7 +3,7 @@ select pokemon_name,weight,habitat from pokemon_zukann
 WHERE weight BETWEEN 50.0 and 59.9;
 
 pro 2.
-select pname,tname,evo_seq from zukann
+select distinct pname,tname,evo_seq from zukann
 where tname in ('‚­‚³','‚Ð‚±‚¤','‚¶‚ß‚ñ');
 
 pro 3.
@@ -11,7 +11,7 @@ select pname,tname,height from zukann
 where (height BETWEEN 1 and 1.9) and (tname in('‚Ù‚Ì‚¨','‚Í‚ª‚Ë')) ;
 
 pro 4.
-select pname,eggname,weight from zukann
+select distinct pname,eggname,weight from zukann
 WHERE (weight >= 10 and weight<50) and (eggname = '‚·‚¢‚¿‚ã‚¤1' or eggname ='‚·‚¢‚¿‚ã‚¤2');
 
 pro 5.

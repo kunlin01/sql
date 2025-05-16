@@ -1,0 +1,81 @@
+1.
+
+FIRST_NAME               SALARY
+-------------------- ----------
+Steven                    24000
+Neena                     17000
+Lex                       17000
+John                      14000
+Karen                     13500
+Michael                   13000
+Shelley                   12008
+
+7行が選択されました。 
+
+2.
+
+FIRST_NAME               SALARY
+-------------------- ----------
+Steven                    24000
+Neena                     17000
+Lex                       17000
+John                      14000
+Karen                     13500
+Michael                   13000
+Shelley                   12008
+Nancy                     12008
+
+8行が選択されました。 
+
+3.
+
+FIRST_NAME               SALARY
+-------------------- ----------
+Lisa                      11500
+Den                       11000
+
+4.
+
+FIRST_NAME               SALARY
+-------------------- ----------
+Lisa                      11500
+Den                       11000
+Ellen                     11000
+Gerald                    11000
+
+5.
+
+FIRST_NAME           LAST_NAME                
+-------------------- -------------------------
+Ellen                Abel                     
+Sundar               Ande                     
+Mozhe                Atkinson                 
+David                Austin                   
+Hermann              Baer                     
+Shelli               Baida                    
+Amit                 Banda                    
+Elizabeth            Bates                    
+Sarah                Bell                     
+David                Bernstein                
+Laura                Bissot                   
+
+11行が選択されました。 
+
+6.
+
+FIRST_NAME           LAST_NAME                
+-------------------- -------------------------
+Laura                Bissot                   
+Harrison             Bloom                    
+Alexis               Bull                     
+Anthony              Cabrio                   
+Gerald               Cambrault                
+Nanette              Cambrault                
+John                 Chen                     
+Kelly                Chung                    
+Karen                Colmenares               
+Curtis               Davies                   
+Lex                  De Haan                  
+
+11行が選択されました。 
+
