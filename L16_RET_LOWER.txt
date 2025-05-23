@@ -1,0 +1,326 @@
+1.
+
+LOWER(ENAM
+----------
+smith
+allen
+ward
+jones
+martin
+blake
+clark
+scott
+king
+turner
+adams
+
+LOWER(ENAM
+----------
+james
+ford
+miller
+
+14行が選択されました。 
+
+2.
+
+LOWER(DNAME) UPPER(DNAME) INITCAP(LOC)
+------------ ------------ ------------
+accounting   ACCOUNTING   New York    
+research     RESEARCH     Dallas      
+sales        SALES        Chicago     
+operations   OPERATIONS   Boston      
+
+3.
+
+INITCAP('AA
+-----------
+Aa Aa_Aa:Aa
+
+
+INITCAP('TARO@K-T
+-----------------
+Taro@K-Tera.Ac.Jp
+
+4.
+
+LOWER(FIRST_NAME)    UPPER(LAST_NAME)          INITCAP(JO
+-------------------- ------------------------- ----------
+donald               OCONNELL                  Sh_Clerk  
+douglas              GRANT                     Sh_Clerk  
+jennifer             WHALEN                    Ad_Asst   
+michael              HARTSTEIN                 Mk_Man    
+pat                  FAY                       Mk_Rep    
+susan                MAVRIS                    Hr_Rep    
+hermann              BAER                      Pr_Rep    
+shelley              HIGGINS                   Ac_Mgr    
+william              GIETZ                     Ac_Account
+steven               KING                      Ad_Pres   
+neena                KOCHHAR                   Ad_Vp     
+
+LOWER(FIRST_NAME)    UPPER(LAST_NAME)          INITCAP(JO
+-------------------- ------------------------- ----------
+lex                  DE HAAN                   Ad_Vp     
+alexander            HUNOLD                    It_Prog   
+bruce                ERNST                     It_Prog   
+david                AUSTIN                    It_Prog   
+valli                PATABALLA                 It_Prog   
+diana                LORENTZ                   It_Prog   
+nancy                GREENBERG                 Fi_Mgr    
+daniel               FAVIET                    Fi_Account
+john                 CHEN                      Fi_Account
+ismael               SCIARRA                   Fi_Account
+jose manuel          URMAN                     Fi_Account
+
+LOWER(FIRST_NAME)    UPPER(LAST_NAME)          INITCAP(JO
+-------------------- ------------------------- ----------
+luis                 POPP                      Fi_Account
+den                  RAPHAELY                  Pu_Man    
+alexander            KHOO                      Pu_Clerk  
+shelli               BAIDA                     Pu_Clerk  
+sigal                TOBIAS                    Pu_Clerk  
+guy                  HIMURO                    Pu_Clerk  
+karen                COLMENARES                Pu_Clerk  
+matthew              WEISS                     St_Man    
+adam                 FRIPP                     St_Man    
+payam                KAUFLING                  St_Man    
+shanta               VOLLMAN                   St_Man    
+
+LOWER(FIRST_NAME)    UPPER(LAST_NAME)          INITCAP(JO
+-------------------- ------------------------- ----------
+kevin                MOURGOS                   St_Man    
+julia                NAYER                     St_Clerk  
+irene                MIKKILINENI               St_Clerk  
+james                LANDRY                    St_Clerk  
+steven               MARKLE                    St_Clerk  
+laura                BISSOT                    St_Clerk  
+mozhe                ATKINSON                  St_Clerk  
+james                MARLOW                    St_Clerk  
+tj                   OLSON                     St_Clerk  
+jason                MALLIN                    St_Clerk  
+michael              ROGERS                    St_Clerk  
+
+LOWER(FIRST_NAME)    UPPER(LAST_NAME)          INITCAP(JO
+-------------------- ------------------------- ----------
+ki                   GEE                       St_Clerk  
+hazel                PHILTANKER                St_Clerk  
+renske               LADWIG                    St_Clerk  
+stephen              STILES                    St_Clerk  
+john                 SEO                       St_Clerk  
+joshua               PATEL                     St_Clerk  
+trenna               RAJS                      St_Clerk  
+curtis               DAVIES                    St_Clerk  
+randall              MATOS                     St_Clerk  
+peter                VARGAS                    St_Clerk  
+john                 RUSSELL                   Sa_Man    
+
+LOWER(FIRST_NAME)    UPPER(LAST_NAME)          INITCAP(JO
+-------------------- ------------------------- ----------
+karen                PARTNERS                  Sa_Man    
+alberto              ERRAZURIZ                 Sa_Man    
+gerald               CAMBRAULT                 Sa_Man    
+eleni                ZLOTKEY                   Sa_Man    
+peter                TUCKER                    Sa_Rep    
+david                BERNSTEIN                 Sa_Rep    
+peter                HALL                      Sa_Rep    
+christopher          OLSEN                     Sa_Rep    
+nanette              CAMBRAULT                 Sa_Rep    
+oliver               TUVAULT                   Sa_Rep    
+janette              KING                      Sa_Rep    
+
+LOWER(FIRST_NAME)    UPPER(LAST_NAME)          INITCAP(JO
+-------------------- ------------------------- ----------
+patrick              SULLY                     Sa_Rep    
+allan                MCEWEN                    Sa_Rep    
+lindsey              SMITH                     Sa_Rep    
+louise               DORAN                     Sa_Rep    
+sarath               SEWALL                    Sa_Rep    
+clara                VISHNEY                   Sa_Rep    
+danielle             GREENE                    Sa_Rep    
+mattea               MARVINS                   Sa_Rep    
+david                LEE                       Sa_Rep    
+sundar               ANDE                      Sa_Rep    
+amit                 BANDA                     Sa_Rep    
+
+LOWER(FIRST_NAME)    UPPER(LAST_NAME)          INITCAP(JO
+-------------------- ------------------------- ----------
+lisa                 OZER                      Sa_Rep    
+harrison             BLOOM                     Sa_Rep    
+tayler               FOX                       Sa_Rep    
+william              SMITH                     Sa_Rep    
+elizabeth            BATES                     Sa_Rep    
+sundita              KUMAR                     Sa_Rep    
+ellen                ABEL                      Sa_Rep    
+alyssa               HUTTON                    Sa_Rep    
+jonathon             TAYLOR                    Sa_Rep    
+jack                 LIVINGSTON                Sa_Rep    
+kimberely            GRANT                     Sa_Rep    
+
+LOWER(FIRST_NAME)    UPPER(LAST_NAME)          INITCAP(JO
+-------------------- ------------------------- ----------
+charles              JOHNSON                   Sa_Rep    
+winston              TAYLOR                    Sh_Clerk  
+jean                 FLEAUR                    Sh_Clerk  
+martha               SULLIVAN                  Sh_Clerk  
+girard               GEONI                     Sh_Clerk  
+nandita              SARCHAND                  Sh_Clerk  
+alexis               BULL                      Sh_Clerk  
+julia                DELLINGER                 Sh_Clerk  
+anthony              CABRIO                    Sh_Clerk  
+kelly                CHUNG                     Sh_Clerk  
+jennifer             DILLY                     Sh_Clerk  
+
+LOWER(FIRST_NAME)    UPPER(LAST_NAME)          INITCAP(JO
+-------------------- ------------------------- ----------
+timothy              GATES                     Sh_Clerk  
+randall              PERKINS                   Sh_Clerk  
+sarah                BELL                      Sh_Clerk  
+britney              EVERETT                   Sh_Clerk  
+samuel               MCCAIN                    Sh_Clerk  
+vance                JONES                     Sh_Clerk  
+alana                WALSH                     Sh_Clerk  
+kevin                FEENEY                    Sh_Clerk  
+
+107行が選択されました。 
+
+5.
+
+LOWER(UPPE
+----------
+sh_clerk
+sh_clerk
+ad_asst
+mk_man
+mk_rep
+hr_rep
+pr_rep
+ac_mgr
+ac_account
+ad_pres
+ad_vp
+
+LOWER(UPPE
+----------
+ad_vp
+it_prog
+it_prog
+it_prog
+it_prog
+it_prog
+fi_mgr
+fi_account
+fi_account
+fi_account
+fi_account
+
+LOWER(UPPE
+----------
+fi_account
+pu_man
+pu_clerk
+pu_clerk
+pu_clerk
+pu_clerk
+pu_clerk
+st_man
+st_man
+st_man
+st_man
+
+LOWER(UPPE
+----------
+st_man
+st_clerk
+st_clerk
+st_clerk
+st_clerk
+st_clerk
+st_clerk
+st_clerk
+st_clerk
+st_clerk
+st_clerk
+
+LOWER(UPPE
+----------
+st_clerk
+st_clerk
+st_clerk
+st_clerk
+st_clerk
+st_clerk
+st_clerk
+st_clerk
+st_clerk
+st_clerk
+sa_man
+
+LOWER(UPPE
+----------
+sa_man
+sa_man
+sa_man
+sa_man
+sa_rep
+sa_rep
+sa_rep
+sa_rep
+sa_rep
+sa_rep
+sa_rep
+
+LOWER(UPPE
+----------
+sa_rep
+sa_rep
+sa_rep
+sa_rep
+sa_rep
+sa_rep
+sa_rep
+sa_rep
+sa_rep
+sa_rep
+sa_rep
+
+LOWER(UPPE
+----------
+sa_rep
+sa_rep
+sa_rep
+sa_rep
+sa_rep
+sa_rep
+sa_rep
+sa_rep
+sa_rep
+sa_rep
+sa_rep
+
+LOWER(UPPE
+----------
+sa_rep
+sh_clerk
+sh_clerk
+sh_clerk
+sh_clerk
+sh_clerk
+sh_clerk
+sh_clerk
+sh_clerk
+sh_clerk
+sh_clerk
+
+LOWER(UPPE
+----------
+sh_clerk
+sh_clerk
+sh_clerk
+sh_clerk
+sh_clerk
+sh_clerk
+sh_clerk
+sh_clerk
+
+107行が選択されました。 
+

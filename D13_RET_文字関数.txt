@@ -1,0 +1,480 @@
+1.
+
+FIRST_NAME           LAST_NAME                 EMAIL                    
+-------------------- ------------------------- -------------------------
+donald               OCONNELL                  Doconnel                 
+douglas              GRANT                     Dgrant                   
+jennifer             WHALEN                    Jwhalen                  
+michael              HARTSTEIN                 Mhartste                 
+pat                  FAY                       Pfay                     
+susan                MAVRIS                    Smavris                  
+hermann              BAER                      Hbaer                    
+shelley              HIGGINS                   Shiggins                 
+william              GIETZ                     Wgietz                   
+steven               KING                      Sking                    
+neena                KOCHHAR                   Nkochhar                 
+
+FIRST_NAME           LAST_NAME                 EMAIL                    
+-------------------- ------------------------- -------------------------
+lex                  DE HAAN                   Ldehaan                  
+alexander            HUNOLD                    Ahunold                  
+bruce                ERNST                     Bernst                   
+david                AUSTIN                    Daustin                  
+valli                PATABALLA                 Vpatabal                 
+diana                LORENTZ                   Dlorentz                 
+nancy                GREENBERG                 Ngreenbe                 
+daniel               FAVIET                    Dfaviet                  
+john                 CHEN                      Jchen                    
+ismael               SCIARRA                   Isciarra                 
+jose manuel          URMAN                     Jmurman                  
+
+FIRST_NAME           LAST_NAME                 EMAIL                    
+-------------------- ------------------------- -------------------------
+luis                 POPP                      Lpopp                    
+den                  RAPHAELY                  Drapheal                 
+alexander            KHOO                      Akhoo                    
+shelli               BAIDA                     Sbaida                   
+sigal                TOBIAS                    Stobias                  
+guy                  HIMURO                    Ghimuro                  
+karen                COLMENARES                Kcolmena                 
+matthew              WEISS                     Mweiss                   
+adam                 FRIPP                     Afripp                   
+payam                KAUFLING                  Pkauflin                 
+shanta               VOLLMAN                   Svollman                 
+
+FIRST_NAME           LAST_NAME                 EMAIL                    
+-------------------- ------------------------- -------------------------
+kevin                MOURGOS                   Kmourgos                 
+julia                NAYER                     Jnayer                   
+irene                MIKKILINENI               Imikkili                 
+james                LANDRY                    Jlandry                  
+steven               MARKLE                    Smarkle                  
+laura                BISSOT                    Lbissot                  
+mozhe                ATKINSON                  Matkinso                 
+james                MARLOW                    Jamrlow                  
+tj                   OLSON                     Tjolson                  
+jason                MALLIN                    Jmallin                  
+michael              ROGERS                    Mrogers                  
+
+FIRST_NAME           LAST_NAME                 EMAIL                    
+-------------------- ------------------------- -------------------------
+ki                   GEE                       Kgee                     
+hazel                PHILTANKER                Hphiltan                 
+renske               LADWIG                    Rladwig                  
+stephen              STILES                    Sstiles                  
+john                 SEO                       Jseo                     
+joshua               PATEL                     Jpatel                   
+trenna               RAJS                      Trajs                    
+curtis               DAVIES                    Cdavies                  
+randall              MATOS                     Rmatos                   
+peter                VARGAS                    Pvargas                  
+john                 RUSSELL                   Jrussel                  
+
+FIRST_NAME           LAST_NAME                 EMAIL                    
+-------------------- ------------------------- -------------------------
+karen                PARTNERS                  Kpartner                 
+alberto              ERRAZURIZ                 Aerrazur                 
+gerald               CAMBRAULT                 Gcambrau                 
+eleni                ZLOTKEY                   Ezlotkey                 
+peter                TUCKER                    Ptucker                  
+david                BERNSTEIN                 Dbernste                 
+peter                HALL                      Phall                    
+christopher          OLSEN                     Colsen                   
+nanette              CAMBRAULT                 Ncambrau                 
+oliver               TUVAULT                   Otuvault                 
+janette              KING                      Jking                    
+
+FIRST_NAME           LAST_NAME                 EMAIL                    
+-------------------- ------------------------- -------------------------
+patrick              SULLY                     Psully                   
+allan                MCEWEN                    Amcewen                  
+lindsey              SMITH                     Lsmith                   
+louise               DORAN                     Ldoran                   
+sarath               SEWALL                    Ssewall                  
+clara                VISHNEY                   Cvishney                 
+danielle             GREENE                    Dgreene                  
+mattea               MARVINS                   Mmarvins                 
+david                LEE                       Dlee                     
+sundar               ANDE                      Sande                    
+amit                 BANDA                     Abanda                   
+
+FIRST_NAME           LAST_NAME                 EMAIL                    
+-------------------- ------------------------- -------------------------
+lisa                 OZER                      Lozer                    
+harrison             BLOOM                     Hbloom                   
+tayler               FOX                       Tfox                     
+william              SMITH                     Wsmith                   
+elizabeth            BATES                     Ebates                   
+sundita              KUMAR                     Skumar                   
+ellen                ABEL                      Eabel                    
+alyssa               HUTTON                    Ahutton                  
+jonathon             TAYLOR                    Jtaylor                  
+jack                 LIVINGSTON                Jlivings                 
+kimberely            GRANT                     Kgrant                   
+
+FIRST_NAME           LAST_NAME                 EMAIL                    
+-------------------- ------------------------- -------------------------
+charles              JOHNSON                   Cjohnson                 
+winston              TAYLOR                    Wtaylor                  
+jean                 FLEAUR                    Jfleaur                  
+martha               SULLIVAN                  Msulliva                 
+girard               GEONI                     Ggeoni                   
+nandita              SARCHAND                  Nsarchan                 
+alexis               BULL                      Abull                    
+julia                DELLINGER                 Jdelling                 
+anthony              CABRIO                    Acabrio                  
+kelly                CHUNG                     Kchung                   
+jennifer             DILLY                     Jdilly                   
+
+FIRST_NAME           LAST_NAME                 EMAIL                    
+-------------------- ------------------------- -------------------------
+timothy              GATES                     Tgates                   
+randall              PERKINS                   Rperkins                 
+sarah                BELL                      Sbell                    
+britney              EVERETT                   Beverett                 
+samuel               MCCAIN                    Smccain                  
+vance                JONES                     Vjones                   
+alana                WALSH                     Awalsh                   
+kevin                FEENEY                    Kfeeney                  
+
+107行が選択されました。 
+
+2.
+
+PNAME                LENGTH(PNAME)
+-------------------- -------------
+ポッポ                           3
+ポッポ                           3
+ラッタ                           3
+アーボ                           3
+アーボ                           3
+サンド                           3
+ピッピ                           3
+ロコン                           3
+プリン                           3
+パラス                           3
+パラス                           3
+
+PNAME                LENGTH(PNAME)
+-------------------- -------------
+パラス                           3
+パラス                           3
+ヤドン                           3
+ヤドン                           3
+ヤドン                           3
+ヤドン                           3
+コイル                           3
+コイル                           3
+ゴース                           3
+ゴース                           3
+クラブ                           3
+
+PNAME                LENGTH(PNAME)
+-------------------- -------------
+カブト                           3
+カブト                           3
+カブト                           3
+カブト                           3
+プテラ                           3
+プテラ                           3
+ミュウ                           3
+
+29行が選択されました。 
+
+3.
+
+      COMM LENGTH(COMM)
+---------- ------------
+                       
+       300            3
+       500            3
+                       
+      1400            4
+                       
+                       
+                       
+                       
+         0            1
+                       
+
+      COMM LENGTH(COMM)
+---------- ------------
+                       
+                       
+                       
+
+14行が選択されました。 
+
+4.
+
+       ZNO ポケモンの分類                                                 
+---------- --------------------------------------------------------
+        16 [ポッポ]の分類はことりポケモン                          
+        16 [ポッポ]の分類はことりポケモン                          
+        17 [ピジョン]の分類はとりポケモン                          
+        17 [ピジョン]の分類はとりポケモン                          
+        18 [ピジョット]の分類はとりポケモン                        
+        18 [ピジョット]の分類はとりポケモン                        
+        21 [オニスズメ]の分類はことりポケモン                      
+        21 [オニスズメ]の分類はことりポケモン                      
+        41 [ズバット]の分類はこうもりポケモン                      
+        41 [ズバット]の分類はこうもりポケモン                      
+        42 [ゴルバット]の分類はこうもりポケモン                    
+
+       ZNO ポケモンの分類                                                 
+---------- --------------------------------------------------------
+        42 [ゴルバット]の分類はこうもりポケモン                    
+
+12行が選択されました。 
+
+5.
+
+ENAME      REPLACE(EN
+---------- ----------
+SMITH      SMITH     
+ALLEN      ELLEN     
+WARD       WERD      
+JONES      JONES     
+MARTIN     MERTIN    
+BLAKE      BLEKE     
+CLARK      CLERK     
+SCOTT      SCOTT     
+KING       KING      
+TURNER     TURNER    
+ADAMS      EDEMS     
+
+ENAME      REPLACE(EN
+---------- ----------
+JAMES      JEMES     
+FORD       FORD      
+MILLER     MILLER    
+
+14行が選択されました。 
+
+6.
+
+LP
+--
+Ki
+Ko
+De
+Hu
+Er
+Au
+Pa
+Lo
+Gr
+Fa
+
+10行が選択されました。 
+
+7.
+
+PNAME                GNAME                               INSTR     INSTRB
+-------------------- ------------------------------ ---------- ----------
+フシギダネ           たねポケモン                            3          5
+フシギダネ           たねポケモン                            3          5
+フシギダネ           たねポケモン                            3          5
+フシギダネ           たねポケモン                            3          5
+フシギソウ           たねポケモン                            3          5
+フシギソウ           たねポケモン                            3          5
+フシギソウ           たねポケモン                            3          5
+フシギソウ           たねポケモン                            3          5
+フシギバナ           たねポケモン                            3          5
+フシギバナ           たねポケモン                            3          5
+フシギバナ           たねポケモン                            3          5
+
+PNAME                GNAME                               INSTR     INSTRB
+-------------------- ------------------------------ ---------- ----------
+フシギバナ           たねポケモン                            3          5
+ヒトカゲ             とかげポケモン                          4          7
+ヒトカゲ             とかげポケモン                          4          7
+リザード             かえんポケモン                          4          7
+リザード             かえんポケモン                          4          7
+リザードン           かえんポケモン                          4          7
+リザードン           かえんポケモン                          4          7
+リザードン           かえんポケモン                          4          7
+リザードン           かえんポケモン                          4          7
+ゼニガメ             かめのこポケモン                        5          9
+ゼニガメ             かめのこポケモン                        5          9
+
+PNAME                GNAME                               INSTR     INSTRB
+-------------------- ------------------------------ ---------- ----------
+カメール             かめポケモン                            3          5
+カメール             かめポケモン                            3          5
+カメックス           こうらポケモン                          4          7
+カメックス           こうらポケモン                          4          7
+キャタピー           いもむしポケモン                        5          9
+トランセル           さなぎポケモン                          4          7
+バタフリー           ちょうちょポケモン                      6         11
+バタフリー           ちょうちょポケモン                      6         11
+ビードル             けむしポケモン                          4          7
+ビードル             けむしポケモン                          4          7
+コクーン             さなぎポケモン                          4          7
+
+PNAME                GNAME                               INSTR     INSTRB
+-------------------- ------------------------------ ---------- ----------
+コクーン             さなぎポケモン                          4          7
+スピアー             どくばちポケモン                        5          9
+スピアー             どくばちポケモン                        5          9
+ポッポ               ことりポケモン                          4          7
+ポッポ               ことりポケモン                          4          7
+ピジョン             とりポケモン                            3          5
+ピジョン             とりポケモン                            3          5
+ピジョット           とりポケモン                            3          5
+ピジョット           とりポケモン                            3          5
+コラッタ             ねずみポケモン                          4          7
+ラッタ               ねずみポケモン                          4          7
+
+44行が選択されました。 
+
+8.
+
+       ZNO PNAME                SUB
+---------- -------------------- ---
+       140 カブト               カブト
+       140 カブト               カブト
+       140 カブト               カブト
+       140 カブト               カブト
+       141 カブトプス           カブト
+       141 カブトプス           カブト
+       141 カブトプス           カブト
+       141 カブトプス           カブト
+       142 プテラ               プテラ
+       142 プテラ               プテラ
+       143 カビゴン             カビゴ
+
+       ZNO PNAME                SUB
+---------- -------------------- ---
+       144 フリーザー           フリー
+       144 フリーザー           フリー
+       145 サンダー             サンダ
+       145 サンダー             サンダ
+       146 ファイヤー           ファイ
+       146 ファイヤー           ファイ
+       147 ミニリュウ           ミニリ
+       147 ミニリュウ           ミニリ
+       148 ハクリュー           ハクリ
+       148 ハクリュー           ハクリ
+       149 カイリュー           カイリ
+
+       ZNO PNAME                SUB
+---------- -------------------- ---
+       149 カイリュー           カイリ
+       149 カイリュー           カイリ
+       149 カイリュー           カイリ
+       150 ミュウツー           ミュウ
+       151 ミュウ               ミュウ
+
+27行が選択されました。 
+
+9.
+
+       ZNO PNAME                SU
+---------- -------------------- --
+        92 ゴース               ース
+        92 ゴース               ース
+        93 ゴースト             スト
+        93 ゴースト             スト
+        67 ゴーリキー           キー
+        55 ゴルダック           ック
+        55 ゴルダック           ック
+        42 ゴルバット           ット
+        42 ゴルバット           ット
+        76 ゴローニャ           ニャ
+        76 ゴローニャ           ニャ
+
+       ZNO PNAME                SU
+---------- -------------------- --
+        75 ゴローン             ーン
+        75 ゴローン             ーン
+
+13行が選択されました。 
+
+10.
+
+       ZNO PNAME                SUB
+---------- -------------------- ---
+         1 フシギダネ           ギダネ
+         1 フシギダネ           ギダネ
+         1 フシギダネ           ギダネ
+         1 フシギダネ           ギダネ
+         2 フシギソウ           ギソウ
+         2 フシギソウ           ギソウ
+         2 フシギソウ           ギソウ
+         2 フシギソウ           ギソウ
+         3 フシギバナ           ギバナ
+         3 フシギバナ           ギバナ
+         3 フシギバナ           ギバナ
+
+       ZNO PNAME                SUB
+---------- -------------------- ---
+         3 フシギバナ           ギバナ
+         5 リザード             ザード
+         5 リザード             ザード
+        14 コクーン             クーン
+        14 コクーン             クーン
+        17 ピジョン             ジョン
+        17 ピジョン             ジョン
+        21 オニスズメ           スズメ
+        21 オニスズメ           スズメ
+        27 サンド               サンド
+        31 ニドクイン           クイン
+
+       ZNO PNAME                SUB
+---------- -------------------- ---
+        31 ニドクイン           クイン
+        34 ニドキング           キング
+        34 ニドキング           キング
+        34 ニドキング           キング
+        34 ニドキング           キング
+        36 ピクシー             クシー
+        40 プクリン             クリン
+        47 パラセクト           セクト
+        47 パラセクト           セクト
+        47 パラセクト           セクト
+        47 パラセクト           セクト
+
+       ZNO PNAME                SUB
+---------- -------------------- ---
+        53 ペルシアン           シアン
+        64 ユンゲラー           ゲラー
+        72 メノクラゲ           クラゲ
+        72 メノクラゲ           クラゲ
+        73 ドククラゲ           クラゲ
+        73 ドククラゲ           クラゲ
+        81 コイル               コイル
+        81 コイル               コイル
+        82 レアコイル           コイル
+        82 レアコイル           コイル
+        91 パルシェン           シェン
+
+       ZNO PNAME                SUB
+---------- -------------------- ---
+        91 パルシェン           シェン
+        92 ゴース               ゴース
+        92 ゴース               ゴース
+        98 クラブ               クラブ
+        99 キングラー           グラー
+       109 ドガース             ガース
+       114 モンジャラ           ジャラ
+       118 トサキント           キント
+       124 ルージュラ           ジュラ
+       124 ルージュラ           ジュラ
+       129 コイキング           キング
+
+       ZNO PNAME                SUB
+---------- -------------------- ---
+       129 コイキング           キング
+       136 ブースター           スター
+       139 オムスター           スター
+       139 オムスター           スター
+       139 オムスター           スター
+       139 オムスター           スター
+       140 カブト               カブト
+       140 カブト               カブト
+       140 カブト               カブト
+       140 カブト               カブト
+
+65行が選択されました。 
+

@@ -1,0 +1,460 @@
+1.
+
+ENAME      LENGTH(ENAME) LENGTHB(ENAME)
+---------- ------------- --------------
+佐藤                   2              4
+鈴木                   2              4
+高橋                   2              4
+田中                   2              4
+渡辺                   2              4
+伊藤                   2              4
+山本                   2              4
+中村                   2              4
+小林                   2              4
+斉藤                   2              4
+加藤                   2              4
+
+ENAME      LENGTH(ENAME) LENGTHB(ENAME)
+---------- ------------- --------------
+吉田                   2              4
+山田                   2              4
+佐々木                 3              6
+
+14行が選択されました。 
+
+2.
+
+ENAME      INSTR(ENAME,'田') INSTRB(ENAME,'田')
+---------- ---------------- -----------------
+田中                      1                 1
+吉田                      2                 3
+山田                      2                 3
+
+3.
+
+FIRST_NAME           SUB LAST_NAME                 SUB EMAIL                     SUB
+-------------------- --- ------------------------- --- ------------------------- ---
+Donald               Don OConnell                  ell DOCONNEL                  OCO
+Douglas              Dou Grant                     ant DGRANT                    GRA
+Jennifer             Jen Whalen                    len JWHALEN                   WHA
+Michael              Mic Hartstein                 ein MHARTSTE                  HAR
+Pat                  Pat Fay                       Fay PFAY                      FAY
+Susan                Sus Mavris                    ris SMAVRIS                   MAV
+Hermann              Her Baer                      aer HBAER                     BAE
+Shelley              She Higgins                   ins SHIGGINS                  HIG
+William              Wil Gietz                     etz WGIETZ                    GIE
+Steven               Ste King                      ing SKING                     KIN
+Neena                Nee Kochhar                   har NKOCHHAR                  KOC
+
+FIRST_NAME           SUB LAST_NAME                 SUB EMAIL                     SUB
+-------------------- --- ------------------------- --- ------------------------- ---
+Lex                  Lex De Haan                   aan LDEHAAN                   DEH
+Alexander            Ale Hunold                    old AHUNOLD                   HUN
+Bruce                Bru Ernst                     nst BERNST                    ERN
+David                Dav Austin                    tin DAUSTIN                   AUS
+Valli                Val Pataballa                 lla VPATABAL                  PAT
+Diana                Dia Lorentz                   ntz DLORENTZ                  LOR
+Nancy                Nan Greenberg                 erg NGREENBE                  GRE
+Daniel               Dan Faviet                    iet DFAVIET                   FAV
+John                 Joh Chen                      hen JCHEN                     CHE
+Ismael               Ism Sciarra                   rra ISCIARRA                  SCI
+Jose Manuel          Jos Urman                     man JMURMAN                   MUR
+
+FIRST_NAME           SUB LAST_NAME                 SUB EMAIL                     SUB
+-------------------- --- ------------------------- --- ------------------------- ---
+Luis                 Lui Popp                      opp LPOPP                     POP
+Den                  Den Raphaely                  ely DRAPHEAL                  RAP
+Alexander            Ale Khoo                      hoo AKHOO                     KHO
+Shelli               She Baida                     ida SBAIDA                    BAI
+Sigal                Sig Tobias                    ias STOBIAS                   TOB
+Guy                  Guy Himuro                    uro GHIMURO                   HIM
+Karen                Kar Colmenares                res KCOLMENA                  COL
+Matthew              Mat Weiss                     iss MWEISS                    WEI
+Adam                 Ada Fripp                     ipp AFRIPP                    FRI
+Payam                Pay Kaufling                  ing PKAUFLIN                  KAU
+Shanta               Sha Vollman                   man SVOLLMAN                  VOL
+
+FIRST_NAME           SUB LAST_NAME                 SUB EMAIL                     SUB
+-------------------- --- ------------------------- --- ------------------------- ---
+Kevin                Kev Mourgos                   gos KMOURGOS                  MOU
+Julia                Jul Nayer                     yer JNAYER                    NAY
+Irene                Ire Mikkilineni               eni IMIKKILI                  MIK
+James                Jam Landry                    dry JLANDRY                   LAN
+Steven               Ste Markle                    kle SMARKLE                   MAR
+Laura                Lau Bissot                    sot LBISSOT                   BIS
+Mozhe                Moz Atkinson                  son MATKINSO                  ATK
+James                Jam Marlow                    low JAMRLOW                   AMR
+TJ                   TJ  Olson                     son TJOLSON                   JOL
+Jason                Jas Mallin                    lin JMALLIN                   MAL
+Michael              Mic Rogers                    ers MROGERS                   ROG
+
+FIRST_NAME           SUB LAST_NAME                 SUB EMAIL                     SUB
+-------------------- --- ------------------------- --- ------------------------- ---
+Ki                   Ki  Gee                       Gee KGEE                      GEE
+Hazel                Haz Philtanker                ker HPHILTAN                  PHI
+Renske               Ren Ladwig                    wig RLADWIG                   LAD
+Stephen              Ste Stiles                    les SSTILES                   STI
+John                 Joh Seo                       Seo JSEO                      SEO
+Joshua               Jos Patel                     tel JPATEL                    PAT
+Trenna               Tre Rajs                      ajs TRAJS                     RAJ
+Curtis               Cur Davies                    ies CDAVIES                   DAV
+Randall              Ran Matos                     tos RMATOS                    MAT
+Peter                Pet Vargas                    gas PVARGAS                   VAR
+John                 Joh Russell                   ell JRUSSEL                   RUS
+
+FIRST_NAME           SUB LAST_NAME                 SUB EMAIL                     SUB
+-------------------- --- ------------------------- --- ------------------------- ---
+Karen                Kar Partners                  ers KPARTNER                  PAR
+Alberto              Alb Errazuriz                 riz AERRAZUR                  ERR
+Gerald               Ger Cambrault                 ult GCAMBRAU                  CAM
+Eleni                Ele Zlotkey                   key EZLOTKEY                  ZLO
+Peter                Pet Tucker                    ker PTUCKER                   TUC
+David                Dav Bernstein                 ein DBERNSTE                  BER
+Peter                Pet Hall                      all PHALL                     HAL
+Christopher          Chr Olsen                     sen COLSEN                    OLS
+Nanette              Nan Cambrault                 ult NCAMBRAU                  CAM
+Oliver               Oli Tuvault                   ult OTUVAULT                  TUV
+Janette              Jan King                      ing JKING                     KIN
+
+FIRST_NAME           SUB LAST_NAME                 SUB EMAIL                     SUB
+-------------------- --- ------------------------- --- ------------------------- ---
+Patrick              Pat Sully                     lly PSULLY                    SUL
+Allan                All McEwen                    wen AMCEWEN                   MCE
+Lindsey              Lin Smith                     ith LSMITH                    SMI
+Louise               Lou Doran                     ran LDORAN                    DOR
+Sarath               Sar Sewall                    all SSEWALL                   SEW
+Clara                Cla Vishney                   ney CVISHNEY                  VIS
+Danielle             Dan Greene                    ene DGREENE                   GRE
+Mattea               Mat Marvins                   ins MMARVINS                  MAR
+David                Dav Lee                       Lee DLEE                      LEE
+Sundar               Sun Ande                      nde SANDE                     AND
+Amit                 Ami Banda                     nda ABANDA                    BAN
+
+FIRST_NAME           SUB LAST_NAME                 SUB EMAIL                     SUB
+-------------------- --- ------------------------- --- ------------------------- ---
+Lisa                 Lis Ozer                      zer LOZER                     OZE
+Harrison             Har Bloom                     oom HBLOOM                    BLO
+Tayler               Tay Fox                       Fox TFOX                      FOX
+William              Wil Smith                     ith WSMITH                    SMI
+Elizabeth            Eli Bates                     tes EBATES                    BAT
+Sundita              Sun Kumar                     mar SKUMAR                    KUM
+Ellen                Ell Abel                      bel EABEL                     ABE
+Alyssa               Aly Hutton                    ton AHUTTON                   HUT
+Jonathon             Jon Taylor                    lor JTAYLOR                   TAY
+Jack                 Jac Livingston                ton JLIVINGS                  LIV
+Kimberely            Kim Grant                     ant KGRANT                    GRA
+
+FIRST_NAME           SUB LAST_NAME                 SUB EMAIL                     SUB
+-------------------- --- ------------------------- --- ------------------------- ---
+Charles              Cha Johnson                   son CJOHNSON                  JOH
+Winston              Win Taylor                    lor WTAYLOR                   TAY
+Jean                 Jea Fleaur                    aur JFLEAUR                   FLE
+Martha               Mar Sullivan                  van MSULLIVA                  SUL
+Girard               Gir Geoni                     oni GGEONI                    GEO
+Nandita              Nan Sarchand                  and NSARCHAN                  SAR
+Alexis               Ale Bull                      ull ABULL                     BUL
+Julia                Jul Dellinger                 ger JDELLING                  DEL
+Anthony              Ant Cabrio                    rio ACABRIO                   CAB
+Kelly                Kel Chung                     ung KCHUNG                    CHU
+Jennifer             Jen Dilly                     lly JDILLY                    DIL
+
+FIRST_NAME           SUB LAST_NAME                 SUB EMAIL                     SUB
+-------------------- --- ------------------------- --- ------------------------- ---
+Timothy              Tim Gates                     tes TGATES                    GAT
+Randall              Ran Perkins                   ins RPERKINS                  PER
+Sarah                Sar Bell                      ell SBELL                     BEL
+Britney              Bri Everett                   ett BEVERETT                  EVE
+Samuel               Sam McCain                    ain SMCCAIN                   MCC
+Vance                Van Jones                     nes VJONES                    JON
+Alana                Ala Walsh                     lsh AWALSH                    WAL
+Kevin                Kev Feeney                    ney KFEENEY                   FEE
+
+107行が選択されました。 
+
+4.
+
+ENAME     
+----------
+ALLEN
+WARD
+MARTIN
+BLAKE
+CLARK
+ADAMS
+JAMES
+
+7行が選択されました。 
+
+
+ENAME      INSTR(ENAME,'A')
+---------- ----------------
+ALLEN                     1
+WARD                      2
+MARTIN                    2
+BLAKE                     3
+CLARK                     3
+ADAMS                     1
+JAMES                     2
+
+7行が選択されました。 
+
+
+ENAME      INSTR(ENAME,'A')
+---------- ----------------
+ALLEN                     1
+ADAMS                     1
+
+5.
+
+SUBS
+----
+こうもり
+こどくポ
+なめまわ
+どくガス
+うずまき
+いでんし
+かめポケ
+いもむし
+コブラポ
+ようせい
+ふうせん
+
+SUBS
+----
+でんせつ
+メガトン
+はさみポ
+キックポ
+パンチポ
+ひふきポ
+くわがた
+のりもの
+へんしん
+あわはき
+こうらポ
+
+SUBS
+----
+けむしポ
+へびポケ
+ドリルポ
+ざっそう
+きのこポ
+どくがポ
+ハエとり
+おやこポ
+ドラゴン
+バリアー
+しんかポ
+
+SUBS
+----
+ちょうち
+くちばし
+どくばり
+フラワー
+もぐらポ
+ぶたざる
+こいぬポ
+ねんりき
+ひのうま
+やどかり
+あしかポ
+
+SUBS
+----
+ガスじょ
+シャドー
+ボールポ
+とげとげ
+きんぎょ
+ひとがた
+かみなり
+れいとう
+しんしゅ
+たねポケ
+きつねポ
+
+SUBS
+----
+かるがも
+かまきり
+きょうあ
+ほのおポ
+どくばち
+シャムネ
+おたまポ
+くらげポ
+みつごど
+いわへび
+さいみん
+
+SUBS
+----
+ほねずき
+かえんポ
+かめのこ
+さなぎポ
+ことりポ
+とりポケ
+ねずみポ
+あひるポ
+ふたごど
+ヘドロポ
+やしのみ
+
+SUBS
+----
+なぞのポ
+シージー
+かせきポ
+いねむり
+とかげポ
+こんちゅ
+ばけねこ
+かいりき
+がんせき
+まぬけポ
+じしゃく
+
+SUBS
+----
+2まいが
+さわがに
+たまごポ
+ツルじょ
+ほしがた
+でんげき
+あばれう
+さかなポ
+
+96行が選択されました。 
+
+6.
+
+GNAME                         
+------------------------------
+きつね
+こうもり
+おたま
+どくガス
+ひふき
+うずまき
+かせき
+いでんし
+かめ
+こうら
+いもむし
+
+GNAME                         
+------------------------------
+とり
+ようせい
+ふうせん
+もぐら
+でんせつ
+メガトン
+みつごどり
+くわがた
+のりもの
+へんしん
+あわはき
+
+GNAME                         
+------------------------------
+かえん
+ざっそう
+あひる
+ハエとり
+ボール
+キック
+ドラゴン
+バリアー
+とかげ
+くちばし
+どくばり
+
+GNAME                         
+------------------------------
+フラワー
+きのこ
+シャムネコ
+ぶたざる
+ねんりき
+ひのうま
+やどかり
+ふたごどり
+あしか
+ヘドロ
+シャドー
+
+GNAME                         
+------------------------------
+とげとげ
+きんぎょ
+ひとがた
+しんか
+かみなり
+ほのお
+れいとう
+しんしゅ
+ことり
+ねずみ
+へび
+
+GNAME                         
+------------------------------
+ドリル
+こんちゅう
+こいぬ
+まぬけ
+かるがも
+ガスじょう
+はさみ
+パンチ
+なぞの
+かまきり
+ちょうちょ
+
+GNAME                         
+------------------------------
+けむし
+どくばち
+コブラ
+どくが
+いわへび
+さいみん
+ほねずき
+ツルじょう
+さかな
+たね
+かめのこ
+
+GNAME                         
+------------------------------
+くらげ
+たまご
+やしのみ
+こどく
+あばれうし
+きょうあく
+シージー
+いねむり
+さなぎ
+ばけねこ
+かいりき
+
+GNAME                         
+------------------------------
+がんせき
+じしゃく
+2まいがい
+さわがに
+なめまわし
+おやこ
+ほしがた
+でんげき
+
+96行が選択されました。 
+

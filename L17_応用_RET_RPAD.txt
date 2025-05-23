@@ -1,0 +1,96 @@
+1.
+
+ENAME     
+----------
+SMITH-----
+ALLEN-----
+WARD------
+JONES-----
+MARTIN----
+BLAKE-----
+CLARK-----
+SCOTT-----
+KING------
+TURNER----
+ADAMS-----
+
+ENAME     
+----------
+JAMES-----
+FORD------
+MILLER----
+
+14行が選択されました。 
+
+2.
+
+ENAME   
+--------
+00000800
+00001600
+00001250
+00002975
+00001250
+00002850
+00002450
+00003000
+00005000
+00001500
+00001100
+
+ENAME   
+--------
+00000950
+00003000
+00001300
+
+14行が選択されました。 
+
+3.
+
+PAD            LEAD           TRAIL          BOTH          
+-------------- -------------- -------------- --------------
+****SMITH***** SMITH*****     ****SMITH      SMITH         
+****ALLEN***** ALLEN*****     ****ALLEN      ALLEN         
+****WARD****** WARD******     ****WARD       WARD          
+****JONES***** JONES*****     ****JONES      JONES         
+****MARTIN**** MARTIN****     ****MARTIN     MARTIN        
+****BLAKE***** BLAKE*****     ****BLAKE      BLAKE         
+****CLARK***** CLARK*****     ****CLARK      CLARK         
+****SCOTT***** SCOTT*****     ****SCOTT      SCOTT         
+****KING****** KING******     ****KING       KING          
+****TURNER**** TURNER****     ****TURNER     TURNER        
+****ADAMS***** ADAMS*****     ****ADAMS      ADAMS         
+
+PAD            LEAD           TRAIL          BOTH          
+-------------- -------------- -------------- --------------
+****JAMES***** JAMES*****     ****JAMES      JAMES         
+****FORD****** FORD******     ****FORD       FORD          
+****MILLER**** MILLER****     ****MILLER     MILLER        
+
+14行が選択されました。 
+
+4.
+
+ENAME      TRIM(BOTH'
+---------- ----------
+SMITH      MITH      
+ALLEN      ALLEN     
+WARD       WARD      
+JONES      JONE      
+MARTIN     MARTIN    
+BLAKE      BLAKE     
+CLARK      CLARK     
+SCOTT      COTT      
+KING       KING      
+TURNER     TURNER    
+ADAMS      ADAM      
+
+ENAME      TRIM(BOTH'
+---------- ----------
+JAMES      JAME      
+FORD       FORD      
+MILLER     MILLER    
+
+14行が選択されました。 
+

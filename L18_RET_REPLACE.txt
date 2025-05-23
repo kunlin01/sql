@@ -1,0 +1,96 @@
+1.
+
+ENAME      REPLACE(EN REPLACE(ENAME,'AR','
+---------- ---------- --------------------
+SMITH      SMITH      SMITH               
+ALLEN      ULLEN      ALLEN               
+WARD       WURD       WURD                
+JONES      JONES      JONES               
+MARTIN     MURTIN     MURTIN              
+BLAKE      BLUKE      BLAKE               
+CLARK      CLURK      CLURK               
+SCOTT      SCOTT      SCOTT               
+KING       KING       KING                
+TURNER     TURNER     TURNER              
+ADAMS      UDUMS      ADAMS               
+
+ENAME      REPLACE(EN REPLACE(ENAME,'AR','
+---------- ---------- --------------------
+JAMES      JUMES      JAMES               
+FORD       FORD       FORD                
+MILLER     MILLER     MILLER              
+
+14行が選択されました。 
+
+2.
+
+ENAME      REPLACE(EN
+---------- ----------
+SMITH      SMITH     
+ALLEN      LLEN      
+WARD       WRD       
+JONES      JONES     
+MARTIN     MRTIN     
+BLAKE      BLKE      
+CLARK      CLRK      
+SCOTT      SCOTT     
+KING       KING      
+TURNER     TURNER    
+ADAMS      DMS       
+
+ENAME      REPLACE(EN
+---------- ----------
+JAMES      JMES      
+FORD       FORD      
+MILLER     MILLER    
+
+14行が選択されました。 
+
+3.
+
+EX_CONCAT          EX_OPERATOR         NEST_OF_CONCAT     
+------------------ ------------------- -------------------
+SMITH80-12-17      SMITH:80-12-17      SMITH:80-12-17     
+ALLEN81-02-20      ALLEN:81-02-20      ALLEN:81-02-20     
+WARD81-02-22       WARD:81-02-22       WARD:81-02-22      
+JONES81-04-02      JONES:81-04-02      JONES:81-04-02     
+MARTIN81-09-28     MARTIN:81-09-28     MARTIN:81-09-28    
+BLAKE81-05-01      BLAKE:81-05-01      BLAKE:81-05-01     
+CLARK81-06-09      CLARK:81-06-09      CLARK:81-06-09     
+SCOTT87-04-19      SCOTT:87-04-19      SCOTT:87-04-19     
+KING81-11-17       KING:81-11-17       KING:81-11-17      
+TURNER81-09-08     TURNER:81-09-08     TURNER:81-09-08    
+ADAMS87-05-23      ADAMS:87-05-23      ADAMS:87-05-23     
+
+EX_CONCAT          EX_OPERATOR         NEST_OF_CONCAT     
+------------------ ------------------- -------------------
+JAMES81-12-03      JAMES:81-12-03      JAMES:81-12-03     
+FORD81-12-03       FORD:81-12-03       FORD:81-12-03      
+MILLER82-01-23     MILLER:82-01-23     MILLER:82-01-23    
+
+14行が選択されました。 
+
+4.
+
+CONCAT_AND_ALIGNM
+-----------------
+SMITH   :80-12-17
+ALLEN   :81-02-20
+WARD    :81-02-22
+JONES   :81-04-02
+MARTIN  :81-09-28
+BLAKE   :81-05-01
+CLARK   :81-06-09
+SCOTT   :87-04-19
+KING    :81-11-17
+TURNER  :81-09-08
+ADAMS   :87-05-23
+
+CONCAT_AND_ALIGNM
+-----------------
+JAMES   :81-12-03
+FORD    :81-12-03
+MILLER  :82-01-23
+
+14行が選択されました。 
+
