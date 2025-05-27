@@ -17,9 +17,9 @@ pro 5.
 select ename,replace(ename,'A','E') from emp;
 
 pro 6.
-select lpad(last_name,2) from person
+select personid,concat(lpad(first_name,2),lpad(lpad(last_name,2),3,'-'))as id from person
 where personid BETWEEN 100 and 109
-order by personid asc;
+order by id asc;
 
 pro 7.
 select pname,gname,instr(gname,'ポケモン')as instr,instrb(gname,'ポケモン')as instrb from zukann
@@ -37,5 +37,5 @@ where pname like 'ゴ%' or pname like '二%'
 order by pname ASC;
 
 pro 10.
-select zno,pname,substr(pname,-3) from zukann
+select zno,pname,substr(pname,-3,1) from zukann
 where substr(pname,-3) BETWEEN 'カ'and'ソ';
