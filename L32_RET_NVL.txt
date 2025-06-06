@@ -1,0 +1,504 @@
+1.
+
+ENAME            COMM  INCENTIVE
+---------- ---------- ----------
+SMITH                        150
+ALLEN             300        150
+WARD              500        250
+JONES                        150
+MARTIN           1400        700
+BLAKE                        150
+CLARK                        150
+SCOTT                        150
+KING                         150
+TURNER              0          0
+ADAMS                        150
+
+ENAME            COMM  INCENTIVE
+---------- ---------- ----------
+JAMES                        150
+FORD                         150
+MILLER                       150
+
+14行が選択されました。 
+
+2.
+
+ENAME            COMM  INCENTIVE
+---------- ---------- ----------
+SMITH                       1000
+ALLEN             300       2000
+WARD              500       2000
+JONES                       1000
+MARTIN           1400       2000
+BLAKE                       1000
+CLARK                       1000
+SCOTT                       1000
+KING                        1000
+TURNER              0       2000
+ADAMS                       1000
+
+ENAME            COMM  INCENTIVE
+---------- ---------- ----------
+JAMES                       1000
+FORD                        1000
+MILLER                      1000
+
+14行が選択されました。 
+
+3.1)
+
+      COMM        MGR COALESCE(COMM,MGR,COMM)
+---------- ---------- -----------------------
+                 7902                    7902
+       300       7698                     300
+       500       7698                     500
+                 7839                    7839
+      1400       7698                    1400
+                 7839                    7839
+                 7839                    7839
+                 7566                    7566
+                                             
+         0       7698                       0
+                 7788                    7788
+
+      COMM        MGR COALESCE(COMM,MGR,COMM)
+---------- ---------- -----------------------
+                 7698                    7698
+                 7566                    7566
+                 7782                    7782
+
+14行が選択されました。 
+
+3.2)
+
+      COMM        MGR COALESCE(COMM,MGR,MGR)
+---------- ---------- ----------------------
+                 7902                   7902
+       300       7698                    300
+       500       7698                    500
+                 7839                   7839
+      1400       7698                   1400
+                 7839                   7839
+                 7839                   7839
+                 7566                   7566
+                                            
+         0       7698                      0
+                 7788                   7788
+
+      COMM        MGR COALESCE(COMM,MGR,MGR)
+---------- ---------- ----------------------
+                 7698                   7698
+                 7566                   7566
+                 7782                   7782
+
+14行が選択されました。 
+
+3.3)
+
+      COMM        MGR COALESCE(COMM,MGR,9999)
+---------- ---------- -----------------------
+                 7902                    7902
+       300       7698                     300
+       500       7698                     500
+                 7839                    7839
+      1400       7698                    1400
+                 7839                    7839
+                 7839                    7839
+                 7566                    7566
+                                         9999
+         0       7698                       0
+                 7788                    7788
+
+      COMM        MGR COALESCE(COMM,MGR,9999)
+---------- ---------- -----------------------
+                 7698                    7698
+                 7566                    7566
+                 7782                    7782
+
+14行が選択されました。 
+
+4.
+
+  PERSONID FIRST_NAME               SALARY COMMISSION_PCT NVL(SALARY+SALARY*COMMISSION_PCT,0)
+---------- -------------------- ---------- -------------- -----------------------------------
+       198 Donald                     2600                                                  0
+       199 Douglas                    2600                                                  0
+       200 Jennifer                   4400                                                  0
+       201 Michael                   13000                                                  0
+       202 Pat                        6000                                                  0
+       203 Susan                      6500                                                  0
+       204 Hermann                   10000                                                  0
+       205 Shelley                   12008                                                  0
+       206 William                    8300                                                  0
+       100 Steven                    24000                                                  0
+       101 Neena                     17000                                                  0
+
+  PERSONID FIRST_NAME               SALARY COMMISSION_PCT NVL(SALARY+SALARY*COMMISSION_PCT,0)
+---------- -------------------- ---------- -------------- -----------------------------------
+       102 Lex                       17000                                                  0
+       103 Alexander                  9000                                                  0
+       104 Bruce                      6000                                                  0
+       105 David                      4800                                                  0
+       106 Valli                      4800                                                  0
+       107 Diana                      4200                                                  0
+       108 Nancy                     12008                                                  0
+       109 Daniel                     9000                                                  0
+       110 John                       8200                                                  0
+       111 Ismael                     7700                                                  0
+       112 Jose Manuel                7800                                                  0
+
+  PERSONID FIRST_NAME               SALARY COMMISSION_PCT NVL(SALARY+SALARY*COMMISSION_PCT,0)
+---------- -------------------- ---------- -------------- -----------------------------------
+       113 Luis                       6900                                                  0
+       114 Den                       11000                                                  0
+       115 Alexander                  3100                                                  0
+       116 Shelli                     2900                                                  0
+       117 Sigal                      2800                                                  0
+       118 Guy                        2600                                                  0
+       119 Karen                      2500                                                  0
+       120 Matthew                    8000                                                  0
+       121 Adam                       8200                                                  0
+       122 Payam                      7900                                                  0
+       123 Shanta                     6500                                                  0
+
+  PERSONID FIRST_NAME               SALARY COMMISSION_PCT NVL(SALARY+SALARY*COMMISSION_PCT,0)
+---------- -------------------- ---------- -------------- -----------------------------------
+       124 Kevin                      5800                                                  0
+       125 Julia                      3200                                                  0
+       126 Irene                      2700                                                  0
+       127 James                      2400                                                  0
+       128 Steven                     2200                                                  0
+       129 Laura                      3300                                                  0
+       130 Mozhe                      2800                                                  0
+       131 James                      2500                                                  0
+       132 TJ                         2100                                                  0
+       133 Jason                      3300                                                  0
+       134 Michael                    2900                                                  0
+
+  PERSONID FIRST_NAME               SALARY COMMISSION_PCT NVL(SALARY+SALARY*COMMISSION_PCT,0)
+---------- -------------------- ---------- -------------- -----------------------------------
+       135 Ki                         2400                                                  0
+       136 Hazel                      2200                                                  0
+       137 Renske                     3600                                                  0
+       138 Stephen                    3200                                                  0
+       139 John                       2700                                                  0
+       140 Joshua                     2500                                                  0
+       141 Trenna                     3500                                                  0
+       142 Curtis                     3100                                                  0
+       143 Randall                    2600                                                  0
+       144 Peter                      2500                                                  0
+       145 John                      14000             .4                               19600
+
+  PERSONID FIRST_NAME               SALARY COMMISSION_PCT NVL(SALARY+SALARY*COMMISSION_PCT,0)
+---------- -------------------- ---------- -------------- -----------------------------------
+       146 Karen                     13500             .3                               17550
+       147 Alberto                   12000             .3                               15600
+       148 Gerald                    11000             .3                               14300
+       149 Eleni                     10500             .2                               12600
+       150 Peter                     10000             .3                               13000
+       151 David                      9500            .25                               11875
+       152 Peter                      9000            .25                               11250
+       153 Christopher                8000             .2                                9600
+       154 Nanette                    7500             .2                                9000
+       155 Oliver                     7000            .15                                8050
+       156 Janette                   10000            .35                               13500
+
+  PERSONID FIRST_NAME               SALARY COMMISSION_PCT NVL(SALARY+SALARY*COMMISSION_PCT,0)
+---------- -------------------- ---------- -------------- -----------------------------------
+       157 Patrick                    9500            .35                               12825
+       158 Allan                      9000            .35                               12150
+       159 Lindsey                    8000             .3                               10400
+       160 Louise                     7500             .3                                9750
+       161 Sarath                     7000            .25                                8750
+       162 Clara                     10500            .25                               13125
+       163 Danielle                   9500            .15                               10925
+       164 Mattea                     7200             .1                                7920
+       165 David                      6800             .1                                7480
+       166 Sundar                     6400             .1                                7040
+       167 Amit                       6200             .1                                6820
+
+  PERSONID FIRST_NAME               SALARY COMMISSION_PCT NVL(SALARY+SALARY*COMMISSION_PCT,0)
+---------- -------------------- ---------- -------------- -----------------------------------
+       168 Lisa                      11500            .25                               14375
+       169 Harrison                  10000             .2                               12000
+       170 Tayler                     9600             .2                               11520
+       171 William                    7400            .15                                8510
+       172 Elizabeth                  7300            .15                                8395
+       173 Sundita                    6100             .1                                6710
+       174 Ellen                     11000             .3                               14300
+       175 Alyssa                     8800            .25                               11000
+       176 Jonathon                   8600             .2                               10320
+       177 Jack                       8400             .2                               10080
+       178 Kimberely                  7000            .15                                8050
+
+  PERSONID FIRST_NAME               SALARY COMMISSION_PCT NVL(SALARY+SALARY*COMMISSION_PCT,0)
+---------- -------------------- ---------- -------------- -----------------------------------
+       179 Charles                    6200             .1                                6820
+       180 Winston                    3200                                                  0
+       181 Jean                       3100                                                  0
+       182 Martha                     2500                                                  0
+       183 Girard                     2800                                                  0
+       184 Nandita                    4200                                                  0
+       185 Alexis                     4100                                                  0
+       186 Julia                      3400                                                  0
+       187 Anthony                    3000                                                  0
+       188 Kelly                      3800                                                  0
+       189 Jennifer                   3600                                                  0
+
+  PERSONID FIRST_NAME               SALARY COMMISSION_PCT NVL(SALARY+SALARY*COMMISSION_PCT,0)
+---------- -------------------- ---------- -------------- -----------------------------------
+       190 Timothy                    2900                                                  0
+       191 Randall                    2500                                                  0
+       192 Sarah                      4000                                                  0
+       193 Britney                    3900                                                  0
+       194 Samuel                     3200                                                  0
+       195 Vance                      2800                                                  0
+       196 Alana                      3100                                                  0
+       197 Kevin                      3000                                                  0
+
+107行が選択されました。 
+
+5.
+
+  PERSONID FIRST_NAME               SALARY COMMISSION_PCT COALESCE(SALARY+SALARY*COMMISSION_PCT,0)
+---------- -------------------- ---------- -------------- ----------------------------------------
+       198 Donald                     2600                                                       0
+       199 Douglas                    2600                                                       0
+       200 Jennifer                   4400                                                       0
+       201 Michael                   13000                                                       0
+       202 Pat                        6000                                                       0
+       203 Susan                      6500                                                       0
+       204 Hermann                   10000                                                       0
+       205 Shelley                   12008                                                       0
+       206 William                    8300                                                       0
+       100 Steven                    24000                                                       0
+       101 Neena                     17000                                                       0
+
+  PERSONID FIRST_NAME               SALARY COMMISSION_PCT COALESCE(SALARY+SALARY*COMMISSION_PCT,0)
+---------- -------------------- ---------- -------------- ----------------------------------------
+       102 Lex                       17000                                                       0
+       103 Alexander                  9000                                                       0
+       104 Bruce                      6000                                                       0
+       105 David                      4800                                                       0
+       106 Valli                      4800                                                       0
+       107 Diana                      4200                                                       0
+       108 Nancy                     12008                                                       0
+       109 Daniel                     9000                                                       0
+       110 John                       8200                                                       0
+       111 Ismael                     7700                                                       0
+       112 Jose Manuel                7800                                                       0
+
+  PERSONID FIRST_NAME               SALARY COMMISSION_PCT COALESCE(SALARY+SALARY*COMMISSION_PCT,0)
+---------- -------------------- ---------- -------------- ----------------------------------------
+       113 Luis                       6900                                                       0
+       114 Den                       11000                                                       0
+       115 Alexander                  3100                                                       0
+       116 Shelli                     2900                                                       0
+       117 Sigal                      2800                                                       0
+       118 Guy                        2600                                                       0
+       119 Karen                      2500                                                       0
+       120 Matthew                    8000                                                       0
+       121 Adam                       8200                                                       0
+       122 Payam                      7900                                                       0
+       123 Shanta                     6500                                                       0
+
+  PERSONID FIRST_NAME               SALARY COMMISSION_PCT COALESCE(SALARY+SALARY*COMMISSION_PCT,0)
+---------- -------------------- ---------- -------------- ----------------------------------------
+       124 Kevin                      5800                                                       0
+       125 Julia                      3200                                                       0
+       126 Irene                      2700                                                       0
+       127 James                      2400                                                       0
+       128 Steven                     2200                                                       0
+       129 Laura                      3300                                                       0
+       130 Mozhe                      2800                                                       0
+       131 James                      2500                                                       0
+       132 TJ                         2100                                                       0
+       133 Jason                      3300                                                       0
+       134 Michael                    2900                                                       0
+
+  PERSONID FIRST_NAME               SALARY COMMISSION_PCT COALESCE(SALARY+SALARY*COMMISSION_PCT,0)
+---------- -------------------- ---------- -------------- ----------------------------------------
+       135 Ki                         2400                                                       0
+       136 Hazel                      2200                                                       0
+       137 Renske                     3600                                                       0
+       138 Stephen                    3200                                                       0
+       139 John                       2700                                                       0
+       140 Joshua                     2500                                                       0
+       141 Trenna                     3500                                                       0
+       142 Curtis                     3100                                                       0
+       143 Randall                    2600                                                       0
+       144 Peter                      2500                                                       0
+       145 John                      14000             .4                                    19600
+
+  PERSONID FIRST_NAME               SALARY COMMISSION_PCT COALESCE(SALARY+SALARY*COMMISSION_PCT,0)
+---------- -------------------- ---------- -------------- ----------------------------------------
+       146 Karen                     13500             .3                                    17550
+       147 Alberto                   12000             .3                                    15600
+       148 Gerald                    11000             .3                                    14300
+       149 Eleni                     10500             .2                                    12600
+       150 Peter                     10000             .3                                    13000
+       151 David                      9500            .25                                    11875
+       152 Peter                      9000            .25                                    11250
+       153 Christopher                8000             .2                                     9600
+       154 Nanette                    7500             .2                                     9000
+       155 Oliver                     7000            .15                                     8050
+       156 Janette                   10000            .35                                    13500
+
+  PERSONID FIRST_NAME               SALARY COMMISSION_PCT COALESCE(SALARY+SALARY*COMMISSION_PCT,0)
+---------- -------------------- ---------- -------------- ----------------------------------------
+       157 Patrick                    9500            .35                                    12825
+       158 Allan                      9000            .35                                    12150
+       159 Lindsey                    8000             .3                                    10400
+       160 Louise                     7500             .3                                     9750
+       161 Sarath                     7000            .25                                     8750
+       162 Clara                     10500            .25                                    13125
+       163 Danielle                   9500            .15                                    10925
+       164 Mattea                     7200             .1                                     7920
+       165 David                      6800             .1                                     7480
+       166 Sundar                     6400             .1                                     7040
+       167 Amit                       6200             .1                                     6820
+
+  PERSONID FIRST_NAME               SALARY COMMISSION_PCT COALESCE(SALARY+SALARY*COMMISSION_PCT,0)
+---------- -------------------- ---------- -------------- ----------------------------------------
+       168 Lisa                      11500            .25                                    14375
+       169 Harrison                  10000             .2                                    12000
+       170 Tayler                     9600             .2                                    11520
+       171 William                    7400            .15                                     8510
+       172 Elizabeth                  7300            .15                                     8395
+       173 Sundita                    6100             .1                                     6710
+       174 Ellen                     11000             .3                                    14300
+       175 Alyssa                     8800            .25                                    11000
+       176 Jonathon                   8600             .2                                    10320
+       177 Jack                       8400             .2                                    10080
+       178 Kimberely                  7000            .15                                     8050
+
+  PERSONID FIRST_NAME               SALARY COMMISSION_PCT COALESCE(SALARY+SALARY*COMMISSION_PCT,0)
+---------- -------------------- ---------- -------------- ----------------------------------------
+       179 Charles                    6200             .1                                     6820
+       180 Winston                    3200                                                       0
+       181 Jean                       3100                                                       0
+       182 Martha                     2500                                                       0
+       183 Girard                     2800                                                       0
+       184 Nandita                    4200                                                       0
+       185 Alexis                     4100                                                       0
+       186 Julia                      3400                                                       0
+       187 Anthony                    3000                                                       0
+       188 Kelly                      3800                                                       0
+       189 Jennifer                   3600                                                       0
+
+  PERSONID FIRST_NAME               SALARY COMMISSION_PCT COALESCE(SALARY+SALARY*COMMISSION_PCT,0)
+---------- -------------------- ---------- -------------- ----------------------------------------
+       190 Timothy                    2900                                                       0
+       191 Randall                    2500                                                       0
+       192 Sarah                      4000                                                       0
+       193 Britney                    3900                                                       0
+       194 Samuel                     3200                                                       0
+       195 Vance                      2800                                                       0
+       196 Alana                      3100                                                       0
+       197 Kevin                      3000                                                       0
+
+107行が選択されました。 
+
+6.
+
+次のコマンド行の開始中にエラーが発生しました : 25 -
+SELECT NVL(COMM,'歩合なし') FROM EMP
+コマンド行 : 25 列 : 17 でのエラー
+エラー・レポート -
+SQLエラー: ORA-01722: 数値が無効です。
+01722. 00000 -  "invalid number"
+*Cause:    The specified number was invalid.
+*Action:   Specify a valid number.
+7.
+
+次のコマンド行の開始中にエラーが発生しました : 28 -
+SELECT NVL2(JOB,1000,'NOT ASSIGNED') FROM EMP
+コマンド行 : 28 列 : 22 でのエラー
+エラー・レポート -
+SQLエラー: ORA-01722: 数値が無効です。
+01722. 00000 -  "invalid number"
+*Cause:    The specified number was invalid.
+*Action:   Specify a valid number.
+8.
+
+NVL2(COMM
+---------
+0
+with comm
+with comm
+0
+with comm
+0
+0
+0
+0
+with comm
+0
+
+NVL2(COMM
+---------
+0
+0
+0
+
+14行が選択されました。 
+
+9.
+
+次のコマンド行の開始中にエラーが発生しました : 34 -
+SELECT coalesce(empno,'2000',0) from emp
+コマンド行 : 34 列 : 23 でのエラー
+エラー・レポート -
+SQLエラー: ORA-00932: データ型が一致しません: NUMBERが予想されましたがCHARです。
+00932. 00000 -  "inconsistent datatypes: expected %s got %s"
+*Cause:    
+*Action:
+10.
+
+ENAME      JOB        NULLIF(JOB
+---------- ---------- ----------
+SMITH      CLERK      CLERK     
+ALLEN      SALESMAN   SALESMAN  
+WARD       SALESMAN   SALESMAN  
+JONES      MANAGER              
+MARTIN     SALESMAN   SALESMAN  
+BLAKE      MANAGER              
+CLARK      MANAGER              
+SCOTT      ANALYST    ANALYST   
+KING       PRESIDENT  PRESIDENT 
+TURNER     SALESMAN   SALESMAN  
+ADAMS      CLERK      CLERK     
+
+ENAME      JOB        NULLIF(JOB
+---------- ---------- ----------
+JAMES      CLERK      CLERK     
+FORD       ANALYST    ANALYST   
+MILLER     CLERK      CLERK     
+
+14行が選択されました。 
+
+11.
+
+ENAME      JOB        NULLIF(NUL
+---------- ---------- ----------
+SCOTT      ANALYST    ANALYST   
+FORD       ANALYST    ANALYST   
+MILLER     CLERK      CLERK     
+JAMES      CLERK      CLERK     
+SMITH      CLERK      CLERK     
+ADAMS      CLERK      CLERK     
+BLAKE      MANAGER              
+JONES      MANAGER              
+CLARK      MANAGER              
+KING       PRESIDENT            
+TURNER     SALESMAN   SALESMAN  
+
+ENAME      JOB        NULLIF(NUL
+---------- ---------- ----------
+MARTIN     SALESMAN   SALESMAN  
+WARD       SALESMAN   SALESMAN  
+ALLEN      SALESMAN   SALESMAN  
+
+14行が選択されました。 
+

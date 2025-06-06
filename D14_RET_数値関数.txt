@@ -1,0 +1,251 @@
+1.
+
+ ZUKANN_NO POKEMON_NAME             WEIGHT ROUND(WEIGHT)
+---------- -------------------- ---------- -------------
+         1 フシギダネ                  6.9             7
+         2 フシギソウ                   13            13
+         3 フシギバナ                  100           100
+         4 ヒトカゲ                    8.5             9
+         5 リザード                     19            19
+         6 リザードン                 90.5            91
+         7 ゼニガメ                      9             9
+         8 カメール                   22.5            23
+         9 カメックス                 85.5            86
+        10 キャタピー                  2.9             3
+        11 トランセル                  9.9            10
+
+ ZUKANN_NO POKEMON_NAME             WEIGHT ROUND(WEIGHT)
+---------- -------------------- ---------- -------------
+        12 バタフリー                   32            32
+        13 ビードル                    3.2             3
+        14 コクーン                     10            10
+        15 スピアー                   29.5            30
+        16 ポッポ                      1.8             2
+        17 ピジョン                     30            30
+        18 ピジョット                 39.5            40
+        19 コラッタ                    3.5             4
+        20 ラッタ                     18.5            19
+
+20行が選択されました。 
+
+2.
+
+   PROD_ID PROD_NAME                 ROUND((LIST_PRICE*1.1))
+---------- ------------------------- -----------------------
+      1740 TD 12GB/DAT                                   147
+      1742 CD-ROM 500/16x                                111
+      1755 32MBキャッシュ/NM                             133
+      1761 CD-ROM 600/I/32x                              147
+      1774 Base ISO CP - BL                              121
+      1779 C for SPNIX3.3 - Doc                          141
+      1782 Compact 400/DQ                                138
+      1787 CPU D300                                      111
+      1788 CPU D600                                      196
+      1794 OSI 8-16/IL                                   141
+      1801 SPNIX3.3 - AL                                 110
+
+   PROD_ID PROD_NAME                 ROUND((LIST_PRICE*1.1))
+---------- ------------------------- -----------------------
+      2005 IC Browser Doc - S                            127
+      2272 RAM - 16MB                                    149
+      2274 RAM - 32MB                                    177
+      2302 Inkjet B/6                                    165
+      2335 携帯電話                                      110
+      2371 C for SPNIX4.0 - Doc                          161
+      2394 DIMM - 32MB                                   141
+      2395 32MBキャッシュ/M                              135
+      2396 EDO - 32MB                                    197
+      2402 CD-ROM 600/E/24x                              140
+      2403 CD-ROM 600/I/24x                              129
+
+   PROD_ID PROD_NAME                 ROUND((LIST_PRICE*1.1))
+---------- ------------------------- -----------------------
+      2422 SPNIX4.0 - SAL                                165
+      2430 Compact 400/LQ                                193
+      2439 CPU D400                                      135
+      2452 SPNIX4.0 - DL                                 110
+      2453 Inkjet C/4                                    215
+      2638 エンボイ DS/E                                 151
+      2722 PCバッグ - L/D                                123
+      2986 マニュアル - Vision OS                        138
+      3087 DIMM - 16MB                                   136
+      3090 RAM - 48MB                                    212
+      3114 MB - S900/650+                                111
+
+   PROD_ID PROD_NAME                 ROUND((LIST_PRICE*1.1))
+---------- ------------------------- -----------------------
+      3170 Smart Suite - V/SP                            177
+      3171 Smart Suite - S3.3/EN                         163
+      3176 Smart Suite - V/EN                            132
+      3177 Smart Suite - V/FR                            132
+      3204 エンボイ DS                                   139
+      3247 Smart Suite - V/DE                            132
+      3359 SDRAM - 16MB                                  122
+      3502 C for SPNIX3.3 -Sys/U                         116
+
+41行が選択されました。 
+
+3.
+
+ ZUKANN_NO POKEMON_NAME         ROUND(EXP_TYPE,-3)
+---------- -------------------- ------------------
+         1 フシギダネ                      1060000
+         2 フシギソウ                      1060000
+         3 フシギバナ                      1060000
+         4 ヒトカゲ                        1060000
+         5 リザード                        1060000
+         6 リザードン                      1060000
+         7 ゼニガメ                        1060000
+         8 カメール                        1060000
+         9 カメックス                      1060000
+        10 キャタピー                      1000000
+        11 トランセル                      1000000
+
+ ZUKANN_NO POKEMON_NAME         ROUND(EXP_TYPE,-3)
+---------- -------------------- ------------------
+        12 バタフリー                      1000000
+        13 ビードル                        1000000
+        14 コクーン                        1000000
+        15 スピアー                        1000000
+        16 ポッポ                          1060000
+        17 ピジョン                        1060000
+        18 ピジョット                      1060000
+        19 コラッタ                        1000000
+        20 ラッタ                          1000000
+
+20行が選択されました。 
+
+4.
+
+FIRST_NAME           TRUNC(SALARY*3,-2)
+-------------------- ------------------
+Daniel                            27000
+Danielle                          28500
+David                             28500
+David                             14400
+David                             20400
+Den                               33000
+Diana                             12600
+Donald                             7800
+Douglas                            7800
+Eleni                             31500
+Elizabeth                         21900
+
+FIRST_NAME           TRUNC(SALARY*3,-2)
+-------------------- ------------------
+Ellen                             33000
+Gerald                            33000
+Girard                             8400
+Guy                                7800
+Harrison                          30000
+Hazel                              6600
+Hermann                           30000
+Irene                              8100
+Ismael                            23100
+Jack                              25200
+James                              7200
+
+FIRST_NAME           TRUNC(SALARY*3,-2)
+-------------------- ------------------
+James                              7500
+Janette                           30000
+Jason                              9900
+Jean                               9300
+Jennifer                          13200
+Jennifer                          10800
+John                              42000
+John                               8100
+John                              24600
+Jonathon                          25800
+Jose Manuel                       23400
+
+FIRST_NAME           TRUNC(SALARY*3,-2)
+-------------------- ------------------
+Joshua                             7500
+Julia                              9600
+Julia                             10200
+Karen                             40500
+Karen                              7500
+Kelly                             11400
+Kevin                             17400
+Kevin                              9000
+Ki                                 7200
+Kimberely                         21000
+Laura                              9900
+
+FIRST_NAME           TRUNC(SALARY*3,-2)
+-------------------- ------------------
+Lex                               51000
+Lindsey                           24000
+Lisa                              34500
+Louise                            22500
+Luis                              20700
+Martha                             7500
+Mattea                            21600
+Matthew                           24000
+Michael                           39000
+Michael                            8700
+Mozhe                              8400
+
+FIRST_NAME           TRUNC(SALARY*3,-2)
+-------------------- ------------------
+Nancy                             36000
+Nandita                           12600
+Nanette                           22500
+Neena                             51000
+Oliver                            21000
+Pat                               18000
+Patrick                           28500
+Payam                             23700
+Peter                             27000
+Peter                              7500
+Peter                             30000
+
+FIRST_NAME           TRUNC(SALARY*3,-2)
+-------------------- ------------------
+Randall                            7800
+Randall                            7500
+Renske                            10800
+Samuel                             9600
+Sarah                             12000
+Sarath                            21000
+Shanta                            19500
+Shelley                           36000
+Shelli                             8700
+Sigal                              8400
+Stephen                            9600
+
+FIRST_NAME           TRUNC(SALARY*3,-2)
+-------------------- ------------------
+Steven                             6600
+Steven                            72000
+Sundar                            19200
+Sundita                           18300
+Susan                             19500
+TJ                                 6300
+Tayler                            28800
+Timothy                            8700
+Trenna                            10500
+Valli                             14400
+Vance                              8400
+
+FIRST_NAME           TRUNC(SALARY*3,-2)
+-------------------- ------------------
+William                           22200
+William                           24900
+Winston                            9600
+
+91行が選択されました。 
+
+5.
+
+POWER_OF_7 POWER_OF_8 POWER_OF_10
+---------- ---------- -----------
+       128        256        1024
+
+6.
+
+         商         余り
+---------- ----------
+         3          1
+

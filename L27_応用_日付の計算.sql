@@ -1,0 +1,15 @@
+ALTER SESSION SET NLS_TERRITORY = japan;
+ALTER SESSION SET NLS_LANGUAGE = japanese;
+
+pro 1.
+select sysdate as "ç°ì˙",sysdate-30 as "30days_ago" ,sysdate+30 as "30days_later" from dual;
+
+PRO 2.
+SELECT SYSDATE-TO_DATE('79-07-08')AS "SINCE_BIRTHDAY" FROM DUAL;
+
+PRO 3.
+SELECT TRUNC((SYSDATE-TO_DATE('79-07-08'))/365)AS "YEARS" FROM DUAL;
+
+PRO 4.
+SELECT ENAME,hiredate,SYSDATE-hiredate  AS "HOW_MANY_DAYS",TRUNC((SYSDATE-hiredate)/365)AS "HOW_MANY_YEARS"
+FROM EMP;

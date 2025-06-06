@@ -1,0 +1,99 @@
+1.
+
+ENAME          DEPTNO        MGR MANAGER                                 
+---------- ---------- ---------- ----------------------------------------
+SMITH              20       7902 7902                                    
+ALLEN              30       7698 7698                                    
+WARD               30       7698 7698                                    
+JONES              20       7839 7839                                    
+MARTIN             30       7698 7698                                    
+BLAKE              30       7839 7839                                    
+CLARK              10       7839 7839                                    
+SCOTT              20       7566 7566                                    
+KING               10            EXECUTIVE                               
+TURNER             30       7698 7698                                    
+ADAMS              20       7788 7788                                    
+
+ENAME          DEPTNO        MGR MANAGER                                 
+---------- ---------- ---------- ----------------------------------------
+JAMES              30       7698 7698                                    
+FORD               20       7566 7566                                    
+MILLER             10       7782 7782                                    
+
+14行が選択されました。 
+
+2.
+
+DEPARTMENT_ID FIRST_NAME               SALARY COMMISSION_PCT      BONUS
+------------- -------------------- ---------- -------------- ----------
+           20 Michael                   13000                     16900
+           30 Den                       11000                     14300
+           70 Hermann                   10000                     13000
+           80 Karen                     13500             .3      20250
+           80 Harrison                  10000             .2      15000
+           80 Lisa                      11500            .25      17250
+           80 Clara                     10500            .25      15750
+           80 Janette                   10000            .35      15000
+           80 John                      14000             .4      21000
+           80 Ellen                     11000             .3      16500
+           80 Alberto                   12000             .3      18000
+
+DEPARTMENT_ID FIRST_NAME               SALARY COMMISSION_PCT      BONUS
+------------- -------------------- ---------- -------------- ----------
+           80 Gerald                    11000             .3      16500
+           80 Eleni                     10500             .2      15750
+           80 Peter                     10000             .3      15000
+           90 Lex                       17000                     22100
+           90 Neena                     17000                     22100
+           90 Steven                    24000                     31200
+          100 Nancy                     12008                   15610.4
+          110 Shelley                   12008                   15610.4
+
+19行が選択されました。 
+
+3.
+
+DEPARTMENT_ID FIRST_NAME               SALARY COMMISSION_PCT    PAYMENT
+------------- -------------------- ---------- -------------- ----------
+           90 Steven                    24000                     24000
+           80 John                      14000             .4      19600
+           80 Karen                     13500             .3      17550
+           90 Neena                     17000                     17000
+           90 Lex                       17000                     17000
+           80 Alberto                   12000             .3      15600
+           80 Lisa                      11500            .25      14375
+           80 Ellen                     11000             .3      14300
+           80 Gerald                    11000             .3      14300
+           80 Janette                   10000            .35      13500
+           80 Clara                     10500            .25      13125
+
+DEPARTMENT_ID FIRST_NAME               SALARY COMMISSION_PCT    PAYMENT
+------------- -------------------- ---------- -------------- ----------
+           20 Michael                   13000                     13000
+           80 Peter                     10000             .3      13000
+           80 Eleni                     10500             .2      12600
+          110 Shelley                   12008                     12008
+          100 Nancy                     12008                     12008
+           80 Harrison                  10000             .2      12000
+           30 Den                       11000                     11000
+           70 Hermann                   10000                     10000
+
+19行が選択されました。 
+
+4.
+
+     EMPNO ENAME             MGR
+---------- ---------- ----------
+      7369 SMITH            7902
+      7499 ALLEN            7698
+      7521 WARD             7698
+      7654 MARTIN           7698
+      7788 SCOTT            7566
+      7844 TURNER           7698
+      7876 ADAMS            7788
+      7900 JAMES            7698
+      7902 FORD             7566
+      7934 MILLER           7782
+
+10行が選択されました。 
+
