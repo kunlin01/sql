@@ -1,0 +1,31 @@
+1.
+
+JOB        count_of_member
+---------- ---------------
+CLERK                    4
+SALESMAN                 4
+ANALYST                  2
+MANAGER                  3
+
+2.
+
+DEPARTMENT_ID JOB_ID     count_of_member    max_sal
+------------- ---------- --------------- ----------
+           90 AD_PRES                  1      24000
+           90 AD_VP                    2      17000
+           80 SA_MAN                   5      14000
+           20 MK_MAN                   1      13000
+          100 FI_MGR                   1      12008
+          110 AC_MGR                   1      12008
+           80 SA_REP                  29      11500
+           30 PU_MAN                   1      11000
+           70 PR_REP                   1      10000
+
+9çsÇ™ëIëÇ≥ÇÍÇ‹ÇµÇΩÅB 
+
+3.
+
+min_of_sum max_of_sum
+---------- ----------
+      4400      64300
+
