@@ -1,0 +1,145 @@
+1.
+
+  PERSONID FIRST_NAME           LAST_NAME                 DEPARTMENT_ID
+---------- -------------------- ------------------------- -------------
+       100 Steven               King                                 90
+       101 Neena                Kochhar                              90
+       102 Lex                  De Haan                              90
+       103 Alexander            Hunold                               60
+       104 Bruce                Ernst                                60
+       105 David                Austin                               60
+       106 Valli                Pataballa                            60
+       107 Diana                Lorentz                              60
+       108 Nancy                Greenberg                           100
+       109 Daniel               Faviet                              100
+       110 John                 Chen                                100
+
+  PERSONID FIRST_NAME           LAST_NAME                 DEPARTMENT_ID
+---------- -------------------- ------------------------- -------------
+       111 Ismael               Sciarra                             100
+       112 Jose Manuel          Urman                               100
+       113 Luis                 Popp                                100
+       114 Den                  Raphaely                             30
+       115 Alexander            Khoo                                 30
+       116 Shelli               Baida                                30
+       117 Sigal                Tobias                               30
+       118 Guy                  Himuro                               30
+       119 Karen                Colmenares                           30
+
+20行が選択されました。 
+
+2.1 person
+名前             Nullかどうか タイプ          
+-------------- -------- ------------ 
+PERSONID       NOT NULL NUMBER(6)    
+FIRST_NAME     NOT NULL VARCHAR2(20) 
+LAST_NAME      NOT NULL VARCHAR2(25) 
+EMAIL          NOT NULL VARCHAR2(25) 
+PHONE_NUMBER            VARCHAR2(20) 
+HIRE_DATE      NOT NULL DATE         
+JOB_ID         NOT NULL VARCHAR2(10) 
+SALARY                  NUMBER(8,2)  
+COMMISSION_PCT          NUMBER(2,2)  
+MANAGER_ID              NUMBER(6)    
+DEPARTMENT_ID           NUMBER(4)    
+2.2 department
+名前          Nullかどうか タイプ          
+----------- -------- ------------ 
+DID         NOT NULL NUMBER(4)    
+DEPTNAME    NOT NULL VARCHAR2(30) 
+MANAGER_ID           NUMBER(6)    
+LOCATION_ID          NUMBER(4)    
+2.　同名列はあります、その列はMANAGER_ID
+3.
+
+  PERSONID FIRST_NAME           LAST_NAME                 DEPARTMENT_ID        DID DEPTNAME                      
+---------- -------------------- ------------------------- ------------- ---------- ------------------------------
+       101 Neena                Kochhar                              90         90 Executive                     
+       102 Lex                  De Haan                              90         90 Executive                     
+       104 Bruce                Ernst                                60         60 IT                            
+       105 David                Austin                               60         60 IT                            
+       106 Valli                Pataballa                            60         60 IT                            
+       107 Diana                Lorentz                              60         60 IT                            
+       109 Daniel               Faviet                              100        100 Finance                       
+       110 John                 Chen                                100        100 Finance                       
+       111 Ismael               Sciarra                             100        100 Finance                       
+       112 Jose Manuel          Urman                               100        100 Finance                       
+       113 Luis                 Popp                                100        100 Finance                       
+
+  PERSONID FIRST_NAME           LAST_NAME                 DEPARTMENT_ID        DID DEPTNAME                      
+---------- -------------------- ------------------------- ------------- ---------- ------------------------------
+       114 Den                  Raphaely                             30         90 Executive                     
+       115 Alexander            Khoo                                 30         30 Purchasing                    
+       116 Shelli               Baida                                30         30 Purchasing                    
+       117 Sigal                Tobias                               30         30 Purchasing                    
+       118 Guy                  Himuro                               30         30 Purchasing                    
+       119 Karen                Colmenares                           30         30 Purchasing                    
+
+17行が選択されました。 
+
+4.
+
+       DID DEPTNAME                         PERSONID FIRST_NAME           LAST_NAME                
+---------- ------------------------------ ---------- -------------------- -------------------------
+        10 Administration                        200 Jennifer             Whalen                   
+        20 Marketing                             201 Michael              Hartstein                
+        30 Purchasing                            114 Den                  Raphaely                 
+        40 Human Resources                       203 Susan                Mavris                   
+        50 Shipping                              121 Adam                 Fripp                    
+        60 IT                                    103 Alexander            Hunold                   
+        70 Public Relations                      204 Hermann              Baer                     
+        80 Sales                                 145 John                 Russell                  
+        90 Executive                             100 Steven               King                     
+       100 Finance                               108 Nancy                Greenberg                
+       110 Accounting                            205 Shelley              Higgins                  
+
+11行が選択されました。 
+
+5.
+
+     EMPNO ENAME           JOBNO JNAME     
+---------- ---------- ---------- ----------
+      7369 SMITH             100 CLERK     
+      7499 ALLEN             300 SALESMAN  
+      7521 WARD              300 SALESMAN  
+      7566 JONES             200 MANAGER   
+      7654 MARTIN            300 SALESMAN  
+      7698 BLAKE             200 MANAGER   
+      7782 CLARK             200 MANAGER   
+      7788 SCOTT             400 ANALYST   
+      7839 KING              500 PRESIDENT 
+      7844 TURNER            300 SALESMAN  
+      7876 ADAMS             100 CLERK     
+
+     EMPNO ENAME           JOBNO JNAME     
+---------- ---------- ---------- ----------
+      7900 JAMES             100 CLERK     
+      7902 FORD              400 ANALYST   
+      7934 MILLER            100 CLERK     
+
+14行が選択されました。 
+
+6.
+
+ENAME          DEPTNO DNAME       
+---------- ---------- ------------
+SMITH              20 RESEARCH    
+ALLEN              30 SALES       
+WARD               30 SALES       
+JONES              20 RESEARCH    
+MARTIN             30 SALES       
+BLAKE              30 SALES       
+CLARK              10 ACCOUNTING  
+SCOTT              20 RESEARCH    
+KING               10 ACCOUNTING  
+TURNER             30 SALES       
+ADAMS              20 RESEARCH    
+
+ENAME          DEPTNO DNAME       
+---------- ---------- ------------
+JAMES              30 SALES       
+FORD               20 RESEARCH    
+MILLER             10 ACCOUNTING  
+
+14行が選択されました。 
+

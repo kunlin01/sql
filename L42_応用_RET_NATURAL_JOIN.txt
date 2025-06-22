@@ -1,0 +1,277 @@
+1.1 person
+名前             Nullかどうか タイプ          
+-------------- -------- ------------ 
+PERSONID       NOT NULL NUMBER(6)    
+FIRST_NAME     NOT NULL VARCHAR2(20) 
+LAST_NAME      NOT NULL VARCHAR2(25) 
+EMAIL          NOT NULL VARCHAR2(25) 
+PHONE_NUMBER            VARCHAR2(20) 
+HIRE_DATE      NOT NULL DATE         
+JOB_ID         NOT NULL VARCHAR2(10) 
+SALARY                  NUMBER(8,2)  
+COMMISSION_PCT          NUMBER(2,2)  
+MANAGER_ID              NUMBER(6)    
+DEPARTMENT_ID           NUMBER(4)    
+1.2 jobs
+名前         Nullかどうか タイプ          
+---------- -------- ------------ 
+JOB_ID     NOT NULL VARCHAR2(10) 
+JOB_TITLE  NOT NULL VARCHAR2(35) 
+MIN_SALARY          NUMBER(6)    
+MAX_SALARY          NUMBER(6)    
+1. 同名列はJOB_ID
+2.
+
+FIRST_NAME           LAST_NAME                 JOB_ID     JOB_TITLE                          
+-------------------- ------------------------- ---------- -----------------------------------
+Donald               OConnell                  SH_CLERK   Shipping Clerk                     
+Douglas              Grant                     SH_CLERK   Shipping Clerk                     
+Jennifer             Whalen                    AD_ASST    Administration Assistant           
+Michael              Hartstein                 MK_MAN     Marketing Manager                  
+Pat                  Fay                       MK_REP     Marketing Representative           
+Susan                Mavris                    HR_REP     Human Resources Representative     
+Hermann              Baer                      PR_REP     Public Relations Representative    
+Shelley              Higgins                   AC_MGR     Accounting Manager                 
+William              Gietz                     AC_ACCOUNT Public Accountant                  
+Steven               King                      AD_PRES    President                          
+Neena                Kochhar                   AD_VP      Administration Vice President      
+
+FIRST_NAME           LAST_NAME                 JOB_ID     JOB_TITLE                          
+-------------------- ------------------------- ---------- -----------------------------------
+Lex                  De Haan                   AD_VP      Administration Vice President      
+Alexander            Hunold                    IT_PROG    Programmer                         
+Bruce                Ernst                     IT_PROG    Programmer                         
+David                Austin                    IT_PROG    Programmer                         
+Valli                Pataballa                 IT_PROG    Programmer                         
+Diana                Lorentz                   IT_PROG    Programmer                         
+Nancy                Greenberg                 FI_MGR     Finance Manager                    
+Daniel               Faviet                    FI_ACCOUNT Accountant                         
+John                 Chen                      FI_ACCOUNT Accountant                         
+Ismael               Sciarra                   FI_ACCOUNT Accountant                         
+Jose Manuel          Urman                     FI_ACCOUNT Accountant                         
+
+FIRST_NAME           LAST_NAME                 JOB_ID     JOB_TITLE                          
+-------------------- ------------------------- ---------- -----------------------------------
+Luis                 Popp                      FI_ACCOUNT Accountant                         
+Den                  Raphaely                  PU_MAN     Purchasing Manager                 
+Alexander            Khoo                      PU_CLERK   Purchasing Clerk                   
+Shelli               Baida                     PU_CLERK   Purchasing Clerk                   
+Sigal                Tobias                    PU_CLERK   Purchasing Clerk                   
+Guy                  Himuro                    PU_CLERK   Purchasing Clerk                   
+Karen                Colmenares                PU_CLERK   Purchasing Clerk                   
+Matthew              Weiss                     ST_MAN     Stock Manager                      
+Adam                 Fripp                     ST_MAN     Stock Manager                      
+Payam                Kaufling                  ST_MAN     Stock Manager                      
+Shanta               Vollman                   ST_MAN     Stock Manager                      
+
+FIRST_NAME           LAST_NAME                 JOB_ID     JOB_TITLE                          
+-------------------- ------------------------- ---------- -----------------------------------
+Kevin                Mourgos                   ST_MAN     Stock Manager                      
+Julia                Nayer                     ST_CLERK   Stock Clerk                        
+Irene                Mikkilineni               ST_CLERK   Stock Clerk                        
+James                Landry                    ST_CLERK   Stock Clerk                        
+Steven               Markle                    ST_CLERK   Stock Clerk                        
+Laura                Bissot                    ST_CLERK   Stock Clerk                        
+Mozhe                Atkinson                  ST_CLERK   Stock Clerk                        
+James                Marlow                    ST_CLERK   Stock Clerk                        
+TJ                   Olson                     ST_CLERK   Stock Clerk                        
+Jason                Mallin                    ST_CLERK   Stock Clerk                        
+Michael              Rogers                    ST_CLERK   Stock Clerk                        
+
+FIRST_NAME           LAST_NAME                 JOB_ID     JOB_TITLE                          
+-------------------- ------------------------- ---------- -----------------------------------
+Ki                   Gee                       ST_CLERK   Stock Clerk                        
+Hazel                Philtanker                ST_CLERK   Stock Clerk                        
+Renske               Ladwig                    ST_CLERK   Stock Clerk                        
+Stephen              Stiles                    ST_CLERK   Stock Clerk                        
+John                 Seo                       ST_CLERK   Stock Clerk                        
+Joshua               Patel                     ST_CLERK   Stock Clerk                        
+Trenna               Rajs                      ST_CLERK   Stock Clerk                        
+Curtis               Davies                    ST_CLERK   Stock Clerk                        
+Randall              Matos                     ST_CLERK   Stock Clerk                        
+Peter                Vargas                    ST_CLERK   Stock Clerk                        
+John                 Russell                   SA_MAN     Sales Manager                      
+
+FIRST_NAME           LAST_NAME                 JOB_ID     JOB_TITLE                          
+-------------------- ------------------------- ---------- -----------------------------------
+Karen                Partners                  SA_MAN     Sales Manager                      
+Alberto              Errazuriz                 SA_MAN     Sales Manager                      
+Gerald               Cambrault                 SA_MAN     Sales Manager                      
+Eleni                Zlotkey                   SA_MAN     Sales Manager                      
+Peter                Tucker                    SA_REP     Sales Representative               
+David                Bernstein                 SA_REP     Sales Representative               
+Peter                Hall                      SA_REP     Sales Representative               
+Christopher          Olsen                     SA_REP     Sales Representative               
+Nanette              Cambrault                 SA_REP     Sales Representative               
+Oliver               Tuvault                   SA_REP     Sales Representative               
+Janette              King                      SA_REP     Sales Representative               
+
+FIRST_NAME           LAST_NAME                 JOB_ID     JOB_TITLE                          
+-------------------- ------------------------- ---------- -----------------------------------
+Patrick              Sully                     SA_REP     Sales Representative               
+Allan                McEwen                    SA_REP     Sales Representative               
+Lindsey              Smith                     SA_REP     Sales Representative               
+Louise               Doran                     SA_REP     Sales Representative               
+Sarath               Sewall                    SA_REP     Sales Representative               
+Clara                Vishney                   SA_REP     Sales Representative               
+Danielle             Greene                    SA_REP     Sales Representative               
+Mattea               Marvins                   SA_REP     Sales Representative               
+David                Lee                       SA_REP     Sales Representative               
+Sundar               Ande                      SA_REP     Sales Representative               
+Amit                 Banda                     SA_REP     Sales Representative               
+
+FIRST_NAME           LAST_NAME                 JOB_ID     JOB_TITLE                          
+-------------------- ------------------------- ---------- -----------------------------------
+Lisa                 Ozer                      SA_REP     Sales Representative               
+Harrison             Bloom                     SA_REP     Sales Representative               
+Tayler               Fox                       SA_REP     Sales Representative               
+William              Smith                     SA_REP     Sales Representative               
+Elizabeth            Bates                     SA_REP     Sales Representative               
+Sundita              Kumar                     SA_REP     Sales Representative               
+Ellen                Abel                      SA_REP     Sales Representative               
+Alyssa               Hutton                    SA_REP     Sales Representative               
+Jonathon             Taylor                    SA_REP     Sales Representative               
+Jack                 Livingston                SA_REP     Sales Representative               
+Kimberely            Grant                     SA_REP     Sales Representative               
+
+FIRST_NAME           LAST_NAME                 JOB_ID     JOB_TITLE                          
+-------------------- ------------------------- ---------- -----------------------------------
+Charles              Johnson                   SA_REP     Sales Representative               
+Winston              Taylor                    SH_CLERK   Shipping Clerk                     
+Jean                 Fleaur                    SH_CLERK   Shipping Clerk                     
+Martha               Sullivan                  SH_CLERK   Shipping Clerk                     
+Girard               Geoni                     SH_CLERK   Shipping Clerk                     
+Nandita              Sarchand                  SH_CLERK   Shipping Clerk                     
+Alexis               Bull                      SH_CLERK   Shipping Clerk                     
+Julia                Dellinger                 SH_CLERK   Shipping Clerk                     
+Anthony              Cabrio                    SH_CLERK   Shipping Clerk                     
+Kelly                Chung                     SH_CLERK   Shipping Clerk                     
+Jennifer             Dilly                     SH_CLERK   Shipping Clerk                     
+
+FIRST_NAME           LAST_NAME                 JOB_ID     JOB_TITLE                          
+-------------------- ------------------------- ---------- -----------------------------------
+Timothy              Gates                     SH_CLERK   Shipping Clerk                     
+Randall              Perkins                   SH_CLERK   Shipping Clerk                     
+Sarah                Bell                      SH_CLERK   Shipping Clerk                     
+Britney              Everett                   SH_CLERK   Shipping Clerk                     
+Samuel               McCain                    SH_CLERK   Shipping Clerk                     
+Vance                Jones                     SH_CLERK   Shipping Clerk                     
+Alana                Walsh                     SH_CLERK   Shipping Clerk                     
+Kevin                Feeney                    SH_CLERK   Shipping Clerk                     
+
+107行が選択されました。 
+
+3.1 emp
+名前       Nullかどうか タイプ          
+-------- -------- ------------ 
+EMPNO    NOT NULL NUMBER(6)    
+ENAME             VARCHAR2(10) 
+JOB               VARCHAR2(10) 
+MGR               NUMBER(4)    
+HIREDATE          DATE         
+SAL               NUMBER(9)    
+COMM              NUMBER(9)    
+DEPTNO            NUMBER(4)    
+3.2 job
+名前    Nullかどうか タイプ          
+----- -------- ------------ 
+JOBNO NOT NULL NUMBER(3)    
+JNAME          VARCHAR2(10) 
+3.同名列は存在しない
+4.
+
+ENAME      JOB             JOBNO JNAME     
+---------- ---------- ---------- ----------
+SMITH      CLERK             100 CLERK     
+ALLEN      SALESMAN          100 CLERK     
+WARD       SALESMAN          100 CLERK     
+JONES      MANAGER           100 CLERK     
+MARTIN     SALESMAN          100 CLERK     
+BLAKE      MANAGER           100 CLERK     
+CLARK      MANAGER           100 CLERK     
+SCOTT      ANALYST           100 CLERK     
+KING       PRESIDENT         100 CLERK     
+TURNER     SALESMAN          100 CLERK     
+ADAMS      CLERK             100 CLERK     
+
+ENAME      JOB             JOBNO JNAME     
+---------- ---------- ---------- ----------
+JAMES      CLERK             100 CLERK     
+FORD       ANALYST           100 CLERK     
+MILLER     CLERK             100 CLERK     
+SMITH      CLERK             200 MANAGER   
+ALLEN      SALESMAN          200 MANAGER   
+WARD       SALESMAN          200 MANAGER   
+JONES      MANAGER           200 MANAGER   
+MARTIN     SALESMAN          200 MANAGER   
+BLAKE      MANAGER           200 MANAGER   
+CLARK      MANAGER           200 MANAGER   
+SCOTT      ANALYST           200 MANAGER   
+
+ENAME      JOB             JOBNO JNAME     
+---------- ---------- ---------- ----------
+KING       PRESIDENT         200 MANAGER   
+TURNER     SALESMAN          200 MANAGER   
+ADAMS      CLERK             200 MANAGER   
+JAMES      CLERK             200 MANAGER   
+FORD       ANALYST           200 MANAGER   
+MILLER     CLERK             200 MANAGER   
+SMITH      CLERK             300 SALESMAN  
+ALLEN      SALESMAN          300 SALESMAN  
+WARD       SALESMAN          300 SALESMAN  
+JONES      MANAGER           300 SALESMAN  
+MARTIN     SALESMAN          300 SALESMAN  
+
+ENAME      JOB             JOBNO JNAME     
+---------- ---------- ---------- ----------
+BLAKE      MANAGER           300 SALESMAN  
+CLARK      MANAGER           300 SALESMAN  
+SCOTT      ANALYST           300 SALESMAN  
+KING       PRESIDENT         300 SALESMAN  
+TURNER     SALESMAN          300 SALESMAN  
+ADAMS      CLERK             300 SALESMAN  
+JAMES      CLERK             300 SALESMAN  
+FORD       ANALYST           300 SALESMAN  
+MILLER     CLERK             300 SALESMAN  
+SMITH      CLERK             400 ANALYST   
+ALLEN      SALESMAN          400 ANALYST   
+
+ENAME      JOB             JOBNO JNAME     
+---------- ---------- ---------- ----------
+WARD       SALESMAN          400 ANALYST   
+JONES      MANAGER           400 ANALYST   
+MARTIN     SALESMAN          400 ANALYST   
+BLAKE      MANAGER           400 ANALYST   
+CLARK      MANAGER           400 ANALYST   
+SCOTT      ANALYST           400 ANALYST   
+KING       PRESIDENT         400 ANALYST   
+TURNER     SALESMAN          400 ANALYST   
+ADAMS      CLERK             400 ANALYST   
+JAMES      CLERK             400 ANALYST   
+FORD       ANALYST           400 ANALYST   
+
+ENAME      JOB             JOBNO JNAME     
+---------- ---------- ---------- ----------
+MILLER     CLERK             400 ANALYST   
+SMITH      CLERK             500 PRESIDENT 
+ALLEN      SALESMAN          500 PRESIDENT 
+WARD       SALESMAN          500 PRESIDENT 
+JONES      MANAGER           500 PRESIDENT 
+MARTIN     SALESMAN          500 PRESIDENT 
+BLAKE      MANAGER           500 PRESIDENT 
+CLARK      MANAGER           500 PRESIDENT 
+SCOTT      ANALYST           500 PRESIDENT 
+KING       PRESIDENT         500 PRESIDENT 
+TURNER     SALESMAN          500 PRESIDENT 
+
+ENAME      JOB             JOBNO JNAME     
+---------- ---------- ---------- ----------
+ADAMS      CLERK             500 PRESIDENT 
+JAMES      CLERK             500 PRESIDENT 
+FORD       ANALYST           500 PRESIDENT 
+MILLER     CLERK             500 PRESIDENT 
+
+70行が選択されました。 
+
+5.　SQLでNATURAL JOINを使った際に、結合条件となる同名列が両方のテーブルに存在しない場合、結果はカルテシアン積になります
+6. C

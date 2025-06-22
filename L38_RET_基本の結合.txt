@@ -1,0 +1,88 @@
+1.
+
+     EMPNO ENAME          DEPTNO DNAME       
+---------- ---------- ---------- ------------
+      7369 SMITH              20 RESEARCH    
+      7499 ALLEN              30 SALES       
+      7521 WARD               30 SALES       
+      7566 JONES              20 RESEARCH    
+      7654 MARTIN             30 SALES       
+      7698 BLAKE              30 SALES       
+      7782 CLARK              10 ACCOUNTING  
+      7788 SCOTT              20 RESEARCH    
+      7839 KING               10 ACCOUNTING  
+      7844 TURNER             30 SALES       
+      7876 ADAMS              20 RESEARCH    
+
+     EMPNO ENAME          DEPTNO DNAME       
+---------- ---------- ---------- ------------
+      7900 JAMES              30 SALES       
+      7902 FORD               20 RESEARCH    
+      7934 MILLER             10 ACCOUNTING  
+
+14行が選択されました。 
+
+2.
+
+     EMPNO ENAME          DEPTNO DEPTNAME                       LOCATION_ID
+---------- ---------- ---------- ------------------------------ -----------
+      7782 CLARK              10 Administration                        1700
+      7839 KING               10 Administration                        1700
+      7934 MILLER             10 Administration                        1700
+      7369 SMITH              20 Marketing                             1800
+      7566 JONES              20 Marketing                             1800
+      7788 SCOTT              20 Marketing                             1800
+      7876 ADAMS              20 Marketing                             1800
+      7902 FORD               20 Marketing                             1800
+      7499 ALLEN              30 Purchasing                            1700
+      7521 WARD               30 Purchasing                            1700
+      7654 MARTIN             30 Purchasing                            1700
+
+     EMPNO ENAME          DEPTNO DEPTNAME                       LOCATION_ID
+---------- ---------- ---------- ------------------------------ -----------
+      7698 BLAKE              30 Purchasing                            1700
+      7844 TURNER             30 Purchasing                            1700
+      7900 JAMES              30 Purchasing                            1700
+
+14行が選択されました。 
+
+3.
+
+       DID DEPTNAME                       LOCATION_ID STATE_PROVINCE            CITY                          
+---------- ------------------------------ ----------- ------------------------- ------------------------------
+        10 Administration                        1700 Washington                Seattle                       
+        20 Marketing                             1800 Ontario                   Toronto                       
+        30 Purchasing                            1700 Washington                Seattle                       
+        40 Human Resources                       2400                           London                        
+        50 Shipping                              1500 California                South San Francisco           
+        60 IT                                    1400 Texas                     Southlake                     
+        70 Public Relations                      2700 Bavaria                   Munich                        
+        80 Sales                                 2500 Oxford                    Oxford                        
+        90 Executive                             1700 Washington                Seattle                       
+       100 Finance                               1700 Washington                Seattle                       
+       110 Accounting                            1700 Washington                Seattle                       
+
+       DID DEPTNAME                       LOCATION_ID STATE_PROVINCE            CITY                          
+---------- ------------------------------ ----------- ------------------------- ------------------------------
+       120 Treasury                              1700 Washington                Seattle                       
+       130 Corporate Tax                         1700 Washington                Seattle                       
+       140 Control And Credit                    1700 Washington                Seattle                       
+       150 Shareholder Services                  1700 Washington                Seattle                       
+       160 Benefits                              1700 Washington                Seattle                       
+       170 Manufacturing                         1700 Washington                Seattle                       
+       180 Construction                          1700 Washington                Seattle                       
+       190 Contracting                           1700 Washington                Seattle                       
+       200 Operations                            1700 Washington                Seattle                       
+       210 IT Support                            1700 Washington                Seattle                       
+       220 NOC                                   1700 Washington                Seattle                       
+
+       DID DEPTNAME                       LOCATION_ID STATE_PROVINCE            CITY                          
+---------- ------------------------------ ----------- ------------------------- ------------------------------
+       230 IT Helpdesk                           1700 Washington                Seattle                       
+       240 Government Sales                      1700 Washington                Seattle                       
+       250 Retail Sales                          1700 Washington                Seattle                       
+       260 Recruiting                            1700 Washington                Seattle                       
+       270 Payroll                               1700 Washington                Seattle                       
+
+27行が選択されました。 
+

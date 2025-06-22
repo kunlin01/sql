@@ -1,0 +1,386 @@
+1.
+
+FIRST_NAME           LAST_NAME                 JOB_ID     JOB_TITLE                          
+-------------------- ------------------------- ---------- -----------------------------------
+Donald               OConnell                  SH_CLERK   Shipping Clerk                     
+Douglas              Grant                     SH_CLERK   Shipping Clerk                     
+Jennifer             Whalen                    AD_ASST    Administration Assistant           
+Michael              Hartstein                 MK_MAN     Marketing Manager                  
+Pat                  Fay                       MK_REP     Marketing Representative           
+Susan                Mavris                    HR_REP     Human Resources Representative     
+Hermann              Baer                      PR_REP     Public Relations Representative    
+Shelley              Higgins                   AC_MGR     Accounting Manager                 
+William              Gietz                     AC_ACCOUNT Public Accountant                  
+Steven               King                      AD_PRES    President                          
+Neena                Kochhar                   AD_VP      Administration Vice President      
+
+FIRST_NAME           LAST_NAME                 JOB_ID     JOB_TITLE                          
+-------------------- ------------------------- ---------- -----------------------------------
+Lex                  De Haan                   AD_VP      Administration Vice President      
+Alexander            Hunold                    IT_PROG    Programmer                         
+Bruce                Ernst                     IT_PROG    Programmer                         
+David                Austin                    IT_PROG    Programmer                         
+Valli                Pataballa                 IT_PROG    Programmer                         
+Diana                Lorentz                   IT_PROG    Programmer                         
+Nancy                Greenberg                 FI_MGR     Finance Manager                    
+Daniel               Faviet                    FI_ACCOUNT Accountant                         
+John                 Chen                      FI_ACCOUNT Accountant                         
+Ismael               Sciarra                   FI_ACCOUNT Accountant                         
+Jose Manuel          Urman                     FI_ACCOUNT Accountant                         
+
+FIRST_NAME           LAST_NAME                 JOB_ID     JOB_TITLE                          
+-------------------- ------------------------- ---------- -----------------------------------
+Luis                 Popp                      FI_ACCOUNT Accountant                         
+Den                  Raphaely                  PU_MAN     Purchasing Manager                 
+Alexander            Khoo                      PU_CLERK   Purchasing Clerk                   
+Shelli               Baida                     PU_CLERK   Purchasing Clerk                   
+Sigal                Tobias                    PU_CLERK   Purchasing Clerk                   
+Guy                  Himuro                    PU_CLERK   Purchasing Clerk                   
+Karen                Colmenares                PU_CLERK   Purchasing Clerk                   
+Matthew              Weiss                     ST_MAN     Stock Manager                      
+Adam                 Fripp                     ST_MAN     Stock Manager                      
+Payam                Kaufling                  ST_MAN     Stock Manager                      
+Shanta               Vollman                   ST_MAN     Stock Manager                      
+
+FIRST_NAME           LAST_NAME                 JOB_ID     JOB_TITLE                          
+-------------------- ------------------------- ---------- -----------------------------------
+Kevin                Mourgos                   ST_MAN     Stock Manager                      
+Julia                Nayer                     ST_CLERK   Stock Clerk                        
+Irene                Mikkilineni               ST_CLERK   Stock Clerk                        
+James                Landry                    ST_CLERK   Stock Clerk                        
+Steven               Markle                    ST_CLERK   Stock Clerk                        
+Laura                Bissot                    ST_CLERK   Stock Clerk                        
+Mozhe                Atkinson                  ST_CLERK   Stock Clerk                        
+James                Marlow                    ST_CLERK   Stock Clerk                        
+TJ                   Olson                     ST_CLERK   Stock Clerk                        
+Jason                Mallin                    ST_CLERK   Stock Clerk                        
+Michael              Rogers                    ST_CLERK   Stock Clerk                        
+
+FIRST_NAME           LAST_NAME                 JOB_ID     JOB_TITLE                          
+-------------------- ------------------------- ---------- -----------------------------------
+Ki                   Gee                       ST_CLERK   Stock Clerk                        
+Hazel                Philtanker                ST_CLERK   Stock Clerk                        
+Renske               Ladwig                    ST_CLERK   Stock Clerk                        
+Stephen              Stiles                    ST_CLERK   Stock Clerk                        
+John                 Seo                       ST_CLERK   Stock Clerk                        
+Joshua               Patel                     ST_CLERK   Stock Clerk                        
+Trenna               Rajs                      ST_CLERK   Stock Clerk                        
+Curtis               Davies                    ST_CLERK   Stock Clerk                        
+Randall              Matos                     ST_CLERK   Stock Clerk                        
+Peter                Vargas                    ST_CLERK   Stock Clerk                        
+John                 Russell                   SA_MAN     Sales Manager                      
+
+FIRST_NAME           LAST_NAME                 JOB_ID     JOB_TITLE                          
+-------------------- ------------------------- ---------- -----------------------------------
+Karen                Partners                  SA_MAN     Sales Manager                      
+Alberto              Errazuriz                 SA_MAN     Sales Manager                      
+Gerald               Cambrault                 SA_MAN     Sales Manager                      
+Eleni                Zlotkey                   SA_MAN     Sales Manager                      
+Peter                Tucker                    SA_REP     Sales Representative               
+David                Bernstein                 SA_REP     Sales Representative               
+Peter                Hall                      SA_REP     Sales Representative               
+Christopher          Olsen                     SA_REP     Sales Representative               
+Nanette              Cambrault                 SA_REP     Sales Representative               
+Oliver               Tuvault                   SA_REP     Sales Representative               
+Janette              King                      SA_REP     Sales Representative               
+
+FIRST_NAME           LAST_NAME                 JOB_ID     JOB_TITLE                          
+-------------------- ------------------------- ---------- -----------------------------------
+Patrick              Sully                     SA_REP     Sales Representative               
+Allan                McEwen                    SA_REP     Sales Representative               
+Lindsey              Smith                     SA_REP     Sales Representative               
+Louise               Doran                     SA_REP     Sales Representative               
+Sarath               Sewall                    SA_REP     Sales Representative               
+Clara                Vishney                   SA_REP     Sales Representative               
+Danielle             Greene                    SA_REP     Sales Representative               
+Mattea               Marvins                   SA_REP     Sales Representative               
+David                Lee                       SA_REP     Sales Representative               
+Sundar               Ande                      SA_REP     Sales Representative               
+Amit                 Banda                     SA_REP     Sales Representative               
+
+FIRST_NAME           LAST_NAME                 JOB_ID     JOB_TITLE                          
+-------------------- ------------------------- ---------- -----------------------------------
+Lisa                 Ozer                      SA_REP     Sales Representative               
+Harrison             Bloom                     SA_REP     Sales Representative               
+Tayler               Fox                       SA_REP     Sales Representative               
+William              Smith                     SA_REP     Sales Representative               
+Elizabeth            Bates                     SA_REP     Sales Representative               
+Sundita              Kumar                     SA_REP     Sales Representative               
+Ellen                Abel                      SA_REP     Sales Representative               
+Alyssa               Hutton                    SA_REP     Sales Representative               
+Jonathon             Taylor                    SA_REP     Sales Representative               
+Jack                 Livingston                SA_REP     Sales Representative               
+Kimberely            Grant                     SA_REP     Sales Representative               
+
+FIRST_NAME           LAST_NAME                 JOB_ID     JOB_TITLE                          
+-------------------- ------------------------- ---------- -----------------------------------
+Charles              Johnson                   SA_REP     Sales Representative               
+Winston              Taylor                    SH_CLERK   Shipping Clerk                     
+Jean                 Fleaur                    SH_CLERK   Shipping Clerk                     
+Martha               Sullivan                  SH_CLERK   Shipping Clerk                     
+Girard               Geoni                     SH_CLERK   Shipping Clerk                     
+Nandita              Sarchand                  SH_CLERK   Shipping Clerk                     
+Alexis               Bull                      SH_CLERK   Shipping Clerk                     
+Julia                Dellinger                 SH_CLERK   Shipping Clerk                     
+Anthony              Cabrio                    SH_CLERK   Shipping Clerk                     
+Kelly                Chung                     SH_CLERK   Shipping Clerk                     
+Jennifer             Dilly                     SH_CLERK   Shipping Clerk                     
+
+FIRST_NAME           LAST_NAME                 JOB_ID     JOB_TITLE                          
+-------------------- ------------------------- ---------- -----------------------------------
+Timothy              Gates                     SH_CLERK   Shipping Clerk                     
+Randall              Perkins                   SH_CLERK   Shipping Clerk                     
+Sarah                Bell                      SH_CLERK   Shipping Clerk                     
+Britney              Everett                   SH_CLERK   Shipping Clerk                     
+Samuel               McCain                    SH_CLERK   Shipping Clerk                     
+Vance                Jones                     SH_CLERK   Shipping Clerk                     
+Alana                Walsh                     SH_CLERK   Shipping Clerk                     
+Kevin                Feeney                    SH_CLERK   Shipping Clerk                     
+
+107行が選択されました。 
+
+2.
+
+FIRST_NAME           LAST_NAME                 JOB_ID     JOB_TITLE                          
+-------------------- ------------------------- ---------- -----------------------------------
+Donald               OConnell                  SH_CLERK   Shipping Clerk                     
+Douglas              Grant                     SH_CLERK   Shipping Clerk                     
+Jennifer             Whalen                    AD_ASST    Administration Assistant           
+Michael              Hartstein                 MK_MAN     Marketing Manager                  
+Pat                  Fay                       MK_REP     Marketing Representative           
+Susan                Mavris                    HR_REP     Human Resources Representative     
+Hermann              Baer                      PR_REP     Public Relations Representative    
+Shelley              Higgins                   AC_MGR     Accounting Manager                 
+William              Gietz                     AC_ACCOUNT Public Accountant                  
+Steven               King                      AD_PRES    President                          
+Neena                Kochhar                   AD_VP      Administration Vice President      
+
+FIRST_NAME           LAST_NAME                 JOB_ID     JOB_TITLE                          
+-------------------- ------------------------- ---------- -----------------------------------
+Lex                  De Haan                   AD_VP      Administration Vice President      
+Alexander            Hunold                    IT_PROG    Programmer                         
+Bruce                Ernst                     IT_PROG    Programmer                         
+David                Austin                    IT_PROG    Programmer                         
+Valli                Pataballa                 IT_PROG    Programmer                         
+Diana                Lorentz                   IT_PROG    Programmer                         
+Nancy                Greenberg                 FI_MGR     Finance Manager                    
+Daniel               Faviet                    FI_ACCOUNT Accountant                         
+John                 Chen                      FI_ACCOUNT Accountant                         
+Ismael               Sciarra                   FI_ACCOUNT Accountant                         
+Jose Manuel          Urman                     FI_ACCOUNT Accountant                         
+
+FIRST_NAME           LAST_NAME                 JOB_ID     JOB_TITLE                          
+-------------------- ------------------------- ---------- -----------------------------------
+Luis                 Popp                      FI_ACCOUNT Accountant                         
+Den                  Raphaely                  PU_MAN     Purchasing Manager                 
+Alexander            Khoo                      PU_CLERK   Purchasing Clerk                   
+Shelli               Baida                     PU_CLERK   Purchasing Clerk                   
+Sigal                Tobias                    PU_CLERK   Purchasing Clerk                   
+Guy                  Himuro                    PU_CLERK   Purchasing Clerk                   
+Karen                Colmenares                PU_CLERK   Purchasing Clerk                   
+Matthew              Weiss                     ST_MAN     Stock Manager                      
+Adam                 Fripp                     ST_MAN     Stock Manager                      
+Payam                Kaufling                  ST_MAN     Stock Manager                      
+Shanta               Vollman                   ST_MAN     Stock Manager                      
+
+FIRST_NAME           LAST_NAME                 JOB_ID     JOB_TITLE                          
+-------------------- ------------------------- ---------- -----------------------------------
+Kevin                Mourgos                   ST_MAN     Stock Manager                      
+Julia                Nayer                     ST_CLERK   Stock Clerk                        
+Irene                Mikkilineni               ST_CLERK   Stock Clerk                        
+James                Landry                    ST_CLERK   Stock Clerk                        
+Steven               Markle                    ST_CLERK   Stock Clerk                        
+Laura                Bissot                    ST_CLERK   Stock Clerk                        
+Mozhe                Atkinson                  ST_CLERK   Stock Clerk                        
+James                Marlow                    ST_CLERK   Stock Clerk                        
+TJ                   Olson                     ST_CLERK   Stock Clerk                        
+Jason                Mallin                    ST_CLERK   Stock Clerk                        
+Michael              Rogers                    ST_CLERK   Stock Clerk                        
+
+FIRST_NAME           LAST_NAME                 JOB_ID     JOB_TITLE                          
+-------------------- ------------------------- ---------- -----------------------------------
+Ki                   Gee                       ST_CLERK   Stock Clerk                        
+Hazel                Philtanker                ST_CLERK   Stock Clerk                        
+Renske               Ladwig                    ST_CLERK   Stock Clerk                        
+Stephen              Stiles                    ST_CLERK   Stock Clerk                        
+John                 Seo                       ST_CLERK   Stock Clerk                        
+Joshua               Patel                     ST_CLERK   Stock Clerk                        
+Trenna               Rajs                      ST_CLERK   Stock Clerk                        
+Curtis               Davies                    ST_CLERK   Stock Clerk                        
+Randall              Matos                     ST_CLERK   Stock Clerk                        
+Peter                Vargas                    ST_CLERK   Stock Clerk                        
+John                 Russell                   SA_MAN     Sales Manager                      
+
+FIRST_NAME           LAST_NAME                 JOB_ID     JOB_TITLE                          
+-------------------- ------------------------- ---------- -----------------------------------
+Karen                Partners                  SA_MAN     Sales Manager                      
+Alberto              Errazuriz                 SA_MAN     Sales Manager                      
+Gerald               Cambrault                 SA_MAN     Sales Manager                      
+Eleni                Zlotkey                   SA_MAN     Sales Manager                      
+Peter                Tucker                    SA_REP     Sales Representative               
+David                Bernstein                 SA_REP     Sales Representative               
+Peter                Hall                      SA_REP     Sales Representative               
+Christopher          Olsen                     SA_REP     Sales Representative               
+Nanette              Cambrault                 SA_REP     Sales Representative               
+Oliver               Tuvault                   SA_REP     Sales Representative               
+Janette              King                      SA_REP     Sales Representative               
+
+FIRST_NAME           LAST_NAME                 JOB_ID     JOB_TITLE                          
+-------------------- ------------------------- ---------- -----------------------------------
+Patrick              Sully                     SA_REP     Sales Representative               
+Allan                McEwen                    SA_REP     Sales Representative               
+Lindsey              Smith                     SA_REP     Sales Representative               
+Louise               Doran                     SA_REP     Sales Representative               
+Sarath               Sewall                    SA_REP     Sales Representative               
+Clara                Vishney                   SA_REP     Sales Representative               
+Danielle             Greene                    SA_REP     Sales Representative               
+Mattea               Marvins                   SA_REP     Sales Representative               
+David                Lee                       SA_REP     Sales Representative               
+Sundar               Ande                      SA_REP     Sales Representative               
+Amit                 Banda                     SA_REP     Sales Representative               
+
+FIRST_NAME           LAST_NAME                 JOB_ID     JOB_TITLE                          
+-------------------- ------------------------- ---------- -----------------------------------
+Lisa                 Ozer                      SA_REP     Sales Representative               
+Harrison             Bloom                     SA_REP     Sales Representative               
+Tayler               Fox                       SA_REP     Sales Representative               
+William              Smith                     SA_REP     Sales Representative               
+Elizabeth            Bates                     SA_REP     Sales Representative               
+Sundita              Kumar                     SA_REP     Sales Representative               
+Ellen                Abel                      SA_REP     Sales Representative               
+Alyssa               Hutton                    SA_REP     Sales Representative               
+Jonathon             Taylor                    SA_REP     Sales Representative               
+Jack                 Livingston                SA_REP     Sales Representative               
+Kimberely            Grant                     SA_REP     Sales Representative               
+
+FIRST_NAME           LAST_NAME                 JOB_ID     JOB_TITLE                          
+-------------------- ------------------------- ---------- -----------------------------------
+Charles              Johnson                   SA_REP     Sales Representative               
+Winston              Taylor                    SH_CLERK   Shipping Clerk                     
+Jean                 Fleaur                    SH_CLERK   Shipping Clerk                     
+Martha               Sullivan                  SH_CLERK   Shipping Clerk                     
+Girard               Geoni                     SH_CLERK   Shipping Clerk                     
+Nandita              Sarchand                  SH_CLERK   Shipping Clerk                     
+Alexis               Bull                      SH_CLERK   Shipping Clerk                     
+Julia                Dellinger                 SH_CLERK   Shipping Clerk                     
+Anthony              Cabrio                    SH_CLERK   Shipping Clerk                     
+Kelly                Chung                     SH_CLERK   Shipping Clerk                     
+Jennifer             Dilly                     SH_CLERK   Shipping Clerk                     
+
+FIRST_NAME           LAST_NAME                 JOB_ID     JOB_TITLE                          
+-------------------- ------------------------- ---------- -----------------------------------
+Timothy              Gates                     SH_CLERK   Shipping Clerk                     
+Randall              Perkins                   SH_CLERK   Shipping Clerk                     
+Sarah                Bell                      SH_CLERK   Shipping Clerk                     
+Britney              Everett                   SH_CLERK   Shipping Clerk                     
+Samuel               McCain                    SH_CLERK   Shipping Clerk                     
+Vance                Jones                     SH_CLERK   Shipping Clerk                     
+Alana                Walsh                     SH_CLERK   Shipping Clerk                     
+Kevin                Feeney                    SH_CLERK   Shipping Clerk                     
+
+107行が選択されました。 
+
+3.
+
+ENAME          DEPTNO DEPTNAME                      
+---------- ---------- ------------------------------
+CLARK              10 Administration                
+KING               10 Administration                
+MILLER             10 Administration                
+SMITH              20 Marketing                     
+JONES              20 Marketing                     
+SCOTT              20 Marketing                     
+ADAMS              20 Marketing                     
+FORD               20 Marketing                     
+ALLEN              30 Purchasing                    
+WARD               30 Purchasing                    
+MARTIN             30 Purchasing                    
+
+ENAME          DEPTNO DEPTNAME                      
+---------- ---------- ------------------------------
+BLAKE              30 Purchasing                    
+TURNER             30 Purchasing                    
+JAMES              30 Purchasing                    
+
+14行が選択されました。 
+
+4.
+
+DEPTNAME                       LOCATION_ID STATE_PROVINCE            CITY                          
+------------------------------ ----------- ------------------------- ------------------------------
+Administration                        1700 Washington                Seattle                       
+Marketing                             1800 Ontario                   Toronto                       
+Purchasing                            1700 Washington                Seattle                       
+Human Resources                       2400                           London                        
+Shipping                              1500 California                South San Francisco           
+IT                                    1400 Texas                     Southlake                     
+Public Relations                      2700 Bavaria                   Munich                        
+Sales                                 2500 Oxford                    Oxford                        
+Executive                             1700 Washington                Seattle                       
+Finance                               1700 Washington                Seattle                       
+Accounting                            1700 Washington                Seattle                       
+
+DEPTNAME                       LOCATION_ID STATE_PROVINCE            CITY                          
+------------------------------ ----------- ------------------------- ------------------------------
+Treasury                              1700 Washington                Seattle                       
+Corporate Tax                         1700 Washington                Seattle                       
+Control And Credit                    1700 Washington                Seattle                       
+Shareholder Services                  1700 Washington                Seattle                       
+Benefits                              1700 Washington                Seattle                       
+Manufacturing                         1700 Washington                Seattle                       
+Construction                          1700 Washington                Seattle                       
+Contracting                           1700 Washington                Seattle                       
+Operations                            1700 Washington                Seattle                       
+IT Support                            1700 Washington                Seattle                       
+NOC                                   1700 Washington                Seattle                       
+
+DEPTNAME                       LOCATION_ID STATE_PROVINCE            CITY                          
+------------------------------ ----------- ------------------------- ------------------------------
+IT Helpdesk                           1700 Washington                Seattle                       
+Government Sales                      1700 Washington                Seattle                       
+Retail Sales                          1700 Washington                Seattle                       
+Recruiting                            1700 Washington                Seattle                       
+Payroll                               1700 Washington                Seattle                       
+
+27行が選択されました。 
+
+5.
+
+DEPTNAME                       LOCATION_ID STATE_PROVINCE            CITY                          
+------------------------------ ----------- ------------------------- ------------------------------
+Administration                        1700 Washington                Seattle                       
+Marketing                             1800 Ontario                   Toronto                       
+Purchasing                            1700 Washington                Seattle                       
+Human Resources                       2400                           London                        
+Shipping                              1500 California                South San Francisco           
+IT                                    1400 Texas                     Southlake                     
+Public Relations                      2700 Bavaria                   Munich                        
+Sales                                 2500 Oxford                    Oxford                        
+Executive                             1700 Washington                Seattle                       
+Finance                               1700 Washington                Seattle                       
+Accounting                            1700 Washington                Seattle                       
+
+DEPTNAME                       LOCATION_ID STATE_PROVINCE            CITY                          
+------------------------------ ----------- ------------------------- ------------------------------
+Treasury                              1700 Washington                Seattle                       
+Corporate Tax                         1700 Washington                Seattle                       
+Control And Credit                    1700 Washington                Seattle                       
+Shareholder Services                  1700 Washington                Seattle                       
+Benefits                              1700 Washington                Seattle                       
+Manufacturing                         1700 Washington                Seattle                       
+Construction                          1700 Washington                Seattle                       
+Contracting                           1700 Washington                Seattle                       
+Operations                            1700 Washington                Seattle                       
+IT Support                            1700 Washington                Seattle                       
+NOC                                   1700 Washington                Seattle                       
+
+DEPTNAME                       LOCATION_ID STATE_PROVINCE            CITY                          
+------------------------------ ----------- ------------------------- ------------------------------
+IT Helpdesk                           1700 Washington                Seattle                       
+Government Sales                      1700 Washington                Seattle                       
+Retail Sales                          1700 Washington                Seattle                       
+Recruiting                            1700 Washington                Seattle                       
+Payroll                               1700 Washington                Seattle                       
+
+27行が選択されました。 
+
