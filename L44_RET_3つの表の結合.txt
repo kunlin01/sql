@@ -1,0 +1,73 @@
+1.
+
+       DID DEPTNAME                       LOCATION_ID CITY                           CO
+---------- ------------------------------ ----------- ------------------------------ --
+        10 Administration                        1700 Seattle                        US
+        20 Marketing                             1800 Toronto                        CA
+        30 Purchasing                            1700 Seattle                        US
+        40 Human Resources                       2400 London                         UK
+        50 Shipping                              1500 South San Francisco            US
+        60 IT                                    1400 Southlake                      US
+        70 Public Relations                      2700 Munich                         DE
+        80 Sales                                 2500 Oxford                         UK
+        90 Executive                             1700 Seattle                        US
+       100 Finance                               1700 Seattle                        US
+       110 Accounting                            1700 Seattle                        US
+
+       DID DEPTNAME                       LOCATION_ID CITY                           CO
+---------- ------------------------------ ----------- ------------------------------ --
+       120 Treasury                              1700 Seattle                        US
+       130 Corporate Tax                         1700 Seattle                        US
+       140 Control And Credit                    1700 Seattle                        US
+       150 Shareholder Services                  1700 Seattle                        US
+       160 Benefits                              1700 Seattle                        US
+       170 Manufacturing                         1700 Seattle                        US
+       180 Construction                          1700 Seattle                        US
+       190 Contracting                           1700 Seattle                        US
+       200 Operations                            1700 Seattle                        US
+       210 IT Support                            1700 Seattle                        US
+       220 NOC                                   1700 Seattle                        US
+
+       DID DEPTNAME                       LOCATION_ID CITY                           CO
+---------- ------------------------------ ----------- ------------------------------ --
+       230 IT Helpdesk                           1700 Seattle                        US
+       240 Government Sales                      1700 Seattle                        US
+       250 Retail Sales                          1700 Seattle                        US
+       260 Recruiting                            1700 Seattle                        US
+       270 Payroll                               1700 Seattle                        US
+
+27行が選択されました。 
+
+2.
+
+       DID DEPTNAME                       LOCATION_ID CITY                           CO COUNTRY_NAME                            
+---------- ------------------------------ ----------- ------------------------------ -- ----------------------------------------
+        20 Marketing                             1800 Toronto                        CA Canada                                  
+        70 Public Relations                      2700 Munich                         DE Germany                                 
+
+3.
+
+LOCATION_ID CITY                           CO COUNTRY_NAME                              REGION_ID REGION_NAME              
+----------- ------------------------------ -- ---------------------------------------- ---------- -------------------------
+       1000 Roma                           IT Italy                                             1 Europe                   
+       1100 Venice                         IT Italy                                             1 Europe                   
+       1200 Tokyo                          JP Japan                                             3 Asia                     
+       1300 Hiroshima                      JP Japan                                             3 Asia                     
+       1800 Toronto                        CA Canada                                            2 Americas                 
+       1900 Whitehorse                     CA Canada                                            2 Americas                 
+       2000 Beijing                        CN China                                             3 Asia                     
+       2100 Bombay                         IN India                                             3 Asia                     
+       2200 Sydney                         AU Australia                                         3 Asia                     
+       2700 Munich                         DE Germany                                           1 Europe                   
+       2800 Sao Paulo                      BR Brazil                                            2 Americas                 
+
+11行が選択されました。 
+
+4.
+
+PERSONNAME                                     CO COUNTRY_NAME                             CITY                          
+---------------------------------------------- -- ---------------------------------------- ------------------------------
+Michael Hartstein                              CA Canada                                   Toronto                       
+Pat Fay                                        CA Canada                                   Toronto                       
+Hermann Baer                                   DE Germany                                  Munich                        
+

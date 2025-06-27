@@ -1,0 +1,733 @@
+1.
+
+       DID DEPTNAME                       LOCATION_ID CITY                          
+---------- ------------------------------ ----------- ------------------------------
+        10 Administration                        1700 Seattle                       
+        20 Marketing                             1800 Toronto                       
+        30 Purchasing                            1700 Seattle                       
+        40 Human Resources                       2400 London                        
+        50 Shipping                              1500 South San Francisco           
+        60 IT                                    1400 Southlake                     
+        70 Public Relations                      2700 Munich                        
+        80 Sales                                 2500 Oxford                        
+        90 Executive                             1700 Seattle                       
+       100 Finance                               1700 Seattle                       
+       110 Accounting                            1700 Seattle                       
+
+       DID DEPTNAME                       LOCATION_ID CITY                          
+---------- ------------------------------ ----------- ------------------------------
+       120 Treasury                              1700 Seattle                       
+       130 Corporate Tax                         1700 Seattle                       
+       140 Control And Credit                    1700 Seattle                       
+       150 Shareholder Services                  1700 Seattle                       
+       160 Benefits                              1700 Seattle                       
+       170 Manufacturing                         1700 Seattle                       
+       180 Construction                          1700 Seattle                       
+       190 Contracting                           1700 Seattle                       
+       200 Operations                            1700 Seattle                       
+       210 IT Support                            1700 Seattle                       
+       220 NOC                                   1700 Seattle                       
+
+       DID DEPTNAME                       LOCATION_ID CITY                          
+---------- ------------------------------ ----------- ------------------------------
+       230 IT Helpdesk                           1700 Seattle                       
+       240 Government Sales                      1700 Seattle                       
+       250 Retail Sales                          1700 Seattle                       
+       260 Recruiting                            1700 Seattle                       
+       270 Payroll                               1700 Seattle                       
+                                                      Sydney                        
+                                                      Singapore                     
+                                                      Roma                          
+                                                      South Brunswick               
+                                                      Stretford                     
+                                                      Sao Paulo                     
+
+       DID DEPTNAME                       LOCATION_ID CITY                          
+---------- ------------------------------ ----------- ------------------------------
+                                                      Venice                        
+                                                      Whitehorse                    
+                                                      Hiroshima                     
+                                                      Tokyo                         
+                                                      Beijing                       
+                                                      Bombay                        
+
+39行が選択されました。 
+
+2.
+
+       PID PERSONNAME                                            DID DEPTNAME                      
+---------- ---------------------------------------------- ---------- ------------------------------
+       198 Donald OConnell                                        50 Shipping                      
+       199 Douglas Grant                                          50 Shipping                      
+       200 Jennifer Whalen                                        10 Administration                
+       201 Michael Hartstein                                      20 Marketing                     
+       202 Pat Fay                                                20 Marketing                     
+       203 Susan Mavris                                           40 Human Resources               
+       204 Hermann Baer                                           70 Public Relations              
+       205 Shelley Higgins                                       110 Accounting                    
+       206 William Gietz                                         110 Accounting                    
+       100 Steven King                                            90 Executive                     
+       101 Neena Kochhar                                          90 Executive                     
+
+       PID PERSONNAME                                            DID DEPTNAME                      
+---------- ---------------------------------------------- ---------- ------------------------------
+       102 Lex De Haan                                            90 Executive                     
+       103 Alexander Hunold                                       60 IT                            
+       104 Bruce Ernst                                            60 IT                            
+       105 David Austin                                           60 IT                            
+       106 Valli Pataballa                                        60 IT                            
+       107 Diana Lorentz                                          60 IT                            
+       108 Nancy Greenberg                                       100 Finance                       
+       109 Daniel Faviet                                         100 Finance                       
+       110 John Chen                                             100 Finance                       
+       111 Ismael Sciarra                                        100 Finance                       
+       112 Jose Manuel Urman                                     100 Finance                       
+
+       PID PERSONNAME                                            DID DEPTNAME                      
+---------- ---------------------------------------------- ---------- ------------------------------
+       113 Luis Popp                                             100 Finance                       
+       114 Den Raphaely                                           30 Purchasing                    
+       115 Alexander Khoo                                         30 Purchasing                    
+       116 Shelli Baida                                           30 Purchasing                    
+       117 Sigal Tobias                                           30 Purchasing                    
+       118 Guy Himuro                                             30 Purchasing                    
+       119 Karen Colmenares                                       30 Purchasing                    
+       120 Matthew Weiss                                          50 Shipping                      
+       121 Adam Fripp                                             50 Shipping                      
+       122 Payam Kaufling                                         50 Shipping                      
+       123 Shanta Vollman                                         50 Shipping                      
+
+       PID PERSONNAME                                            DID DEPTNAME                      
+---------- ---------------------------------------------- ---------- ------------------------------
+       124 Kevin Mourgos                                          50 Shipping                      
+       125 Julia Nayer                                            50 Shipping                      
+       126 Irene Mikkilineni                                      50 Shipping                      
+       127 James Landry                                           50 Shipping                      
+       128 Steven Markle                                          50 Shipping                      
+       129 Laura Bissot                                           50 Shipping                      
+       130 Mozhe Atkinson                                         50 Shipping                      
+       131 James Marlow                                           50 Shipping                      
+       132 TJ Olson                                               50 Shipping                      
+       133 Jason Mallin                                           50 Shipping                      
+       134 Michael Rogers                                         50 Shipping                      
+
+       PID PERSONNAME                                            DID DEPTNAME                      
+---------- ---------------------------------------------- ---------- ------------------------------
+       135 Ki Gee                                                 50 Shipping                      
+       136 Hazel Philtanker                                       50 Shipping                      
+       137 Renske Ladwig                                          50 Shipping                      
+       138 Stephen Stiles                                         50 Shipping                      
+       139 John Seo                                               50 Shipping                      
+       140 Joshua Patel                                           50 Shipping                      
+       141 Trenna Rajs                                            50 Shipping                      
+       142 Curtis Davies                                          50 Shipping                      
+       143 Randall Matos                                          50 Shipping                      
+       144 Peter Vargas                                           50 Shipping                      
+       145 John Russell                                           80 Sales                         
+
+       PID PERSONNAME                                            DID DEPTNAME                      
+---------- ---------------------------------------------- ---------- ------------------------------
+       146 Karen Partners                                         80 Sales                         
+       147 Alberto Errazuriz                                      80 Sales                         
+       148 Gerald Cambrault                                       80 Sales                         
+       149 Eleni Zlotkey                                          80 Sales                         
+       150 Peter Tucker                                           80 Sales                         
+       151 David Bernstein                                        80 Sales                         
+       152 Peter Hall                                             80 Sales                         
+       153 Christopher Olsen                                      80 Sales                         
+       154 Nanette Cambrault                                      80 Sales                         
+       155 Oliver Tuvault                                         80 Sales                         
+       156 Janette King                                           80 Sales                         
+
+       PID PERSONNAME                                            DID DEPTNAME                      
+---------- ---------------------------------------------- ---------- ------------------------------
+       157 Patrick Sully                                          80 Sales                         
+       158 Allan McEwen                                           80 Sales                         
+       159 Lindsey Smith                                          80 Sales                         
+       160 Louise Doran                                           80 Sales                         
+       161 Sarath Sewall                                          80 Sales                         
+       162 Clara Vishney                                          80 Sales                         
+       163 Danielle Greene                                        80 Sales                         
+       164 Mattea Marvins                                         80 Sales                         
+       165 David Lee                                              80 Sales                         
+       166 Sundar Ande                                            80 Sales                         
+       167 Amit Banda                                             80 Sales                         
+
+       PID PERSONNAME                                            DID DEPTNAME                      
+---------- ---------------------------------------------- ---------- ------------------------------
+       168 Lisa Ozer                                              80 Sales                         
+       169 Harrison Bloom                                         80 Sales                         
+       170 Tayler Fox                                             80 Sales                         
+       171 William Smith                                          80 Sales                         
+       172 Elizabeth Bates                                        80 Sales                         
+       173 Sundita Kumar                                          80 Sales                         
+       174 Ellen Abel                                             80 Sales                         
+       175 Alyssa Hutton                                          80 Sales                         
+       176 Jonathon Taylor                                        80 Sales                         
+       177 Jack Livingston                                        80 Sales                         
+       179 Charles Johnson                                        80 Sales                         
+
+       PID PERSONNAME                                            DID DEPTNAME                      
+---------- ---------------------------------------------- ---------- ------------------------------
+       180 Winston Taylor                                         50 Shipping                      
+       181 Jean Fleaur                                            50 Shipping                      
+       182 Martha Sullivan                                        50 Shipping                      
+       183 Girard Geoni                                           50 Shipping                      
+       184 Nandita Sarchand                                       50 Shipping                      
+       185 Alexis Bull                                            50 Shipping                      
+       186 Julia Dellinger                                        50 Shipping                      
+       187 Anthony Cabrio                                         50 Shipping                      
+       188 Kelly Chung                                            50 Shipping                      
+       189 Jennifer Dilly                                         50 Shipping                      
+       190 Timothy Gates                                          50 Shipping                      
+
+       PID PERSONNAME                                            DID DEPTNAME                      
+---------- ---------------------------------------------- ---------- ------------------------------
+       191 Randall Perkins                                        50 Shipping                      
+       192 Sarah Bell                                             50 Shipping                      
+       193 Britney Everett                                        50 Shipping                      
+       194 Samuel McCain                                          50 Shipping                      
+       195 Vance Jones                                            50 Shipping                      
+       196 Alana Walsh                                            50 Shipping                      
+       197 Kevin Feeney                                           50 Shipping                      
+
+106行が選択されました。 
+
+3.
+
+       PID PERSONNAME                                            DID DEPTNAME                      
+---------- ---------------------------------------------- ---------- ------------------------------
+       200 Jennifer Whalen                                        10 Administration                
+       201 Michael Hartstein                                      20 Marketing                     
+       202 Pat Fay                                                20 Marketing                     
+       114 Den Raphaely                                           30 Purchasing                    
+       115 Alexander Khoo                                         30 Purchasing                    
+       116 Shelli Baida                                           30 Purchasing                    
+       117 Sigal Tobias                                           30 Purchasing                    
+       118 Guy Himuro                                             30 Purchasing                    
+       119 Karen Colmenares                                       30 Purchasing                    
+       203 Susan Mavris                                           40 Human Resources               
+       198 Donald OConnell                                        50 Shipping                      
+
+       PID PERSONNAME                                            DID DEPTNAME                      
+---------- ---------------------------------------------- ---------- ------------------------------
+       199 Douglas Grant                                          50 Shipping                      
+       120 Matthew Weiss                                          50 Shipping                      
+       121 Adam Fripp                                             50 Shipping                      
+       122 Payam Kaufling                                         50 Shipping                      
+       123 Shanta Vollman                                         50 Shipping                      
+       124 Kevin Mourgos                                          50 Shipping                      
+       125 Julia Nayer                                            50 Shipping                      
+       126 Irene Mikkilineni                                      50 Shipping                      
+       127 James Landry                                           50 Shipping                      
+       128 Steven Markle                                          50 Shipping                      
+       129 Laura Bissot                                           50 Shipping                      
+
+       PID PERSONNAME                                            DID DEPTNAME                      
+---------- ---------------------------------------------- ---------- ------------------------------
+       130 Mozhe Atkinson                                         50 Shipping                      
+       131 James Marlow                                           50 Shipping                      
+       132 TJ Olson                                               50 Shipping                      
+       133 Jason Mallin                                           50 Shipping                      
+       134 Michael Rogers                                         50 Shipping                      
+       135 Ki Gee                                                 50 Shipping                      
+       136 Hazel Philtanker                                       50 Shipping                      
+       137 Renske Ladwig                                          50 Shipping                      
+       138 Stephen Stiles                                         50 Shipping                      
+       139 John Seo                                               50 Shipping                      
+       140 Joshua Patel                                           50 Shipping                      
+
+       PID PERSONNAME                                            DID DEPTNAME                      
+---------- ---------------------------------------------- ---------- ------------------------------
+       141 Trenna Rajs                                            50 Shipping                      
+       142 Curtis Davies                                          50 Shipping                      
+       143 Randall Matos                                          50 Shipping                      
+       144 Peter Vargas                                           50 Shipping                      
+       180 Winston Taylor                                         50 Shipping                      
+       181 Jean Fleaur                                            50 Shipping                      
+       182 Martha Sullivan                                        50 Shipping                      
+       183 Girard Geoni                                           50 Shipping                      
+       184 Nandita Sarchand                                       50 Shipping                      
+       185 Alexis Bull                                            50 Shipping                      
+       186 Julia Dellinger                                        50 Shipping                      
+
+       PID PERSONNAME                                            DID DEPTNAME                      
+---------- ---------------------------------------------- ---------- ------------------------------
+       187 Anthony Cabrio                                         50 Shipping                      
+       188 Kelly Chung                                            50 Shipping                      
+       189 Jennifer Dilly                                         50 Shipping                      
+       190 Timothy Gates                                          50 Shipping                      
+       191 Randall Perkins                                        50 Shipping                      
+       192 Sarah Bell                                             50 Shipping                      
+       193 Britney Everett                                        50 Shipping                      
+       194 Samuel McCain                                          50 Shipping                      
+       195 Vance Jones                                            50 Shipping                      
+       196 Alana Walsh                                            50 Shipping                      
+       197 Kevin Feeney                                           50 Shipping                      
+
+       PID PERSONNAME                                            DID DEPTNAME                      
+---------- ---------------------------------------------- ---------- ------------------------------
+       103 Alexander Hunold                                       60 IT                            
+       104 Bruce Ernst                                            60 IT                            
+       105 David Austin                                           60 IT                            
+       106 Valli Pataballa                                        60 IT                            
+       107 Diana Lorentz                                          60 IT                            
+       204 Hermann Baer                                           70 Public Relations              
+       145 John Russell                                           80 Sales                         
+       146 Karen Partners                                         80 Sales                         
+       147 Alberto Errazuriz                                      80 Sales                         
+       148 Gerald Cambrault                                       80 Sales                         
+       149 Eleni Zlotkey                                          80 Sales                         
+
+       PID PERSONNAME                                            DID DEPTNAME                      
+---------- ---------------------------------------------- ---------- ------------------------------
+       150 Peter Tucker                                           80 Sales                         
+       151 David Bernstein                                        80 Sales                         
+       152 Peter Hall                                             80 Sales                         
+       153 Christopher Olsen                                      80 Sales                         
+       154 Nanette Cambrault                                      80 Sales                         
+       155 Oliver Tuvault                                         80 Sales                         
+       156 Janette King                                           80 Sales                         
+       157 Patrick Sully                                          80 Sales                         
+       158 Allan McEwen                                           80 Sales                         
+       159 Lindsey Smith                                          80 Sales                         
+       160 Louise Doran                                           80 Sales                         
+
+       PID PERSONNAME                                            DID DEPTNAME                      
+---------- ---------------------------------------------- ---------- ------------------------------
+       161 Sarath Sewall                                          80 Sales                         
+       162 Clara Vishney                                          80 Sales                         
+       163 Danielle Greene                                        80 Sales                         
+       164 Mattea Marvins                                         80 Sales                         
+       165 David Lee                                              80 Sales                         
+       166 Sundar Ande                                            80 Sales                         
+       167 Amit Banda                                             80 Sales                         
+       168 Lisa Ozer                                              80 Sales                         
+       169 Harrison Bloom                                         80 Sales                         
+       170 Tayler Fox                                             80 Sales                         
+       171 William Smith                                          80 Sales                         
+
+       PID PERSONNAME                                            DID DEPTNAME                      
+---------- ---------------------------------------------- ---------- ------------------------------
+       172 Elizabeth Bates                                        80 Sales                         
+       173 Sundita Kumar                                          80 Sales                         
+       174 Ellen Abel                                             80 Sales                         
+       175 Alyssa Hutton                                          80 Sales                         
+       176 Jonathon Taylor                                        80 Sales                         
+       177 Jack Livingston                                        80 Sales                         
+       179 Charles Johnson                                        80 Sales                         
+       100 Steven King                                            90 Executive                     
+       101 Neena Kochhar                                          90 Executive                     
+       102 Lex De Haan                                            90 Executive                     
+       108 Nancy Greenberg                                       100 Finance                       
+
+       PID PERSONNAME                                            DID DEPTNAME                      
+---------- ---------------------------------------------- ---------- ------------------------------
+       109 Daniel Faviet                                         100 Finance                       
+       110 John Chen                                             100 Finance                       
+       111 Ismael Sciarra                                        100 Finance                       
+       112 Jose Manuel Urman                                     100 Finance                       
+       113 Luis Popp                                             100 Finance                       
+       205 Shelley Higgins                                       110 Accounting                    
+       206 William Gietz                                         110 Accounting                    
+       178 Kimberely Grant                                                                         
+
+107行が選択されました。 
+
+4.
+
+       PID PERSONNAME                                            DID DEPTNAME                      
+---------- ---------------------------------------------- ---------- ------------------------------
+       198 Donald OConnell                                        50 Shipping                      
+       199 Douglas Grant                                          50 Shipping                      
+       200 Jennifer Whalen                                        10 Administration                
+       201 Michael Hartstein                                      20 Marketing                     
+       202 Pat Fay                                                20 Marketing                     
+       203 Susan Mavris                                           40 Human Resources               
+       204 Hermann Baer                                           70 Public Relations              
+       205 Shelley Higgins                                       110 Accounting                    
+       206 William Gietz                                         110 Accounting                    
+       100 Steven King                                            90 Executive                     
+       101 Neena Kochhar                                          90 Executive                     
+
+       PID PERSONNAME                                            DID DEPTNAME                      
+---------- ---------------------------------------------- ---------- ------------------------------
+       102 Lex De Haan                                            90 Executive                     
+       103 Alexander Hunold                                       60 IT                            
+       104 Bruce Ernst                                            60 IT                            
+       105 David Austin                                           60 IT                            
+       106 Valli Pataballa                                        60 IT                            
+       107 Diana Lorentz                                          60 IT                            
+       108 Nancy Greenberg                                       100 Finance                       
+       109 Daniel Faviet                                         100 Finance                       
+       110 John Chen                                             100 Finance                       
+       111 Ismael Sciarra                                        100 Finance                       
+       112 Jose Manuel Urman                                     100 Finance                       
+
+       PID PERSONNAME                                            DID DEPTNAME                      
+---------- ---------------------------------------------- ---------- ------------------------------
+       113 Luis Popp                                             100 Finance                       
+       114 Den Raphaely                                           30 Purchasing                    
+       115 Alexander Khoo                                         30 Purchasing                    
+       116 Shelli Baida                                           30 Purchasing                    
+       117 Sigal Tobias                                           30 Purchasing                    
+       118 Guy Himuro                                             30 Purchasing                    
+       119 Karen Colmenares                                       30 Purchasing                    
+       120 Matthew Weiss                                          50 Shipping                      
+       121 Adam Fripp                                             50 Shipping                      
+       122 Payam Kaufling                                         50 Shipping                      
+       123 Shanta Vollman                                         50 Shipping                      
+
+       PID PERSONNAME                                            DID DEPTNAME                      
+---------- ---------------------------------------------- ---------- ------------------------------
+       124 Kevin Mourgos                                          50 Shipping                      
+       125 Julia Nayer                                            50 Shipping                      
+       126 Irene Mikkilineni                                      50 Shipping                      
+       127 James Landry                                           50 Shipping                      
+       128 Steven Markle                                          50 Shipping                      
+       129 Laura Bissot                                           50 Shipping                      
+       130 Mozhe Atkinson                                         50 Shipping                      
+       131 James Marlow                                           50 Shipping                      
+       132 TJ Olson                                               50 Shipping                      
+       133 Jason Mallin                                           50 Shipping                      
+       134 Michael Rogers                                         50 Shipping                      
+
+       PID PERSONNAME                                            DID DEPTNAME                      
+---------- ---------------------------------------------- ---------- ------------------------------
+       135 Ki Gee                                                 50 Shipping                      
+       136 Hazel Philtanker                                       50 Shipping                      
+       137 Renske Ladwig                                          50 Shipping                      
+       138 Stephen Stiles                                         50 Shipping                      
+       139 John Seo                                               50 Shipping                      
+       140 Joshua Patel                                           50 Shipping                      
+       141 Trenna Rajs                                            50 Shipping                      
+       142 Curtis Davies                                          50 Shipping                      
+       143 Randall Matos                                          50 Shipping                      
+       144 Peter Vargas                                           50 Shipping                      
+       145 John Russell                                           80 Sales                         
+
+       PID PERSONNAME                                            DID DEPTNAME                      
+---------- ---------------------------------------------- ---------- ------------------------------
+       146 Karen Partners                                         80 Sales                         
+       147 Alberto Errazuriz                                      80 Sales                         
+       148 Gerald Cambrault                                       80 Sales                         
+       149 Eleni Zlotkey                                          80 Sales                         
+       150 Peter Tucker                                           80 Sales                         
+       151 David Bernstein                                        80 Sales                         
+       152 Peter Hall                                             80 Sales                         
+       153 Christopher Olsen                                      80 Sales                         
+       154 Nanette Cambrault                                      80 Sales                         
+       155 Oliver Tuvault                                         80 Sales                         
+       156 Janette King                                           80 Sales                         
+
+       PID PERSONNAME                                            DID DEPTNAME                      
+---------- ---------------------------------------------- ---------- ------------------------------
+       157 Patrick Sully                                          80 Sales                         
+       158 Allan McEwen                                           80 Sales                         
+       159 Lindsey Smith                                          80 Sales                         
+       160 Louise Doran                                           80 Sales                         
+       161 Sarath Sewall                                          80 Sales                         
+       162 Clara Vishney                                          80 Sales                         
+       163 Danielle Greene                                        80 Sales                         
+       164 Mattea Marvins                                         80 Sales                         
+       165 David Lee                                              80 Sales                         
+       166 Sundar Ande                                            80 Sales                         
+       167 Amit Banda                                             80 Sales                         
+
+       PID PERSONNAME                                            DID DEPTNAME                      
+---------- ---------------------------------------------- ---------- ------------------------------
+       168 Lisa Ozer                                              80 Sales                         
+       169 Harrison Bloom                                         80 Sales                         
+       170 Tayler Fox                                             80 Sales                         
+       171 William Smith                                          80 Sales                         
+       172 Elizabeth Bates                                        80 Sales                         
+       173 Sundita Kumar                                          80 Sales                         
+       174 Ellen Abel                                             80 Sales                         
+       175 Alyssa Hutton                                          80 Sales                         
+       176 Jonathon Taylor                                        80 Sales                         
+       177 Jack Livingston                                        80 Sales                         
+       179 Charles Johnson                                        80 Sales                         
+
+       PID PERSONNAME                                            DID DEPTNAME                      
+---------- ---------------------------------------------- ---------- ------------------------------
+       180 Winston Taylor                                         50 Shipping                      
+       181 Jean Fleaur                                            50 Shipping                      
+       182 Martha Sullivan                                        50 Shipping                      
+       183 Girard Geoni                                           50 Shipping                      
+       184 Nandita Sarchand                                       50 Shipping                      
+       185 Alexis Bull                                            50 Shipping                      
+       186 Julia Dellinger                                        50 Shipping                      
+       187 Anthony Cabrio                                         50 Shipping                      
+       188 Kelly Chung                                            50 Shipping                      
+       189 Jennifer Dilly                                         50 Shipping                      
+       190 Timothy Gates                                          50 Shipping                      
+
+       PID PERSONNAME                                            DID DEPTNAME                      
+---------- ---------------------------------------------- ---------- ------------------------------
+       191 Randall Perkins                                        50 Shipping                      
+       192 Sarah Bell                                             50 Shipping                      
+       193 Britney Everett                                        50 Shipping                      
+       194 Samuel McCain                                          50 Shipping                      
+       195 Vance Jones                                            50 Shipping                      
+       196 Alana Walsh                                            50 Shipping                      
+       197 Kevin Feeney                                           50 Shipping                      
+                                                                 210 IT Support                    
+                                                                 200 Operations                    
+                                                                 270 Payroll                       
+                                                                 180 Construction                  
+
+       PID PERSONNAME                                            DID DEPTNAME                      
+---------- ---------------------------------------------- ---------- ------------------------------
+                                                                 240 Government Sales              
+                                                                 250 Retail Sales                  
+                                                                 190 Contracting                   
+                                                                 260 Recruiting                    
+                                                                 140 Control And Credit            
+                                                                 220 NOC                           
+                                                                 120 Treasury                      
+                                                                 170 Manufacturing                 
+                                                                 130 Corporate Tax                 
+                                                                 230 IT Helpdesk                   
+                                                                 150 Shareholder Services          
+
+       PID PERSONNAME                                            DID DEPTNAME                      
+---------- ---------------------------------------------- ---------- ------------------------------
+                                                                 160 Benefits                      
+
+122行が選択されました。 
+
+5.
+
+       PID PERSONNAME                                            DID DEPTNAME                      
+---------- ---------------------------------------------- ---------- ------------------------------
+       198 Donald OConnell                                        50 Shipping                      
+       199 Douglas Grant                                          50 Shipping                      
+       200 Jennifer Whalen                                        10 Administration                
+       201 Michael Hartstein                                      20 Marketing                     
+       202 Pat Fay                                                20 Marketing                     
+       203 Susan Mavris                                           40 Human Resources               
+       204 Hermann Baer                                           70 Public Relations              
+       205 Shelley Higgins                                       110 Accounting                    
+       206 William Gietz                                         110 Accounting                    
+       100 Steven King                                            90 Executive                     
+       101 Neena Kochhar                                          90 Executive                     
+
+       PID PERSONNAME                                            DID DEPTNAME                      
+---------- ---------------------------------------------- ---------- ------------------------------
+       102 Lex De Haan                                            90 Executive                     
+       103 Alexander Hunold                                       60 IT                            
+       104 Bruce Ernst                                            60 IT                            
+       105 David Austin                                           60 IT                            
+       106 Valli Pataballa                                        60 IT                            
+       107 Diana Lorentz                                          60 IT                            
+       108 Nancy Greenberg                                       100 Finance                       
+       109 Daniel Faviet                                         100 Finance                       
+       110 John Chen                                             100 Finance                       
+       111 Ismael Sciarra                                        100 Finance                       
+       112 Jose Manuel Urman                                     100 Finance                       
+
+       PID PERSONNAME                                            DID DEPTNAME                      
+---------- ---------------------------------------------- ---------- ------------------------------
+       113 Luis Popp                                             100 Finance                       
+       114 Den Raphaely                                           30 Purchasing                    
+       115 Alexander Khoo                                         30 Purchasing                    
+       116 Shelli Baida                                           30 Purchasing                    
+       117 Sigal Tobias                                           30 Purchasing                    
+       118 Guy Himuro                                             30 Purchasing                    
+       119 Karen Colmenares                                       30 Purchasing                    
+       120 Matthew Weiss                                          50 Shipping                      
+       121 Adam Fripp                                             50 Shipping                      
+       122 Payam Kaufling                                         50 Shipping                      
+       123 Shanta Vollman                                         50 Shipping                      
+
+       PID PERSONNAME                                            DID DEPTNAME                      
+---------- ---------------------------------------------- ---------- ------------------------------
+       124 Kevin Mourgos                                          50 Shipping                      
+       125 Julia Nayer                                            50 Shipping                      
+       126 Irene Mikkilineni                                      50 Shipping                      
+       127 James Landry                                           50 Shipping                      
+       128 Steven Markle                                          50 Shipping                      
+       129 Laura Bissot                                           50 Shipping                      
+       130 Mozhe Atkinson                                         50 Shipping                      
+       131 James Marlow                                           50 Shipping                      
+       132 TJ Olson                                               50 Shipping                      
+       133 Jason Mallin                                           50 Shipping                      
+       134 Michael Rogers                                         50 Shipping                      
+
+       PID PERSONNAME                                            DID DEPTNAME                      
+---------- ---------------------------------------------- ---------- ------------------------------
+       135 Ki Gee                                                 50 Shipping                      
+       136 Hazel Philtanker                                       50 Shipping                      
+       137 Renske Ladwig                                          50 Shipping                      
+       138 Stephen Stiles                                         50 Shipping                      
+       139 John Seo                                               50 Shipping                      
+       140 Joshua Patel                                           50 Shipping                      
+       141 Trenna Rajs                                            50 Shipping                      
+       142 Curtis Davies                                          50 Shipping                      
+       143 Randall Matos                                          50 Shipping                      
+       144 Peter Vargas                                           50 Shipping                      
+       145 John Russell                                           80 Sales                         
+
+       PID PERSONNAME                                            DID DEPTNAME                      
+---------- ---------------------------------------------- ---------- ------------------------------
+       146 Karen Partners                                         80 Sales                         
+       147 Alberto Errazuriz                                      80 Sales                         
+       148 Gerald Cambrault                                       80 Sales                         
+       149 Eleni Zlotkey                                          80 Sales                         
+       150 Peter Tucker                                           80 Sales                         
+       151 David Bernstein                                        80 Sales                         
+       152 Peter Hall                                             80 Sales                         
+       153 Christopher Olsen                                      80 Sales                         
+       154 Nanette Cambrault                                      80 Sales                         
+       155 Oliver Tuvault                                         80 Sales                         
+       156 Janette King                                           80 Sales                         
+
+       PID PERSONNAME                                            DID DEPTNAME                      
+---------- ---------------------------------------------- ---------- ------------------------------
+       157 Patrick Sully                                          80 Sales                         
+       158 Allan McEwen                                           80 Sales                         
+       159 Lindsey Smith                                          80 Sales                         
+       160 Louise Doran                                           80 Sales                         
+       161 Sarath Sewall                                          80 Sales                         
+       162 Clara Vishney                                          80 Sales                         
+       163 Danielle Greene                                        80 Sales                         
+       164 Mattea Marvins                                         80 Sales                         
+       165 David Lee                                              80 Sales                         
+       166 Sundar Ande                                            80 Sales                         
+       167 Amit Banda                                             80 Sales                         
+
+       PID PERSONNAME                                            DID DEPTNAME                      
+---------- ---------------------------------------------- ---------- ------------------------------
+       168 Lisa Ozer                                              80 Sales                         
+       169 Harrison Bloom                                         80 Sales                         
+       170 Tayler Fox                                             80 Sales                         
+       171 William Smith                                          80 Sales                         
+       172 Elizabeth Bates                                        80 Sales                         
+       173 Sundita Kumar                                          80 Sales                         
+       174 Ellen Abel                                             80 Sales                         
+       175 Alyssa Hutton                                          80 Sales                         
+       176 Jonathon Taylor                                        80 Sales                         
+       177 Jack Livingston                                        80 Sales                         
+       178 Kimberely Grant                                                                         
+
+       PID PERSONNAME                                            DID DEPTNAME                      
+---------- ---------------------------------------------- ---------- ------------------------------
+       179 Charles Johnson                                        80 Sales                         
+       180 Winston Taylor                                         50 Shipping                      
+       181 Jean Fleaur                                            50 Shipping                      
+       182 Martha Sullivan                                        50 Shipping                      
+       183 Girard Geoni                                           50 Shipping                      
+       184 Nandita Sarchand                                       50 Shipping                      
+       185 Alexis Bull                                            50 Shipping                      
+       186 Julia Dellinger                                        50 Shipping                      
+       187 Anthony Cabrio                                         50 Shipping                      
+       188 Kelly Chung                                            50 Shipping                      
+       189 Jennifer Dilly                                         50 Shipping                      
+
+       PID PERSONNAME                                            DID DEPTNAME                      
+---------- ---------------------------------------------- ---------- ------------------------------
+       190 Timothy Gates                                          50 Shipping                      
+       191 Randall Perkins                                        50 Shipping                      
+       192 Sarah Bell                                             50 Shipping                      
+       193 Britney Everett                                        50 Shipping                      
+       194 Samuel McCain                                          50 Shipping                      
+       195 Vance Jones                                            50 Shipping                      
+       196 Alana Walsh                                            50 Shipping                      
+       197 Kevin Feeney                                           50 Shipping                      
+                                                                 210 IT Support                    
+                                                                 200 Operations                    
+                                                                 270 Payroll                       
+
+       PID PERSONNAME                                            DID DEPTNAME                      
+---------- ---------------------------------------------- ---------- ------------------------------
+                                                                 180 Construction                  
+                                                                 240 Government Sales              
+                                                                 250 Retail Sales                  
+                                                                 190 Contracting                   
+                                                                 260 Recruiting                    
+                                                                 140 Control And Credit            
+                                                                 220 NOC                           
+                                                                 120 Treasury                      
+                                                                 170 Manufacturing                 
+                                                                 130 Corporate Tax                 
+                                                                 230 IT Helpdesk                   
+
+       PID PERSONNAME                                            DID DEPTNAME                      
+---------- ---------------------------------------------- ---------- ------------------------------
+                                                                 150 Shareholder Services          
+                                                                 160 Benefits                      
+
+123行が選択されました。 
+
+6.
+
+SUBJECTNAME      STUDENTNAM      SCORE R
+---------------- ---------- ---------- -
+数学             伊藤                   
+数学             小野                   
+数学             白井              100 S
+数学             長谷川             98 S
+数学             小出               97 S
+数学             岡田               96 S
+数学             高橋               96 S
+数学             田村               93 S
+数学             藤井               93 S
+数学             佐瀬               91 S
+数学             田中               90 S
+
+SUBJECTNAME      STUDENTNAM      SCORE R
+---------------- ---------- ---------- -
+数学             藤本               90 S
+数学             斎藤               89 A
+数学             鈴木               87 A
+数学             宇賀神             86 A
+数学             松岡               84 A
+数学             高木               83 A
+数学             林                 83 A
+数学             伊藤               80 A
+数学             小林               74 B
+数学             川口               73 B
+数学             桜井               46 D
+
+SUBJECTNAME      STUDENTNAM      SCORE R
+---------------- ---------- ---------- -
+数学             藤原               34 D
+
+23行が選択されました。 
+
+7.
+
+SUBJECTNAME      STUDENTNAM      SCORE N
+---------------- ---------- ---------- -
+数学             伊藤                  E
+数学             小野                  E
+数学             白井              100 S
+数学             長谷川             98 S
+数学             小出               97 S
+数学             岡田               96 S
+数学             高橋               96 S
+数学             田村               93 S
+数学             藤井               93 S
+数学             佐瀬               91 S
+数学             田中               90 S
+
+SUBJECTNAME      STUDENTNAM      SCORE N
+---------------- ---------- ---------- -
+数学             藤本               90 S
+数学             斎藤               89 A
+数学             鈴木               87 A
+数学             宇賀神             86 A
+数学             松岡               84 A
+数学             高木               83 A
+数学             林                 83 A
+数学             伊藤               80 A
+数学             小林               74 B
+数学             川口               73 B
+数学             桜井               46 D
+
+SUBJECTNAME      STUDENTNAM      SCORE N
+---------------- ---------- ---------- -
+数学             藤原               34 D
+
+23行が選択されました。 
+
